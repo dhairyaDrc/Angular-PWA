@@ -87,64 +87,64 @@ export const chapter1 = [
     type:'image'
   },
   {
-    data:"",
-    type:''
+    data:"<b>ADB supported developing member countries with rapid countercyclical fiscal support.</b>A key component of ADB’s pandemic response package was quick-disbursing countercyclical funding under the CPRO. With some DMCs experiencing reductions in annual tax revenue of up to 25%, the CPRO financing helped governments quickly contain the disease, strengthen health systems, assist distressed businesses, support key sectors of the economy, and expand social protection to millions of people affected by the crisis. Under this option, ADB provided $10.2 billion in financing to the governments of 26 countries in 2020.",
+    type:'paragraph'
   },
   {
     data:"",
     type:''
   },
   {
-    data:"",
-    type:''
+    data:"<b>ADB provided grants and technical assistance for immediate needs.</b> The bank committed technical assistance grants for emergency response and capacity development to help DMCs purchase equipment and enhance the capabilities of first responders.",
+    type:'paragraph'
+  },
+  {
+    data:"A regional technical assistance project totaling $68.6 million helped provide supplies as well as build short- to medium-term capacity and prepare health systems for pandemics. The scope of the assistance was later expanded to help DMCs prepare for vaccine rollouts.",
+    type:'paragraph'
+  },
+  {
+    data:"ADB also committed grants for emergency support from the <a href='https://www.adb.org/what-we-do/funds/asia-pacific-disaster-response-fund-apdrf' target='blank'> Asia Pacific Disaster</a> Response Fund and the <a href='https://www.adb.org/what-we-do/funds/japan-fund-for-poverty-reduction' target='blank'>Japan Fund for Poverty Reduction</a>. The Government of Japan contributed $75 million to both funds. Grants from the <a href='https://www.adb.org/what-we-do/funds/adf/main' target='blank'>Asian Development Fund</a> funded CPRO and other pandemic-related projects.",
+    type:'paragraph'
+  },
+  {
+    data:"<b>ADB committed $2.9 billion to private sector financing related to the pandemic.</b> Through these loans and guarantees, the bank increased its support for trade and supply chains and for microfinance for vulnerable borrowers, and directly financed companies working to overcome the challenges posed by the pandemic.",
+    type:'paragraph'
+  },
+  {
+    data:"ADB’s first private sector assistance to address health security during the pandemic supported the continued supply of essential medicines and personal protective equipment (PPE). In February, ADB provided an initial $18.5 million in financing to Wuhan-based Jointown Pharmaceutical Group Co. Ltd. in the PRC. The financing helped Jointown distribute urgently needed medical supplies, antiviral drugs, and PPE to hospitals and retail pharmacies.",
+    type:'paragraph'
   },
   {
     data:"",
     type:''
   },
   {
-    data:"",
+    data:"<b>The bank mobilized over $10 billion in external resources.</b> To maximize its support to DMCs during the COVID‑19 crisis, ADB collaborated with numerous multilateral and bilateral partners to align resources, generate cofinancing, and ensure better coordination. By doing so, the bank mobilized $8.2 billion for pandemic-related sovereign operations, mostly for the CPRO, and $2.7 billion in cofinancing for nonsovereign (private sector) operations, mostly for its Trade Finance, Supply Chain Finance, and Microfinance Programs.",
+    type:'paragraph'
+  },
+  {
+    data:"<b>ADB raised over $35 billion from capital markets.</b> Throughout 2020, ADB implemented the largest borrowing program in the bank’s history to support the COVID‑19 response and its wider operations. In June 2020, the Board of Directors approved an increase in borrowing authorization from $28 billion to $40 billion. This allowed ADB to raise $35.8 billion across various structures, currencies, and markets, including green, gender, health, and water bonds. In March and April, it accessed the United States dollar market with its co-largest global benchmark bond issues—$4.5 billion each with maturities of 2 and 5 years.",
     type:''
   },
   {
-    data:"",
-    type:''
+    data:"Intensifying Collaboration with Civil Society Organizations",
+    type:'heading'
   },
   {
-    data:"",
-    type:''
+    data:"The scale of the COVID‑19 pandemic and the impacts of widespread restrictions on movement to contain the virus required a community-based response. Civil society organizations (CSOs), through their networks of community groups and their understanding of the assets and resources available in their communities, are well placed to respond to these needs promptly. The services of many existing community social welfare programs—such as food and meal delivery schemes, care services to vulnerable individuals and households, and information and helpline services—have been in higher demand during the pandemic.",
+    type:'paragraph'
   },
   {
-    data:"",
-    type:''
+    data:"To support such work, for example, ADB committed $2 million in cofinancing from the Japan Fund for Poverty Reduction for technical assistance to help CSOs respond to needs arising from COVID‑19. The project will help CSOs provide services for community-based activities to mitigate and prevent COVID‑19; social protection for vulnerable communities, including elderly care; and economic support for those whose livelihoods are affected by the pandemic.",
+    type:'paragraph'
   },
   {
-    data:"",
-    type:''
+    data:"OPERATIONAL PRIORITIES IN THE CONTEXT OF COVID‑19",
+    type:'heading'
   },
   {
-    data:"",
-    type:''
-  },
-  {
-    data:"",
-    type:''
-  },
-  {
-    data:"",
-    type:''
-  },
-  {
-    data:"",
-    type:''
-  },
-  {
-    data:"",
-    type:''
-  },
-  {
-    data:"",
-    type:''
+    data:"The effects of the COVID‑19 pandemic were intensified by the ongoing core development challenges that ADB has been helping DMCs to address through the seven operational priorities of its long-term strategy, Strategy 2030. The challenges include deficiencies in health, education, and social protection systems. The pandemic has also highlighted the importance of continuing to tackle underlying development issues to support an inclusive and sustainable recovery.",
+    type:'paragraph'
   },
   {
     data:"",

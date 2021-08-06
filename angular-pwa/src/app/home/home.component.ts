@@ -10,7 +10,6 @@ import { Router } from '@angular/router';
 export class HomeComponent implements OnInit {
 
   homeData: any;
-  chpt1:any;
   constructor(private router:Router) { }
 
   ngOnInit(): void {

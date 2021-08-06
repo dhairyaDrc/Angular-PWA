@@ -8,10 +8,8 @@ import { HomeComponent } from "./home/home.component";
 import { CardComponent } from './home/card/card.component';
 import { SideMenuComponent } from 'src/app/home/side-menu/side-menu.component';
 import { Chapter1Component } from './chapter1/chapter1.component';
-import { ReportComponent } from './report/report.component';
-import { ParagraphComponent } from './shared/components/paragraph/paragraph.component';
-import { ImageComponent } from './shared/components/image/image.component';
-import { SimpleHeadingComponent } from 'src/app/shared/components/simple-heading/simple-heading.component';
+import { SharedModule } from './shared/shared.module';
+import { CommonModule } from '@angular/common';
 
 
 @NgModule({
@@ -21,14 +19,13 @@ import { SimpleHeadingComponent } from 'src/app/shared/components/simple-heading
     CardComponent,
     SideMenuComponent,
     Chapter1Component,
-    ReportComponent,
-    ParagraphComponent,
-    ImageComponent,
-    SimpleHeadingComponent
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SharedModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
