@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+p {
+    
+    font-family: Mercury, Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #222;
+    font-feature-settings: 'lnum';
+    -webkit-font-feature-settings: 'lnum';
+    -moz-font-feature-settings: 'lnum';
+    font-variant-numeric: lining-nums;
+}
+.report{
+     width: 70%;
+     margin: 0px auto;
+}
