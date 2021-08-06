@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.homeData = home;
-    console.log(this.homeData)
+    console.log("this.homeData ",this.homeData)
   }
 
 }

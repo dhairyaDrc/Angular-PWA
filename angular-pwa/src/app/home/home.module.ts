@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+// import { AppendixesComponent } from './appendixes/appendixes.component';
 // import { CardComponent } from './card/card.component';
 // import { SideMenuComponent } from './side-menu/side-menu.component';
-import { CounterCardComponent } from './counter-card/counter-card.component';
+// import { CounterCardComponent } from './counter-card/counter-card.component';
+// import { MenuBarComponent } from './menu-bar/menu-bar.component';
 
 
 
@@ -10,7 +12,10 @@ import { CounterCardComponent } from './counter-card/counter-card.component';
   declarations: [
     // CardComponent,
     // SideMenuComponent,
-    CounterCardComponent,
+    // CounterCardComponent,
+    // MenuBarComponent,
+  
+    // AppendixesComponent
   ],
   imports: [
     CommonModule,
