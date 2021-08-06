@@ -67,24 +67,24 @@ export const chapter1 = [
     type:'paragraph'
   },
   {
-    data:"",
-    type:''
+    data:"ADB participated in high-level dialogue with DMC governments, multilateral institutions, and bilateral partners to identify specific needs and more systematic responses to the pandemic. The bank continuously exchanged information and coordinated pandemic response approaches to fiscal support operations with the World Bank, the International Monetary Fund, and many other development partners.",
+    type:'paragraph'
   },
   {
     data:"",
     type:''
   },
   {
-    data:"",
-    type:''
+    data:"ADB representatives collaborated with the United Nations Children’s Fund (UNICEF) and other United Nations agencies on emergency response efforts, including the global procurement of COVID‑19 supplies. To promote universal health coverage and health security, the bank cooperated with the World Health Organization (WHO) on joint policy analysis and knowledge sharing. ADB also engaged with these and other key global vaccine partners to develop and implement mechanisms for equitable vaccine delivery (see box above).",
+    type:'paragraph'
   },
   {
-    data:"",
-    type:''
+    data:"Such collaboration and coordination enabled ADB to deliver and maximize the impact of financial assistance in direct support of efforts to address the COVID‑19 pandemic.",
+    type:'paragraph'
   },
   {
-    data:"",
-    type:''
+    data:"chapter_1_covid_chart1.png",
+    type:'image'
   },
   {
     data:"",
