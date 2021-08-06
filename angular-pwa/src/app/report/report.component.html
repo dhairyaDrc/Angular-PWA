@@ -1,1 +1,5 @@
-<p>report works!</p>
+<div  class="report" *ngFor="let data of data" >
+    <app-image [image]="data.data" *ngIf="data.type=='image'"></app-image>
+    <app-paragraph [data]="data.data" *ngIf="data.type=='paragraph'"></app-paragraph>
+    <app-simple-heading [simpleHeading]="data.data" *ngIf="data.type=='heading'" ></app-simple-heading>
+</div>

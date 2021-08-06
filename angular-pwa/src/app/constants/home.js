@@ -1,6 +1,6 @@
 export const home = [
     {
-        data: 'UPPORTING COVID‑19 RESPONSE AND RECOVERY',
+        data: 'SUPPORTING COVID‑19 RESPONSE AND RECOVERY',
         img: 'home_chapter1.jpg',
         type: 'card',
         id: 1

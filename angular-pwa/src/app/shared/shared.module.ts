@@ -12,7 +12,8 @@ import { TitleComponent } from './title/title.component';
     ImagesComponent,
     TextComponent,
     VideosComponent,
-    TitleComponent
+    TitleComponent,
+  
   ],
   imports: [
     CommonModule

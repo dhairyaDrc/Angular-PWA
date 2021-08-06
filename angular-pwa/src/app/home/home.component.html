@@ -1,6 +1,6 @@
 <div style="width: 70%;display: inline-block;">
 <div *ngFor="let data of homeData" style="width: 50%; display: inline-block;">
-        <app-card *ngIf="data.type === 'card'" [data]="data.data" [image]="data.img" [id]="data.id"></app-card>
+        <app-card (click)="goToReport()" *ngIf="data.type === 'card'" [data]="data.data" [image]="data.img" [id]="data.id"></app-card>
     </div>
 </div>
 
