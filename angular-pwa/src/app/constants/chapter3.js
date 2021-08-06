@@ -1,25 +1,36 @@
 export const chapter3 = [
+  {
+  data:"Private Sector Operations and the Promotion of Public–Private Partnerships"
+  },
+  {
+    data1:"chapter1_1.jpg",
+    type:"chapter3image"
+  },
+  
+  {
+    data1:"A doctor administers a vaccine to a child during a vaccination drive in Mandaluyong City, Philippines. ADB has created an interactive mapping tool for the supply chains of vital pandemic-fighting products."
+  },
     {
        
-     data:"A doctor administers a vaccine to a child during a vaccination drive in Mandaluyong City, Philippines. ADB has created an interactive mapping tool for the supply chains of vital pandemic-fighting products.",
-     type:"text"
+      data1:"A doctor administers a vaccine to a child during a vaccination drive in Mandaluyong City, Philippines. ADB has created an interactive mapping tool for the supply chains of vital pandemic-fighting products.",
+     type:"paragraph"
     },
     {
-      data:"In 2020, ADB committed private sector investments for 38 projects in critical sectors such as health, agriculture, energy, finance, water, and other urban infrastructure and services. These investments covered 11 developing member countries (DMCs) and included 5 regional projects. The number of private sector projects in 2020 matched that of 2019 despite the pandemic, and the bank remains strongly committed to increasing the share of private sector operations to one third by 2024.",
-      type:text
+      data1:"In 2020, ADB committed private sector investments for 38 projects in critical sectors such as health, agriculture, energy, finance, water, and other urban infrastructure and services. These investments covered 11 developing member countries (DMCs) and included 5 regional projects. The number of private sector projects in 2020 matched that of 2019 despite the pandemic, and the bank remains strongly committed to increasing the share of private sector operations to one third by 2024.",
+      type:"paragraph"
     },
      {
 
-     data:"Following the onset of the COVID‑19 pandemic, ADB swiftly refocused its private sector resources to address the health and economic impacts in its DMCs. With $442 million supporting new COVID‑19 related projects and $2.4 billion in revolving program commitments in trade finance, supply chain finance, and microfinance, 64% of private sector project and program commitments in 2020 directly or indirectly responded to COVID‑19. (Chapter 2 provides examples of country-specific private sector operations.)",
-     type:text
+      data1:"Following the onset of the COVID‑19 pandemic, ADB swiftly refocused its private sector resources to address the health and economic impacts in its DMCs. With $442 million supporting new COVID‑19 related projects and $2.4 billion in revolving program commitments in trade finance, supply chain finance, and microfinance, 64% of private sector project and program commitments in 2020 directly or indirectly responded to COVID‑19. (Chapter 2 provides examples of country-specific private sector operations.)",
+     type:"paragraph"
     }, 
     
-      { data:"In January 2020, the ADB Board of Directors endorsed the operational plan for the bank’s private sector operations. This plan sharpens ADB’s focus on complex, innovative, smaller, and riskier projects in challenging markets and sectors. It also enhances efforts to address climate change and support women. ADB’s private sector operations will support the priorities of the bank’s Strategy 2030, with investments in core areas such as clean energy, environmental infrastructure, agribusiness, quality education and health services, and a vibrant finance sector.",
-      type:text
+      { data1:"In January 2020, the ADB Board of Directors endorsed the operational plan for the bank’s private sector operations. This plan sharpens ADB’s focus on complex, innovative, smaller, and riskier projects in challenging markets and sectors. It also enhances efforts to address climate change and support women. ADB’s private sector operations will support the priorities of the bank’s Strategy 2030, with investments in core areas such as clean energy, environmental infrastructure, agribusiness, quality education and health services, and a vibrant finance sector.",
+      type:"paragraph"
     },
     {
-    data:"ADB will expand the sector and geographic reach of its private sector operations, move closer to clients and partners, use more integrated and innovative approaches to tailor this support, and catalyze and mobilize financing.",
-    type:text
+      data1:"ADB will expand the sector and geographic reach of its private sector operations, move closer to clients and partners, use more integrated and innovative approaches to tailor this support, and catalyze and mobilize financing.",
+    type:"paragraph"
     },
   //   { data"As the COVID‑19 pandemic unleashed a global health crisis, ADB stepped up support for private sector approaches to back quality, efficiency, and financing in health infrastructure.",
   //   data"As early as February 2020, ADB provided working capital support of $18.5 million to Wuhan based pharmaceutical firm Jointown to ensure continued supply of essential medical supplies and personal protective equipment. An additional loan of $36.7 million helped Jointown expand its distribution capacity to reach more hospitals and retail pharmacy outlets in underserved areas. The expanded distribution facilities include cold chain warehouses for temperature-sensitive pharmaceutical products such as vaccines. ADB also signed an $8 million loan with Imexpharm Corporation to help the company sustain its production of generic medicines in Viet Nam despite global supply disruptions.",
