@@ -2,4 +2,5 @@
     <app-image [image]="data.data" *ngIf="data.type=='image'"></app-image>
     <app-paragraph [data]="data.data" *ngIf="data.type=='paragraph'"></app-paragraph>
     <app-simple-heading [simpleHeading]="data.data" *ngIf="data.type=='heading'" ></app-simple-heading>
+    <app-chapter-title [data]="data.data" [heading]="data.heading" [chapterTitle]="data.data" *ngIf="data.type=='chaptertitle'"></app-chapter-title>
 </div>

@@ -1,10 +1,18 @@
 export const chapter1 = [
+
+  { 
+    heading:"Chapter 1",
+    data:"SUPPORTING COVID‑19 RESPONSE AND RECOVERY",
+    type:'chaptertitle'
+
+  },
   {
     data:"chapter1_1.jpg",
     type:"image"
   },
   {
-    data:"A $9 billion facility will provide rapid and equitable support for COVID‑19 vaccine access."
+    data:"A $9 billion facility will provide rapid and equitable support for COVID‑19 vaccine access.",
+    type:''
   },
   {
     data: "The coronavirus disease (COVID‑19) has inflicted an unprecedented toll on the people, society, and economies of Asia and the Pacific, as on the rest of the world. From the loss of life to the lingering social and economic ramifications of measures to contain the virus, the pandemic has affected everyone. In Asia and the Pacific, by December 2020, more than 17 million cases of the disease had been identified, having caused more than 295,000 deaths.",
@@ -147,8 +155,100 @@ export const chapter1 = [
     type:'paragraph'
   },
   {
+    data:"covid_chart3.png",
+    type:'image'
+  },
+  {
     data:"",
     type:''
+  },
+  {
+    data:"COVID‑19 posed serious setbacks to the development progress and poverty reduction efforts in many DMCs. To help ease the pandemic’s heavy burden on the poor and vulnerable, ADB ramped up its investments in poverty reduction and social inclusion. To make quality health care more accessible and inclusive, sector interventions were aimed not only at emergency response during the onset of COVID‑19 but also toward strengthening health systems, increasing resilience to future pandemics. In addition, ADB committed 35 social protection projects in 2020, more than the combined number of such projects in 2017–2019. Of the 35 projects, 24 used the CPRO to support vulnerable populations in DMCs.",
+    type:'paragraph'
+  },
+  {
+    data:"",
+    type:''
+  },
+  {
+    data:"ADB’s investments helped governments strengthen social protection systems by scaling up existing programs or introducing new ones. This included greater assistance to women and children, improved social insurance, and expanded labor market programs, including wage subsidies and support to MSMEs.",
+    type:'paragraph'
+  },
+  {
+    data:"Education was among the sectors most affected by COVID‑19 and where the impacts could be particularly long-lasting. The pandemic has widened inequities, especially learning gaps. The unprecedented closure of education institutions due to COVID‑19 has made it even harder to help students achieve basic learning outcomes.",
+    type:'pargraph'
+  },
+  {
+    data:"In response, ADB is working to help DMCs adapt, strengthen, and rejuvenate education systems. This includes promoting quality, relevance, and inclusion in education and harnessing education technology to help improve learning.",
+    type:'paragraph'
+  },
+  {
+    data:"In Sri Lanka, for example, ADB committed a $400 million loan for a major new secondary education sector improvement program. This is helping introduce digital learning to address pandemic disruption and to build education system resilience for future emergencies. It will also support longer-term recovery by equipping students with skills for a knowledge-based economy. More broadly, ADB is collaborating with regional and global partners, such as on the Save Our Future campaign, to help keep young people in school.",
+    type:'paragraph'
+  },
+  {
+    data:"",
+    type:''
+  },
+  {
+    data:"Women have been particularly affected by COVID‑19: the pandemic has worsened gender inequality, gender-based violence, and the burden of unpaid work. Women disproportionately rely on employment in the economic sectors that have been hardest hit, such as tourism, manufacturing, and textiles. Maternal and infant mortality has also risen due to distressed health systems, while more girls than boys have dropped out of school.",
+    type:'paragraph'
+  },
+  {
+    data:"To tackle these added pressures and help protect progress in gender equality from the effects of the pandemic, ADB financed projects to provide cash transfers and food subsidies for women and girls in vulnerable households; deliver financial and wage subsidies for enterprises led by women; guarantee equipment, salaries, and welfare support for frontline health workers, who are mainly women; and ensure uninterrupted reproductive health services and support for those affected by gender-based violence. The bank also continued its support to reduce women’s time poverty and drudgery through time-saving infrastructure and technology, as well as redistributing and reducing unpaid care and domestic work.",
+    type:'paragraph'
+  },
+  {
+    data:"To help accelerate long-term progress in gender equality, the bank will continue to use technical assistance and pilot projects to combat gender-based violence, support child and elderly care, promote women’s leadership, and employ climate change and disaster risk measures that meet the needs of women and girls.",
+    type:'paragraph'
+  },
+  {
+    data:"ADB’s operations in 2020 included targeted operations to empower women and girls in areas such as education, health, financial inclusion, and job creation. In Fiji, for example, ADB committed a $200 million policy-based loan to support the government’s efforts in strengthening inclusive growth and the management of public finances. This initiative includes cash transfers to informal workers, support for businesses owned by women, gender-responsive budgeting pilots in government programs, and a COVID‑19 gender working group involving government and civil society.",
+    type:'paragraph'
+  },
+  {
+    data:"",
+    type:''
+  },
+  {
+    data:"Gender mainstreamed projects directly narrowed gender gaps or benefited women and girls. Under the CPRO, for example, public sector management projects increased women’s access to social protection and funding for small and medium-sized enterprises (SMEs). Road construction projects provided women with access to income-generating opportunities alongside capacity building to help them improve their skills. Many other projects included gender elements, for instance, to increase employment opportunities for women during infrastructure construction, operation, and maintenance.",
+    type:'paragraph'
+  },
+  {
+    data:"",
+    type:''
+  },
+  {
+    data:"The pandemic has highlighted the costs of delayed action and inadequate investment in building resilience to known threats. It has shown the need to strengthen sustainability and preparedness by building back better and expediting green investments that can address climate change, support ecosystems as well as livelihoods, create jobs, and spur economic recovery.",
+    type:'paragraph'
+  },
+  {
+    data:"Where possible, ADB integrated climate change mitigation and adaptation into its emergency pandemic response. In Pakistan, for example, an emergency assistance grant included approximately $10 million in mitigation finance to support energy-efficient buildings and off-grid renewable energy systems and $1 million in adaptation finance for water supply and sanitation facilities.",
+    type:'paragraph'
+  },
+  {
+    data:"",
+    type:''
+  },
+  {
+    data:"ADB provided about $274 million of climate finance through projects supporting the response to COVID‑19. Climate financing made up approximately a quarter of the bank’s commitments outside of the CPRO.",
+    type:'paragraph'
+  },
+  {
+    data:"In spite of ADB’s reorientation of resources to meet members’ immediate needs, the share of climate change mitigation and/or adaptation operations remained roughly constant with a 3-year average of 58% in 2020 from 59% in 2019, while climate financing commitments dropped by a third. The bank remains fully committed to achieving its long-term climate targets and promoting a green and resilient recovery.",
+    type:'paragraph'
+  },
+  {
+    data:"One of the effects of the pandemic has been an increase in waste from e-commerce and medical single-use plastics. In the PRC, where a growing urban population is boosting consumption, ADB committed technical assistance to help create policies and pilot programs to develop a green circular economy and zero-waste cities. The plans aim to link production, packaging, logistics, waste management, and resource recovery in a circular system to eventually eliminate waste.",
+    type:'paragraph'
+  },
+  {
+    data:"To further mainstream environmental sustainability into ADB’s portfolio, the bank’s 2020 projects supported pollution control, resource efficiency, ocean health, biodiversity, and natural capital conservation and management.",
+    type:'paragraph'
+  },
+  {
+    data:"Under its healthy oceans action plan, ADB provided DMCs with training on designing and financing bankable blue economy projects and applying nature-based solutions for coastal resilience.",
+    type:'paragraph'
   },
   {
     data:"",
@@ -159,8 +259,137 @@ export const chapter1 = [
     type:''
   },
   {
+    data:"Cities in Asia and the Pacific have faced huge challenges in providing health care, education, affordable housing, and social services, especially for the urban poor. These challenges have increased during the COVID‑19 pandemic.",
+    type:'paragraph'
+  },
+  {
+    data:"As part of its response to COVID‑19 in the Pacific, ADB committed technical assistance to support access to clean water and sanitation facilities and enhanced hygiene practices in all Pacific DMCs. In November, the project delivered a webinar on pandemic planning for water utility managers in these DMCs to ensure business continuity of essential services in case of local transmission of COVID‑19.",
+    type:'paragraph'
+  },
+  {
+    data:"ADB nonsovereign commitments helped ensure the uninterrupted supply of essential energy services to households, hospitals, industry, and other key services to support business continuity in Wuhan city and Hubei province in the PRC, enhancing urban resilience. Meanwhile, in India, ADB signed a $50.9 million financing agreement with ReNew Power Private Limited, the country’s largest independent renewable energy company, to help finance its working capital needs amid the pandemic.",
+    type:'paragraph'
+  },
+  {
+    data:"Other projects to promote livable cities in 2020 covered urban water supply, wastewater and sanitation, and flood control, and addressed multiple issues together in integrated approaches to urban development. In the PRC, for example, ADB signed a $127.3 million loan to demonstrate low-carbon, climate-resilient urban development in Yanji city in Jilin province. The project will support city investments in transport infrastructure as well as bicycle paths, drainage, and green spaces. These investments are expected to help promote healthier lifestyles for Yanji’s citizens, reduce carbon emissions by 60,000 tons per year, and conserve about 4.8 million cubic meters of water annually.",
+    type:'paragraph'
+  },
+  {
+    data:"Through the new Creating Investable Cities initiative, ADB is expected to provide technical assistance funded by grants to a pool of up to 15–20 cities over the next 5 years. The support will foster early-stage planning of quality municipal infrastructure, increased resource mobilization and interagency coordination to support private sector participation, and improved capacity to implement quality infrastructure and build back better.",
+    type:'paragraph'
+  },
+  {
     data:"",
     type:''
+  },
+  {
+    data:"Aside from job losses, limited wage labor opportunities, and reduced remittance income for the rural population, COVID‑19’s prolonged quarantine measures adversely impacted food trade and disrupted local agriculture supply chains in many DMCs. Despite the restrictions in mobility, ADB continued to promote rural development and food security by providing working capital for agribusiness, supporting value chain linkages, and pursuing policy reform. In 2020, it committed $1.3 billion in ordinary capital and concessional resources to agriculture, natural resources, and rural development, making up 4% of such resources committed.",
+    type:'paragraph'
+  },
+  {
+    data:"Through its private sector operations, for example, ADB provided an emergency working capital loan of $10 million to Pran Dairy Limited in Bangladesh. The loan allowed Pran to continue procuring raw milk from the 12,000 smallholder dairy farmers in its value chain and to expand to a further 1,200 farmers who would otherwise have lost income.",
+    type:'paragraph'
+  },
+  {
+    data:"In Maharashtra, India, ADB provided technical assistance to implement a direct digital marketing pilot with private sector companies to effectively link famer groups with urban consumers. The project will address supply chain disruptions caused by COVID‑19 and generate business opportunities for farmers, while supplying fresh vegetables and fruits for urban consumers.",
+    type:'paragraph'
+  },
+  {
+    data:"In the Philippines, the government identified agriculture as a priority area for reform under its COVID‑19 pandemic economic recovery program. ADB provided a $400 million policy-based loan to the country to help implement trade policy and regulatory reforms to expand economic opportunities in the farming sector. This will help enhance public services and finance, provide unconditional cash grants for rural families affected by the reforms, provide zero-interest loans to over 1 million smallholder farmers, and implement preschool feeding programs to reduce malnutrition and stunting.",
+    type:'paragraph'
+  },
+  {
+    data:"",
+    type:''
+  },
+  {
+    data:"Responding to COVID‑19 has placed severe strain on many DMC governments’ budget and their ability to deliver adequate public services. To effectively respond to the pandemic, ADB assessed the public finance capabilities of DMCs for each CPRO project, and designed measures to ensure the proper use of emergency funds. To help DMCs meet fiscal challenges while preserving service delivery given the added financial pressures of the pandemic, ADB provided substantial policy support for tax and customs collection, budgeting, debt sustainability, reform of state-owned enterprises (SOEs), and improvements in local governance.",
+    type:'paragraph'
+  },
+  
+  {
+    data:"The pandemic has brought into sharp focus the need to boost revenue collection by broadening countries’ tax bases. Among a number of commitments in 2020 supporting domestic resource mobilization, ADB provided regional technical assistance to help DMCs strengthen property tax management to enhance local revenue and service delivery. This is concentrating on improving property registration and valuation and providing capacity building in local tax policy and administration. The bank is providing focused assistance to enhance domestic resource mobilization in Pakistan, the Philippines, and Mongolia. ADB is also supporting DMCs to build a sound tax and fiscal policy geared toward ensuring that digital businesses pay a fair share of tax.",
+    type:'paragraph'
+  },
+  {
+    data:"In September 2020, ADB announced the establishment of a regional hub on domestic resource mobilization and international tax cooperation. The hub will provide an open and inclusive platform for strategic policy dialogue, knowledge sharing, and development collaboration and coordination among ADB members and development partners.",
+    type:'paragraph'
+  },
+  {
+    data:"Another governance priority for ADB is reform of SOEs, supporting their sustainability and enhancing critical infrastructure. In Papua New Guinea, ADB committed policy-based lending specifically focused on SOE reform, and policy-based lending designed to help governments in the wake of COVID‑19 include SOE reform policy actions. ADB is also doing more to combine sector reform with reform of SOEs, in 2020 working to ensure improved access to water in Georgia and electricity in Palau.",
+    type:'paragraph'
+  },
+  {
+    data:"In addition, ADB’s law and policy reform efforts contributed to private sector development in Myanmar, assisting with the enactment of a modernized insolvency law and providing capacity development to government agencies, judges, and lawyers. The bank also supported the enactment of a new public–private partnership law in Viet Nam.",
+    type:'paragraph'
+  },
+  {
+    data:"",
+    type:''
+  },
+  {
+    data:"COVID‑19 restricted the international flow of trade, people, and resources. A potentially much larger degree of damage from the pandemic was averted by prompt and sustained collaboration. ADB helped DMCs maintain trade flows through continued operation of border checkpoints; supported regional value chains; and helped protect the vulnerable such as SMEs, people in border areas, and migrants.",
+    type:'paragraph'
+  },
+  {
+    data:"The volume and number of ADB’s sovereign and nonsovereign operations supporting regional cooperation and integration (RCI) increased to $13.8 billion across 51 projects in 2020 ($16.7 billion including revolving programs). This was largely because of the number of RCI-related projects financed through countercyclical fiscal support programs for pandemic response. In Thailand, for example, the COVID‑19 Active Response and Expenditure Support program supports migrants’ health coverage and livelihoods, regional value chains, and stabilization of Thailand’s fairly large banking sector and bond market.",
+    type:'paragraph'
+  },
+  {
+    data:"ADB is seeking to leverage stronger regional cooperation to help DMCs to recover from the pandemic. In 2020, the bank supported DMCs’ medium-term recovery needs, including through work on developing more sustainable and resilient maritime transport, strengthening regional service value chains and supporting SMEs, and helping small island developing states mitigate climate change and transboundary health risks.",
+    type:'paragraph'
+  },
+  {
+    data:"",
+    type:''
+  },
+  {
+    data:"Asian Development Fund replenishment",
+    type:'heading'
+  },
+  {
+    data:"The <a href='https://www.adb.org/what-we-do/funds/adf/replenishments/adf-13' target='blank'>Asian Development Fund 13 (ADF 13)</a>is an important vehicle for tackling the pandemic and building a sustainable and inclusive recovery in line with Strategy 2030. In 2020, donors agreed to a replenishment in excess of $4 billion to ADF 13 and Technical Assistance Fund 7 (TASF 7) for 2021–2024.",
+    type:'paragraph'
+  },
+  {
+    data:"ADF 13 is the first replenishment to support Strategy 2030 over its full cycle. It encourages governments to consider ambitious projects that support RCI; regional public goods such as regional health security, disaster risk reduction, and climate change adaptation; and the transformative gender agenda of Sustainable Development Goal 5. ADF 13 will also help finance quality infrastructure in line with the G20’s principles of strong governance, private sector development, and debt sustainability, which have become even more critical in the fight against the pandemic.",
+    type:'paragraph'
+  },
+  {
+    data:"",
+    type:''
+  },
+  {
+    data:"A priority for ADB in 2020 was safeguarding its personnel while ensuring business continuity to continue helping its DMCs. In March, ADB expanded its work-from-home arrangements with most personnel then working remotely for the remainder of the year. This required a significant acceleration of ADB’s efforts to strengthen its technology infrastructure to support decentralized work.",
+    type:'paragraph'
+  },
+  {
+    data:"ADB supported staff through wide-ranging initiatives that included expanded medical, health, and training resources; provision of extra information technology (IT) equipment; strengthened communication; and greater flexibility in leave and benefits. The bank continually monitored the medical situation in its members and adjusted its protective measures accordingly, considering the impacts on staff members and their families and on consultants and contractors.",
+    type:'paragraph'
+  },
+  {
+    data:"The bank introduced more flexibility in resource reallocation. It also implemented an expanded flexible budget management mechanism to better respond to COVID‑19-related costs.",
+    type:'paragraph'
+  },
+  {
+    data:"<b>Streamlined procurement processes for faster response.</b> ADB fast-tracked improvements to its business processes in response to the COVID‑19 pandemic. It enhanced procurement of scarce medical supplies, coordinating closely with the United Nations and other international agencies to ensure quality and value for money. Using technical assistance financing to meet critical needs, ADB procured and delivered $13.3 million worth of PPE to 13 developing countries. ADB also encouraged the use of online systems to continue public procurement in the face of lockdowns and social distancing. It accredited the e-procurement platforms of three DMCs and provided a free e-bidding portal that was adopted by 10 DMCs.",
+    type:'paragraph'
+  },
+  {
+    data:"covid_photo3.jpg",
+    type:'image'
+  },
+  {
+    data:"<b>Enhanced portfolio management under emergency conditions.</b> ADB helped strengthen the capacity of its DMCs to manage projects amid the pandemic. The bank provided guidance on occupational health and safety for ADB-financed operations, worked closely with government agencies to review portfolio performance and ensure environmental and social safeguards, and tapped into new technologies to accelerate contract awarding and disbursement. ADB’s resident missions were crucial in speeding up the bank’s response to emerging project needs.",
+    type:'paragraph'
+  },
+  {
+    data:"<b>Staged two-part Annual Meeting to share COVID‑19 strategies and solutions.</b> Held in two parts in May and September 2020, the virtual 53rd ADB Annual Meeting focused on challenges, strategies, and courses of action to address the impacts of the pandemic. It provided an opportunity for ADB governors, ministers, and other senior officials to come together and share insights on responding to COVID‑19.",
+    type:'paragraph'
+  },
+  {
+    data:"During the second stage, ADB, WHO, and the Government of Japan held a symposium for health and finance ministers. Participants shared lessons on COVID‑19 response and discussed how to strengthen universal health coverage to help increase the region’s resilience to health and economic shocks.",
+    type:'paragraph'
   },
   {
     data:"",
@@ -170,44 +399,5 @@ export const chapter1 = [
     data:"",
     type:''
   },
-  {
-    data:"",
-    type:''
-  },
-  {
-    data:"",
-    type:''
-  },
-  {
-    data:"",
-    type:''
-  },
-  {
-    data:"",
-    type:''
-  },
-  {
-    data:"",
-    type:''
-  },
-  {
-    data:"",
-    type:''
-  },
-  {
-    data:"",
-    type:''
-  },
-  {
-    data:"",
-    type:''
-  },
-  {
-    data:"",
-    type:''
-  },
-  {
-    data:"",
-    type:''
-  },
+
 ]
