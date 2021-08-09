@@ -14,7 +14,7 @@ export class ReportComponent implements OnInit {
   ngOnInit(): void {
     // this.data=chapter1
     this.data=chapter3
-    console.log(this.data)
+    console.log("report data: ",this.data)
   }
 
 }

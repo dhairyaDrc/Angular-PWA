@@ -1,4 +1,10 @@
 export const chapter3 = [
+  {
+    heading: "CHAPTER 3",
+     data: "PARTNERING WITH THE PRIVATE SECTOR",
+     content: "Private Sector Operations and the Promotion of Public–Private Partnerships",
+     type: "chapter3"
+  },
  
   {
     data:"private_photo1.jpg",
@@ -6,11 +12,11 @@ export const chapter3 = [
   },
   
 
-    {
+    // {
        
-      data:"A doctor administers a vaccine to a child during a vaccination drive in Mandaluyong City, Philippines. ADB has created an interactive mapping tool for the supply chains of vital pandemic-fighting products.",
-     type:"paragraph"
-    },
+    //   data:"A doctor administers a vaccine to a child during a vaccination drive in Mandaluyong City, Philippines. ADB has created an interactive mapping tool for the supply chains of vital pandemic-fighting products.",
+    //  type:"paragraph"
+    // },
     {
       data:"In 2020, ADB committed private sector investments for 38 projects in critical sectors such as health, agriculture, energy, finance, water, and other urban infrastructure and services. These investments covered 11 developing member countries (DMCs) and included 5 regional projects. The number of private sector projects in 2020 matched that of 2019 despite the pandemic, and the bank remains strongly committed to increasing the share of private sector operations to one third by 2024.",
       type:"paragraph"

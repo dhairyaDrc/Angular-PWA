@@ -11,8 +11,9 @@ export class ChapterTitleComponent implements OnInit {
 @Input() chapterTitle
 @Input() heading
 @Input() data
+@Input() content;
   ngOnInit(): void {
-    console.log(this.chapterTitle)
+    console.log(">>>>>",this.chapterTitle)
   }
 
 }
