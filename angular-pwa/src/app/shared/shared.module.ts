@@ -6,6 +6,7 @@ import { VideosComponent } from './videos/videos.component';
 import { TitleComponent } from './title/title.component';
 import { ImageComponent } from './components/image/image.component';
 import { ParagraphComponent } from "./components/paragraph/paragraph.component";
+import { ButtonComponent } from './components/button/button.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { ParagraphComponent } from "./components/paragraph/paragraph.component";
     VideosComponent,
     TitleComponent,
     ImageComponent,
-    ParagraphComponent
+    ParagraphComponent,
+    ButtonComponent
   ],
   imports: [
     CommonModule,
@@ -27,7 +29,8 @@ import { ParagraphComponent } from "./components/paragraph/paragraph.component";
     VideosComponent,
     TitleComponent,
     ImageComponent,
-    ParagraphComponent
+    ParagraphComponent,
+    ButtonComponent
   ]
 })
 export class SharedModule { }

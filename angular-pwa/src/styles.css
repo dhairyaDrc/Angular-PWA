@@ -3036,5 +3036,8 @@ color: #666;
         width: 50%;
         margin: 0px auto;
    }
-   
+   .next
+    {
+       margin-bottom: 80%; 
+     }
    

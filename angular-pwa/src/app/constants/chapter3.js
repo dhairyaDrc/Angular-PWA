@@ -1,7 +1,7 @@
 export const chapter3 = [
  
   {
-    data:"home_chapter3.jpg",
+    data:"private_photo1.jpg",
     type:"image"
   },
   
