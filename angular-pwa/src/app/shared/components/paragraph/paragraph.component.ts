@@ -8,7 +8,6 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ParagraphComponent implements OnInit {
 
   @Input() data;
-  @Input() data1;
   
 
   constructor() { }

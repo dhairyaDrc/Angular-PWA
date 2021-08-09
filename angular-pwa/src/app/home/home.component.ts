@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { home } from 'src/app/constants/home.js';
 import { Router } from '@angular/router';
 
@@ -11,15 +11,17 @@ export class HomeComponent implements OnInit {
 
   homeData: any;
   chpt1:any;
+  empArray = [];
+
+  id;
   constructor(private router:Router) { }
 
   ngOnInit(): void {
     this.homeData = home;
-    console.log("this.homeData ",this.homeData)
+  
   }
-
-  goToReport(){
+    
+chapter3Report(){
     this.router.navigate(['/report'])
     }
-
 }

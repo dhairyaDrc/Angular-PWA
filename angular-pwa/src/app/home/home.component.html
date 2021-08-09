@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<div style="width: 70%;display: inline-block;">
-<div *ngFor="let data of homeData" style="width: 50%; display: inline-block;">
-        <app-card (click)="goToReport()" *ngIf="data.type === 'card'" [data]="data.data" [image]="data.img" [id]="data.id"></app-card>
-=======
 
 <div class="homegroup">
 
@@ -22,16 +17,16 @@
             <app-counter-card *ngIf="data.type === 'counter-card'" [data]="data.data" [currency]="data.currency" [money]="data.money" [letter]="data.letter"></app-counter-card>
         </div>
         </div>
->>>>>>> 1e34345e505b961dc6bd3ec08ff81d0846c7f96c
     </div>
 
     <div class="maingrid">
     <div  *ngFor="let data of homeData" style="width: 50%; display: inline-block;">
-            <app-card *ngIf="data.type === 'card'" [data]="data.data" [image]="data.img" [content]="data.content"></app-card>
+            <app-card *ngIf="data.type === 'card'" (click)="chapter3Report()" [id]="data.id" [data]="data.data" [image]="data.img" [content]="data.content"></app-card>
         </div>
         <div class="extralinks">
         <app-appendixes></app-appendixes></div>
     </div>
+    
     
     
 </div>

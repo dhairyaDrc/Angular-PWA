@@ -108,9 +108,6 @@ function loadscreen() {
         document.getElementById("loading").style.display ='none';
         animateAll();
 
-      } else {
-        document.getElementById("loading").style.display ='block';     
-        
       }
 
     
@@ -171,7 +168,7 @@ function loadscreen() {
     //window.addEventListener("hashchange", doHashChange(), false);
 
 
-    document.getElementById("open-menu").addEventListener("click", toggleMenu);
+    // document.getElementById("open-menu").addEventListener("click", toggleMenu);
     document.getElementById("body-overlay").addEventListener("click", toggleMenu);
     document.getElementById("real-menu").addEventListener("click", toggleMenu);
 
