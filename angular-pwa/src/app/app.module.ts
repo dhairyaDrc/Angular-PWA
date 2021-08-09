@@ -11,6 +11,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MenuBarComponent } from './home/menu-bar/menu-bar.component';
 import { CounterCardComponent } from './home/counter-card/counter-card.component';
 import { AppendixesComponent } from './home/appendixes/appendixes.component';
+import { SharedModule } from './shared/shared.module';
+import { CommonModule } from '@angular/common';
 
 
 @NgModule({
@@ -22,11 +24,14 @@ import { AppendixesComponent } from './home/appendixes/appendixes.component';
     MenuBarComponent,
     CounterCardComponent,
     AppendixesComponent
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    CommonModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
