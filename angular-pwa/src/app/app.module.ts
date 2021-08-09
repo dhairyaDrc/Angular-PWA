@@ -25,12 +25,14 @@ import { SharedModule } from './shared/shared.module';
     CounterCardComponent,
     AppendixesComponent,
     ReportComponent
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CommonModule,
-    SharedModule
+    SharedModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
