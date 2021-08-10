@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-expandable-content',
@@ -9,7 +9,17 @@ export class ExpandableContentComponent implements OnInit {
 
   constructor() { }
 
+  
+  @Input() data
+  @Input() title
+  isExpand:boolean = false;
   ngOnInit(): void {
+    console.log(this.data);
+    
+  }
+  readMore(){
+    this.isExpand = true;
+    
   }
 
 }

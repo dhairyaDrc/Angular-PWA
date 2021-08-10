@@ -1,1 +1,10 @@
-<p>expandable-content works!</p>
+<div class="shade story covid minimized" >
+    <h3>
+{{title}} 
+    </h3>
+    <p  class="clickhere" (click)="readMore()">
+    read more
+    </p>
+    <p [ngClass]="{'displayBlock': isExpand}" [innerHTML]="data">
+    </p>
+    </div>

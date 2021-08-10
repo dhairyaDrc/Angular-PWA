@@ -39,6 +39,13 @@ import { ShadeKnowledgeComponent } from './components/shade-knowledge/shade-know
     ParagraphComponent,
     SimpleHeadingComponent,
     ChapterTitleComponent,
+    VideoComponent,
+    ExpandableContentComponent,
+    TwitterComponent,
+    LogoHeadingComponent,
+    CounterComponent,
+    QuoteComponent,
+    ShadeKnowledgeComponent,
 
 
   ]

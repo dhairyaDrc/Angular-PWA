@@ -70,3 +70,269 @@ h1, h2, h3, h4, h5, h6 {
     -moz-font-feature-settings: 'lnum';
     font-variant-numeric: lining-nums;
 }
+
+.minimized.shade {
+    padding-bottom: 0.5rem;
+}
+.minimized.covid {
+    width: 24rem;
+    margin:0px auto;
+
+}
+.minimized {
+    margin: 4rem auto 5rem auto;
+    padding-bottom: 0;
+    width: 20rem;
+}
+.shade {
+    background-color: #e4e4e3;
+    padding: 2%;
+    width: 96%;
+    transition: width 0.3s ease-in;
+    margin: 0 auto 0 auto;
+    cursor: pointer;
+    border: 1px solid #ea522c;
+    margin-bottom: 5em;
+}
+.shade.covid h3 {
+    background-image: url(./assets/images/covid_icon.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-left: 70px;
+    background-size: 57px;
+}
+.shade.minimized h3 {
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+.shade h3 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-top: 0;
+    text-transform: none;
+    color: #ea522c;
+    font-weight: 500;
+    border-bottom: 1px solid #ea522c;
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+h3 {
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    margin: 3rem 0 1rem 0;
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: IdealSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-feature-settings: 'lnum';
+    -webkit-font-feature-settings: 'lnum';
+    -moz-font-feature-settings: 'lnum';
+    font-variant-numeric: lining-nums;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+user agent stylesheet
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.minimized.shade.story p.clickhere {
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0.5rem 0 0 0;
+    display: block;
+    text-align: center;
+    /* font-size: 4rem; */
+}
+.shade p.clickhere {
+    color: #000;
+    text-transform: uppercase;
+    font-family: IdealSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: none;
+    width: 100%;
+}
+.minimized p {
+    display: none;
+}
+h3 + p {
+    margin-top: 0;
+}
+p {
+    margin: 2rem 0 2rem 0;
+}
+p {
+    font-family: Mercury, Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #222;
+    font-feature-settings: 'lnum';
+    -webkit-font-feature-settings: 'lnum';
+    -moz-font-feature-settings: 'lnum';
+    font-variant-numeric: lining-nums;
+}
+
+.tweet {
+    font-family: IdealSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(./assets/images/twitter.png);
+    background-repeat: no-repeat;
+    background-position: 20px top;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+p {
+    margin: 2rem 0 2rem 0;
+}
+p {
+    font-family: Mercury, Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #222;
+    font-feature-settings: 'lnum';
+    -webkit-font-feature-settings: 'lnum';
+    -moz-font-feature-settings: 'lnum';
+    font-variant-numeric: lining-nums;
+}
+.tweet a {
+    font-family: IdealSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    color: #666;
+}
+.tweet a:hover{
+    
+    color: #000;
+    }
+
+    
+    
+    .icon {
+        vertical-align: bottom;
+    width: 9%;
+    display: inline-block;
+    
+    
+    }
+
+.small{
+    display: inline-block;
+    width: 90%;
+    vertical-align: top;
+}
+
+    h4 {
+        font-size: 1.4rem;
+        font-weight: normal;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: IdealSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-feature-settings: 'lnum';
+        -webkit-font-feature-settings: 'lnum';
+        -moz-font-feature-settings: 'lnum';
+        font-variant-numeric: lining-nums;
+    }
+    
+    p.pullquote {
+        color: #333;
+        font-size: 1.5rem;
+        line-height:2rem;
+        font-weight: 200;
+        width: 70%;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: IdealSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-image: url("./assets/images/pullquote_icon.png");
+        background-position: 0rem 0.4rem; 
+        background-repeat: no-repeat;
+        background-size: 60px;
+        padding-left: 80px;
+    }
+    
+    .shade p.pullquote {
+        /* background-image: url("../images/ui/pullquote_icon_grey.png"); */
+    }
+    
+    p.byline {
+        margin-top: 3rem;
+        font-family: IdealSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:300;
+    line-height: 1.6rem;
+    }
+    .shade {
+        background-color: #e4e4e3;
+        padding: 2%;
+        width: 96%;
+        transition: width 0.3s ease-in;
+        margin: 0 auto 0 auto;
+        cursor: pointer;
+        border: 1px solid #ea522c;
+        margin: 50px;
+
+    }
+    
+    .shade.knowledge h3 
+    {
+    display: inline-block;
+    margin: 2% -2% 4% -2%;
+    padding: 2% 2% 2% 2%;
+    background-color: #ea522c;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+   
+}
+    .shade h3 {
+        font-size: 1.5rem;
+       
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: IdealSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-variant-numeric: lining-nums;
+    }
+    h3 + p {
+        margin-top: 0;
+    }
+    p {
+        margin: 2rem 0 2rem 0;
+    }
+    p {
+        font-family: Mercury, Georgia, 'Times New Roman', Times, serif;
+        font-weight: normal;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        color: #222;
+        font-feature-settings: 'lnum';
+        -webkit-font-feature-settings: 'lnum';
+        -moz-font-feature-settings: 'lnum';
+        font-variant-numeric: lining-nums;
+    }
+    p {
+        margin: 2rem 0 2rem 0;
+    }
+    p {
+        font-family: Mercury, Georgia, 'Times New Roman', Times, serif;
+        font-weight: normal;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        color: #222;
+        font-feature-settings: 'lnum';
+        -webkit-font-feature-settings: 'lnum';
+        -moz-font-feature-settings: 'lnum';
+        font-variant-numeric: lining-nums;
+    }
+
+    img {
+        width: 100%;
+    }
+   

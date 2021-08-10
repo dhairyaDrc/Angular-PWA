@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from "./home/home.component";
 import { CardComponent } from './home/card/card.component';
 import { SideMenuComponent } from 'src/app/home/side-menu/side-menu.component';
-import { Chapter1Component } from './chapter1/chapter1.component';
 import { SharedModule } from './shared/shared.module';
 import { CommonModule } from '@angular/common';
 
@@ -18,7 +17,6 @@ import { CommonModule } from '@angular/common';
     HomeComponent, 
     CardComponent,
     SideMenuComponent,
-    Chapter1Component,
     
   ],
   imports: [

@@ -11,6 +11,8 @@ export class ReportComponent implements OnInit {
   data:any;
   ngOnInit(): void {
     this.data=chapter1
+    
   }
+
 
 }
