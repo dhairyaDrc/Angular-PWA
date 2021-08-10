@@ -22,4 +22,8 @@ export class HomeComponent implements OnInit {
     this.router.navigate(['/report'])
     }
 
+  goToFinancialHighlights(){
+    this.router.navigate(['/financial-highlights'])
+  }
+
 }

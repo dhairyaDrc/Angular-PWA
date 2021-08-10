@@ -1403,8 +1403,9 @@ div.numbers {
 div.numbers .numbergroup {
     display: flex;
     justify-content: space-around;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     padding-top: 17px;
+    margin-bottom: -125px;
 }
 
 div.numbers h3{

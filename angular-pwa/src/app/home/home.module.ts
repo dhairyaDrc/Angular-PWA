@@ -7,6 +7,7 @@ import { CounterCardComponent } from './counter-card/counter-card.component';
 import { MenuBarComponent } from './menu-bar/menu-bar.component';
 import { AppendixesContentComponent } from './appendixes-content/appendixes-content.component';
 import { HomeRoutingModule } from './home-routing.module';
+import { FinancialHighlightsComponent } from './financial-highlights/financial-highlights.component';
 // import { AppendixesContentComponent } from './appendixes-content/appendixes-content.component';
 
 
@@ -18,7 +19,8 @@ import { HomeRoutingModule } from './home-routing.module';
     CounterCardComponent,
     MenuBarComponent,
     AppendixesComponent,
-    AppendixesContentComponent
+    AppendixesContentComponent,
+    FinancialHighlightsComponent
   ],
 
   imports: [
