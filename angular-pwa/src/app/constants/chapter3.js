@@ -18,13 +18,17 @@ export const chapter3 = [
     
     },
     {
-      data:"BY THE NUMBERS: PRIVATE SECTOR OPERATIONS",
+      data:"<b>BY THE NUMBERS: PRIVATE SECTOR OPERATIONS<b>",
       type:"paragraph"
     },
     
     {
       data:"In 2020, ADB committed private sector investments for 38 projects in critical sectors such as health, agriculture, energy, finance, water, and other urban infrastructure and services. These investments covered 11 developing member countries (DMCs) and included 5 regional projects. The number of private sector projects in 2020 matched that of 2019 despite the pandemic, and the bank remains strongly committed to increasing the share of private sector operations to one third by 2024.",
       type:"paragraph"
+    },
+    {
+      data:"<b><a href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital&amp;via=ADB_HQ&amp;text=In%202020%2C%20ADB%20committed%20private%20sector%20investments%20for%2038%20projects%20in%20critical%20sectors%20such%20as%20health%2C%20agriculture%2C%20energy%2C%20finance%2C%20water%2C%20and%20other%20urban%20infrastructure%20and%20services.' title='Tweet this' target='_blank'>In 2020, ADB committed private sector investments for 38 projects in critical sectors such as health, agriculture, energy, finance, water, and other urban infrastructure and services.</a> </b>",
+      type:'twitter'
     },
      {
 
@@ -51,6 +55,10 @@ export const chapter3 = [
     {
       data:"As the COVID‑19 pandemic unleashed a global health crisis, ADB stepped up support for private sector approaches to back quality, efficiency, and financing in health infrastructure.",
     type:"paragraph"
+    },
+    {
+      data:"<b><a href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital&amp;via=ADB_HQ&amp;text=As%20the%20COVID-19%20pandemic%20unleashed%20a%20global%20health%20crisis%2C%20ADB%20stepped%20up%20support%20for%20private%20sector%20approaches%20to%20back%20quality%2C%20efficiency%2C%20and%20financing%20in%20health%20infrastructure.&amp;hashtags=COVID19.' title='Tweet this' target='_blank'>As the COVID-19 pandemic unleashed a global health crisis, ADB stepped up support for private sector approaches to back quality, efficiency, and financing in health infrastructure.</a> </b>",
+      type:'twitter'
     },
     {
       data:"As early as February 2020, ADB provided working capital support of $18.5 million to Wuhan based pharmaceutical firm Jointown to ensure continued supply of essential medical supplies and personal protective equipment. An additional loan of $36.7 million helped Jointown expand its distribution capacity to reach more hospitals and retail pharmacy outlets in underserved areas. The expanded distribution facilities include cold chain warehouses for temperature-sensitive pharmaceutical products such as vaccines. ADB also signed an $8 million loan with Imexpharm Corporation to help the company sustain its production of generic medicines in Viet Nam despite global supply disruptions.",
@@ -86,7 +94,7 @@ export const chapter3 = [
     },
     {
       data:"MOVING CLOSER TO CLIENTS AND PARTNERS",
-      type:"subheading"
+      type:"heading"
     },
     {
       data:"The opening of ADB’s new office in Singapore in March marked a pivotal stage in the expansion of the bank’s private sector operations. As a financial hub, Singapore’s sophisticated private and public sector ecosystems will help mobilize investments and bring the latest technologies and management skills to development projects across the Asia and Pacific region. The new office allows ADB to work more closely with stakeholders, including key investors and sponsors, leveraging the bank’s strengths in infrastructure and innovation to support DMCs. ",
@@ -99,7 +107,7 @@ export const chapter3 = [
     
     {
       data:"PIONEERING INNOVATION AND MOBILIZING FINANCE",
-      type:"subheading"
+      type:"heading"
     },
     {
       data:"Of the $2 billion in long-term cofinancing ADB mobilized in 2020, about 87% came from commercial cofinancing partners, with the rest from official sources. Every $1 of ADB’s committed nonsovereign financing was matched by $2.12 in long-term cofinancing—up from $1.50 during 2019 and on track to achieving the 2030 target of mobilizing $2.50 in long-term cofinancing for every $1 of ADB financing.",
@@ -113,6 +121,11 @@ export const chapter3 = [
       data:"In Bangladesh, ADB provided $100 million to Reliance Bangladesh LNG and Power Limited to build and operate a 718 MW combined-cycle gas-fired power plant. ADB also administered $100 million from LEAP in cofinancing. ADB has been instrumental in mobilizing crucial commercial financing, incorporating best practices in environmental and social standards, and establishing precedents for future financing of similar large-scale projects in Bangladesh by boosting investor and lender confidence.",
       type:"paragraph"
     },
+    {
+      data:"EXPANDING ACCESS TO VENTURE CAPITAL",
+      type:"heading"
+    },
+    
     {
       data:"Launched in 2020, ADB Ventures is the venture arm of ADB and invests in early-stage technology companies that address urgent development problems in emerging Asia and the Pacific. ADB Ventures aspires to crowd in more than $1 billion of risk capital toward achievement of the Sustainable Development Goals by 2030.",
       type:"paragraph"
@@ -147,14 +160,14 @@ export const chapter3 = [
       type:"video"
     },
     
-    // {
-    //   data:"See how ADB Ventures is supporting Otago, a Cambodia-based startup making char-briquettes out of coconut shells and cassava as a greener and healthier fuel for widely used open fires and traditional stoves.",
-    //   type:"paragraph"
-    // },
+    {
+      data:"See how ADB Ventures is supporting Otago, a Cambodia-based startup making char-briquettes out of coconut shells and cassava as a greener and healthier fuel for widely used open fires and traditional stoves.",
+      type:"paragraph"
+    },
     
     {
       data:"USING PRIVATE EQUITY FUNDS TO EXTEND REACH",
-      type:"subtitle"
+      type:"heading"
     },
     
     {
@@ -173,7 +186,7 @@ export const chapter3 = [
     },
     {
       data:"SCALING UP SUPPORT FOR PUBLIC–PRIVATE PARTNERSHIPS",
-      type:"subtitle"
+      type:"heading"
     },
     {
       data:"ADB supports its DMCs to develop sustainable infrastructure projects and deliver efficient and effective public services through public–private partnerships (PPPs). The bank helps DMCs improve their investment climates, formulate sound market regulations, and build robust legal and institutional frameworks to attract private sector interest in PPPs.",
@@ -201,7 +214,7 @@ export const chapter3 = [
     },
     {
       data:"KNOWLEDGE HIGHLIGHTS",
-      type:"subtitle"
+      type:"heading"
     },
     {
       data:"Digitizing trade operations is a vital shift for a sector still reliant on the face-to-face exchange of multiple documents for every transaction. During 2020, ADB’s Trade and Supply Chain Finance Program (TSCFP) executed the first pilot trade finance transaction using distributed ledger technology (blockchain) by a multilateral development bank, which was successfully completed in August. The use of blockchain is a step toward the goal of digitizing more of the paper-intensive trade finance process.",

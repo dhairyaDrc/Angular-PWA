@@ -47,6 +47,7 @@ import { ShadeKnowledgeComponent } from './components/shade-knowledge/shade-know
     SimpleHeadingComponent,
     ChapterTitleComponent,
     ButtonComponent,
+    TwitterComponent
   ]
  
 })
