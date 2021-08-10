@@ -374,13 +374,13 @@ var targetElement = document.getElementById('appendix1');
 function showOverlay(appendixElement) {
     if (!overlayShown) {
         mainElement = document.getElementById('appendixes');
-        console.log('Appendixes overlay: ' + mainElement);
+        // console.log('Appendixes overlay: ' + mainElement);
         scrollPosition = window.pageYOffset;
-        console.log('Scroll position: ' + scrollPosition);
+        // console.log('Scroll position: ' + scrollPosition);
         mainElement.style.top = -scrollPosition + 'px';
         document.body.classList.add('show-overlay');
         targetElement = document.getElementById(appendixElement);
-        console.log('Appendixes item: ' + targetElement);
+        // console.log('Appendixes item: ' + targetElement);
         targetElement.classList.add('showing');
         document.getElementById('appendix-overlay').scrollTop = 0;
         overlayShown = !overlayShown;
@@ -388,13 +388,13 @@ function showOverlay(appendixElement) {
 }
 
 function removeOverlay() {
-    console.log("removeOverlay called");
+    // console.log("removeOverlay called");
     if (overlayShown) {
         document.body.classList.remove('show-overlay');
         mainElement.style.top = 0;
-        console.log('Should scroll to: ' + scrollPosition);
+        // console.log('Should scroll to: ' + scrollPosition);
         window.scrollTo(0, scrollPosition);
-        console.log('Actually scrolled: ' + window.pageYOffset);
+        // console.log('Actually scrolled: ' + window.pageYOffset);
         targetElement.classList.remove('showing');
         
         overlayShown = !overlayShown;

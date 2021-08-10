@@ -4,6 +4,9 @@ import { ImageComponent } from './components/image/image.component';
 import { ParagraphComponent } from './components/paragraph/paragraph.component';
 import { SimpleHeadingComponent } from './components/simple-heading/simple-heading.component';
 import { ChapterTitleComponent } from './components/chapter-title/chapter-title.component';
+import { HomeModule } from '../home/home.module';
+import { CaptionComponent } from './components/caption/caption.component';
+import { ButtonComponent } from './components/button/button.component';
 
 
 
@@ -14,10 +17,13 @@ import { ChapterTitleComponent } from './components/chapter-title/chapter-title.
     ParagraphComponent,
     SimpleHeadingComponent,
     ChapterTitleComponent,
+    CaptionComponent,
+    ButtonComponent,
   
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    HomeModule
   ],
   exports:[
     
@@ -25,8 +31,8 @@ import { ChapterTitleComponent } from './components/chapter-title/chapter-title.
     ParagraphComponent,
     SimpleHeadingComponent,
     ChapterTitleComponent,
-
-
+    CaptionComponent,
+    ButtonComponent
   ]
 })
 export class SharedModule { }

@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { chapter1 } from "src/app/constants/chapter1";
+import { buttonText } from "src/app/constants/button"
 @Component({
   selector: 'app-report',
   templateUrl: './report.component.html',
@@ -8,9 +9,12 @@ import { chapter1 } from "src/app/constants/chapter1";
 export class ReportComponent implements OnInit {
 
   constructor() { }
-  data:any;
+  @Input() data:any;
+  @Input() button: any;
   ngOnInit(): void {
-    this.data=chapter1
+    this.data=chapter1;
+    this.button = buttonText;
+    console.log("this.data : ",this.button);
   }
 
 }

@@ -392,8 +392,8 @@ export const chapter1 = [
     type:'paragraph'
   },
   {
-    data:"",
-    type:''
+    data:"A $9 billion facility will provide rapid and equitable support for COVID‑19 vaccine access.",
+    type:'caption'
   },
   {
     data:"",

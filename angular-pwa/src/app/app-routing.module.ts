@@ -10,7 +10,11 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./report/report.module').then(m => m.ReportModule),
-}
+  },
+  {
+    path: '',
+    loadChildren: () => import('./home/home.module').then(m => m.HomeModule),
+  }
 ];
 
 @NgModule({
