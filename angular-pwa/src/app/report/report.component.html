@@ -1,14 +1,17 @@
 
 <div *ngFor="let data of data" >
     <app-chapter-title [data]="data.data" [heading]="data.heading" [content]="data.content" *ngIf="data.type=='chapter3'"></app-chapter-title>
-</div>
+    </div>
+    <div *ngFor="let data of data" >
+        <app-chapter-title [data]="data.data" [heading]="data.heading" [content]="data.content" *ngIf="data.type=='chapter4'"></app-chapter-title>
+        </div>
 <div  class="report">
     
     <div *ngFor="let data of data" >
         <app-image [image]="data.data" *ngIf="data.type=='image'"></app-image>
         <app-paragraph  [data]="data.data" *ngIf="data.type=='paragraph'"></app-paragraph>
         <app-simple-heading [simpleHeading]="data.data" *ngIf="data.type=='heading'" ></app-simple-heading>
-        
+        <app-twitter></app-twitter>
     </div>
     <app-button></app-button><br><br><br><br><br><br><br><br>
 </div>

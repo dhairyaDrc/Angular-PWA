@@ -12,11 +12,16 @@ export const chapter3 = [
   },
   
 
-    // {
+    {
        
-    //   data:"A doctor administers a vaccine to a child during a vaccination drive in Mandaluyong City, Philippines. ADB has created an interactive mapping tool for the supply chains of vital pandemic-fighting products.",
-    //  type:"paragraph"
-    // },
+      data:"A doctor administers a vaccine to a child during a vaccination drive in Mandaluyong City, Philippines. ADB has created an interactive mapping tool for the supply chains of vital pandemic-fighting products.",
+    
+    },
+    {
+      data:"BY THE NUMBERS: PRIVATE SECTOR OPERATIONS",
+      type:"paragraph"
+    },
+    
     {
       data:"In 2020, ADB committed private sector investments for 38 projects in critical sectors such as health, agriculture, energy, finance, water, and other urban infrastructure and services. These investments covered 11 developing member countries (DMCs) and included 5 regional projects. The number of private sector projects in 2020 matched that of 2019 despite the pandemic, and the bank remains strongly committed to increasing the share of private sector operations to one third by 2024.",
       type:"paragraph"
@@ -29,7 +34,7 @@ export const chapter3 = [
     
     {
       data:"APPROACHES TO DEVELOPING THE PRIVATE SECTOR",
-    type:"sub head"
+    type:"heading"
      },
       { 
         data:"In January 2020, the ADB Board of Directors endorsed the operational plan for the bank’s private sector operations. This plan sharpens ADB’s focus on complex, innovative, smaller, and riskier projects in challenging markets and sectors. It also enhances efforts to address climate change and support women. ADB’s private sector operations will support the priorities of the bank’s Strategy 2030, with investments in core areas such as clean energy, environmental infrastructure, agribusiness, quality education and health services, and a vibrant finance sector.",
@@ -39,6 +44,10 @@ export const chapter3 = [
       data:"ADB will expand the sector and geographic reach of its private sector operations, move closer to clients and partners, use more integrated and innovative approaches to tailor this support, and catalyze and mobilize financing.",
     type:"paragraph"
     },
+    {
+     data:"EXTENDING SECTOR AND GEOGRAPHIC REACH",
+    type:"heading"
+     },
     {
       data:"As the COVID‑19 pandemic unleashed a global health crisis, ADB stepped up support for private sector approaches to back quality, efficiency, and financing in health infrastructure.",
     type:"paragraph"
@@ -76,12 +85,21 @@ export const chapter3 = [
       type:"paragraph"
     },
     {
+      data:"MOVING CLOSER TO CLIENTS AND PARTNERS",
+      type:"subheading"
+    },
+    {
       data:"The opening of ADB’s new office in Singapore in March marked a pivotal stage in the expansion of the bank’s private sector operations. As a financial hub, Singapore’s sophisticated private and public sector ecosystems will help mobilize investments and bring the latest technologies and management skills to development projects across the Asia and Pacific region. The new office allows ADB to work more closely with stakeholders, including key investors and sponsors, leveraging the bank’s strengths in infrastructure and innovation to support DMCs. ",
       type:"paragraph"
     },
     {
       data:"In 2020, ADB invested in Clifford Capital Holdings (CCH), a specialist global financing and distribution platform for infrastructure and other real assets, headquartered in Singapore. The transaction comprised $50 million from ADB and $45 million from the Japan International Cooperation Agency-funded Leading Asia’s Private Sector Infrastructure Fund (LEAP). To maintain growth, tackle poverty, and address climate change, developing Asia and the Pacific needs $1.7 trillion annually in infrastructure financing through to 2030, and CCH’s focus on financial innovation through securitization can help meet these financing needs.",
       type:"paragraph"
+    },
+    
+    {
+      data:"PIONEERING INNOVATION AND MOBILIZING FINANCE",
+      type:"subheading"
     },
     {
       data:"Of the $2 billion in long-term cofinancing ADB mobilized in 2020, about 87% came from commercial cofinancing partners, with the rest from official sources. Every $1 of ADB’s committed nonsovereign financing was matched by $2.12 in long-term cofinancing—up from $1.50 during 2019 and on track to achieving the 2030 target of mobilizing $2.50 in long-term cofinancing for every $1 of ADB financing.",

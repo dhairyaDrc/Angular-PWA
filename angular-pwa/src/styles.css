@@ -349,6 +349,9 @@ img {
     margin-left: -100px;
    
 }
+img.smallersize {
+    max-width: 100%;
+}
 
 @media only screen and (min-width: 1000px) {
 
@@ -3088,5 +3091,10 @@ color: #666;
     {
        margin-bottom: 80%; 
      }
-   
+     div.complexheader.regions {
+        max-width: 650px;
+        margin: 2rem auto 2rem auto;
+        padding-left: 0rem;
+    }
+    
 
