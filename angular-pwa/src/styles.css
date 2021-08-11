@@ -540,6 +540,10 @@ body.menu-open .real-menu{
     color:#666;
 
 }
+.div.numbers {
+    max-width: 700px;
+    margin: 0 auto 0 auto;
+}
 
 .share {
     padding:0.5rem;
@@ -699,15 +703,15 @@ a.next {
     line-height: 1.2rem;
     border-left:10px solid #ea522c;
     font-feature-settings: 'lnum';
-    -webkit-font-feature-settings: 'lnum';
+    /* -webkit-font-feature-settings: 'lnum';
     -moz-font-feature-settings: 'lnum';
-    font-variant-numeric: lining-nums;
+    font-variant-numeric: lining-nums; */
 }
 a.next:hover {
     color: #fff;
 }
 a.next span {
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 1.2rem;
 }
 
@@ -1356,10 +1360,11 @@ width:12rem;
 .margin img {
     width: 50%;
     margin-bottom: 1rem;
+    margin-left: -3px;
 }
 
 .margin h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: normal;
     margin-top: 0;
     text-transform: none;
@@ -3061,6 +3066,10 @@ h1, h2, h3, h4, h5, h6 {
 .s2030img {
     
 }
+.progress {
+    width: 80%;
+    margin: 4rem auto 4rem auto;
+}
 
 .tweet {
     font-family: IdealSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -3087,10 +3096,7 @@ color: #666;
         width: 50%;
         margin: 0px auto;
    }
-   .next
-    {
-       margin-bottom: 80%; 
-     }
+   
      div.complexheader.regions {
         max-width: 650px;
         margin: 2rem auto 2rem auto;
@@ -3102,4 +3108,72 @@ color: #666;
         margin: 3rem 0 1rem 0;
         font-weight: 300;
     }
+    .shade {
+        background-color: #e4e4e3;
+        padding: 2%;
+        border: 1px solid #ea522c;
+    }
+    .minimized {
+        margin: 4rem auto 5rem auto;
+    }
+    .minimized.shade {
+        padding-bottom: 0.5rem;
+    }
+    .minimized.covid {
+        width: 24rem;
+    }
+    .margin {
+        border: 0.1rem solid #ea522c;
+        padding: 1rem;
+        text-align: center;
+        width: 50%;
+        margin: 0 auto 0 auto;
+        background-color: #eee;
+    }
+    section:target {
+        display: block;
+        position: absolute;
+        left: auto;
+        width: 100%;
+    }
+    a.next {
+        float: right;
+        background-color: #989898;
+        text-decoration: none;
+        color: #eee;
+        font-family: IdealSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding: 1rem;
+        text-transform: uppercase;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        border-left: 10px solid #ea522c;
+        /* font-feature-settings: 'lnum'; */
+        /* -webkit-font-feature-settings: 'lnum';
+        -moz-font-feature-settings: 'lnum'; */
+        font-variant-numeric: lining-nums;
+    }
+    p.pullquote {
+        color: #333;
+        font-size: 1.1rem;
+        line-height: 2rem;
+        font-weight: 200;
+        width: 70%;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: IdealSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        /* background-image: url(../images/ui/pullquote_icon.png); */
+        background-position: 0rem 0.4rem;
+        background-repeat: no-repeat;
+        background-size: 60px;
+        padding-left: 80px;
+    }
+    .photo{
+        width: 50%;
+        margin-left: -3px;
+    }
+
     

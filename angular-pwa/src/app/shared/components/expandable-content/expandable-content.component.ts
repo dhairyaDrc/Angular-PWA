@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-expandable-content',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./expandable-content.component.css']
 })
 export class ExpandableContentComponent implements OnInit {
+
+  @Input() data
+  @Input() title
 
   constructor() { }
 

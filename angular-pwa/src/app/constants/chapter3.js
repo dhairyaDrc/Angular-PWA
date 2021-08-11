@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const chapter3 = [
   {
     heading: "CHAPTER 3",
@@ -10,12 +12,10 @@ export const chapter3 = [
     data:"private_photo1.jpg",
     type:"image"
   },
-  
-
-    {
+   {
        
       data:"A doctor administers a vaccine to a child during a vaccination drive in Mandaluyong City, Philippines. ADB has created an interactive mapping tool for the supply chains of vital pandemic-fighting products.",
-    
+      type:""
     },
     {
       data:"<b>BY THE NUMBERS: PRIVATE SECTOR OPERATIONS<b>",
@@ -35,9 +35,38 @@ export const chapter3 = [
       data:"Following the onset of the COVID‑19 pandemic, ADB swiftly refocused its private sector resources to address the health and economic impacts in its DMCs. With $442 million supporting new COVID‑19 related projects and $2.4 billion in revolving program commitments in trade finance, supply chain finance, and microfinance, 64% of private sector project and program commitments in 2020 directly or indirectly responded to COVID‑19. (Chapter 2 provides examples of country-specific private sector operations.)",
      type:"paragraph"
     }, 
-    
+
     {
-      data:"APPROACHES TO DEVELOPING THE PRIVATE SECTOR",
+      title:"MAPPING SUPPLY CHAINS OF LIFE-SAVING PRODUCTS",
+      type:"expand"
+    },
+    {
+      data:"In the early stages of the pandemic, as health systems, governments, and international organizations sought to secure stocks of crucial goods like portable ventilators, a key obstacle was a lack of information on who made what in the supply chains.",
+      type:'expandContent'
+    },
+    {
+      data:"To help fill this gap, ADB drew on its knowledge and networks in trade and supply chain finance to develop an interactive <a href='https://www.adb.org/multimedia/scf/#/target='_blank' onclick='linkHandler(event);'>mapping tool</a> for thesupply chains of vital pandemic-fighting products.",
+      type:'expandContent'
+    },
+     {
+      data:"",
+      type:"video"
+    },
+    {
+      data:"The tool allows governments, banks, investors, health-care professionals, and companies to trace every component in such products, down to the metal and rubber in each part. They can then intervene to clear supply blockages, such as by funding a company struggling to meet demand.",
+      type:'expandContent'
+    },
+   
+    {
+      data:"Within months, around 10,000 visits had been made to the free mapping tool website. There, users can search—by product or by location—a database of 25,000 companies involved in supply chains around the world.Companies have used the tool to track down machines used in the production of personal protective equipment,for example, and banks have identified clients producing pandemic-related goods to explore opportunities toassist them.",
+      type:'expandContent'
+    },
+    {
+    data:"As the demand for more information has expanded, so has the database. From the initial seven products mapped, the tool now covers about 33 different categories, including vaccines and the equipment that keeps them cold in transit.",
+    type:'expandContent'
+    },
+    {
+    data:"APPROACHES TO DEVELOPING THE PRIVATE SECTOR",
     type:"heading"
      },
       { 
@@ -48,6 +77,16 @@ export const chapter3 = [
       data:"ADB will expand the sector and geographic reach of its private sector operations, move closer to clients and partners, use more integrated and innovative approaches to tailor this support, and catalyze and mobilize financing.",
     type:"paragraph"
     },
+{
+    title:'DIVERSIFICATION',
+    type:'counter'
+},
+{
+  data:"In 2020, ADB committed 58% of its 38 nonsovereign operations in new sectors or frontier markets.",
+  type:"counterContent"
+   },
+
+
     {
      data:"EXTENDING SECTOR AND GEOGRAPHIC REACH",
     type:"heading"
@@ -79,6 +118,10 @@ export const chapter3 = [
     {
       data:"private_food.jpg",
       type:"image"
+    },
+    {
+      data:" Learn more about how ADB’s work with the private sector is helping its developing member countries strengthen resilience in agribusiness.",
+      type:""
     },
     {
       data:"ADB is also working to extend private sector investment into more economies of Asia and the Pacific where development needs go unfinanced and unmet because of real or perceived investment risks.",
@@ -114,10 +157,23 @@ export const chapter3 = [
       type:"paragraph"
     },
     {
+      title:"<b><u>PROGRESS AGAINST STRATEGY 2030 TARGETS<u></b>",
+      type:"paragraph"
+    },
+    
+    {
       data:"ADB provided financing, through Viet Nam’s first certified green loan, for Phu Yen TTP Joint Stock Company to develop and operate a 257 MW solar power plant. The financing comprises a $27.9 million loan funded by ADB, a $148.8 million B loan funded by commercial banks, and a $9.3 million loan from LEAP. The syndicated loan is the first green B loan in Asia and the Pacific to be certified by the Climate Bonds Initiative, and one of the largest such loans yet mobilized in the country. The project is the single largest operating solar power plant in Viet Nam and one of the largest in Southeast Asia.",
       type:"paragraph"
     },
     {
+      data:"private_photo2.jpg",
+      type:"image"
+    },
+    {
+      data:"ADB provided financing for the Phu Yen TTP Joint Stock Company to develop this solar power plant in Viet Nam through the first green B loan in Asia and the Pacific to be certified by the Climate Bonds Initiative (Photo by Phu Yen).",
+      type:""
+    },
+     {
       data:"In Bangladesh, ADB provided $100 million to Reliance Bangladesh LNG and Power Limited to build and operate a 718 MW combined-cycle gas-fired power plant. ADB also administered $100 million from LEAP in cofinancing. ADB has been instrumental in mobilizing crucial commercial financing, incorporating best practices in environmental and social standards, and establishing precedents for future financing of similar large-scale projects in Bangladesh by boosting investor and lender confidence.",
       type:"paragraph"
     },
@@ -211,6 +267,10 @@ export const chapter3 = [
     },{
       data:"As of 31 December 2020, the bank is implementing 24 transaction advisory mandates and AP3F project preparation projects across Azerbaijan, Bangladesh, Cambodia, Indonesia, Kazakhstan, Pakistan, Palau, Papua New Guinea, the People’s Republic of China, the Philippines, Timor-Leste, and Uzbekistan. Of these mandates, 14 are being implemented in conjunction with AP3F project preparation support. These mandates include the development of PPP projects in transportation, information and communication technology, health care, energy, education, water supply, sanitation, and other urban infrastructure.",
       type:"paragraph"
+    }, 
+    {
+      data:" ADB swiftly refocused its private sector resources to address COVID‑19 health and economic impacts in  its developing member countries ... Sixty-four percent of private sector project and program commitments in 2020 directly or indirectly responded to COVID‑19.",
+      type:'quote'
     },
     {
       data:"KNOWLEDGE HIGHLIGHTS",
@@ -224,25 +284,17 @@ export const chapter3 = [
       data:"The TSCFP has been working with governments and the international chamber of commerce to create digital standards and protocols for trade, including helping to launch the digital standards initiative. The TSCFP is also promoting global adoption of a legal entity identifier, so that everyone agrees on a common method to more simply identify the companies and other players involved in trade.",
       type:"paragraph"
     }, 
+    
     {
-      data:"private_smallbox.png",
-      type:"image"
-    },
-    {
-      data:"New Anti-Money Laundering Course for Partner Banks",
-      type:"paragraph"
-    },
-    {
+      title:"New Anti-Money Laundering Course for Partner Banks",
       data:"ADB’s Trade and Supply Chain Finance Program is supporting staff at partner banks in DMCs to become certified anti-money laundering specialists through an online course. Developed by the Association of Certified Anti-Money Laundering Specialists, the course was made available to partner banks for the first time in 2020. Australia’s Department of Foreign Affairs and Trade is working with ADB to sponsor free access for DMC partner banks.",
-      type:"paragraph"
+      image:'private_smallbox .png',
+      type:'shadeKnowledge'
     },
+   
     {
-      data:"",
-      type:"paragraph"
-    },
-    {
-      data:"",
-      type:"paragraph"
+      data:"Next: Chapter 4",
+      type:"button"
     },
     {
       data:"",

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-shade-knowledge',
@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./shade-knowledge.component.css']
 })
 export class ShadeKnowledgeComponent implements OnInit {
+
+  @Input()  data;
+  @Input()  title;
+  @Input() image;
 
   constructor() { }
 

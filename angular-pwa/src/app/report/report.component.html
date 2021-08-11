@@ -2,9 +2,9 @@
 <div *ngFor="let data of data" >
     <app-chapter-title [data]="data.data" [heading]="data.heading" [content]="data.content" *ngIf="data.type=='chapter3'"></app-chapter-title>
     </div>
-    <div *ngFor="let data of data" >
+    <!-- <div *ngFor="let data of data" >
         <app-chapter-title [data]="data.data" [heading]="data.heading" [content]="data.content" *ngIf="data.type=='chapter4'"></app-chapter-title>
-        </div>
+        </div> -->
 <div  class="report">
     
     <div *ngFor="let data of data" >
@@ -12,8 +12,13 @@
         <app-paragraph  [data]="data.data" *ngIf="data.type=='paragraph'"></app-paragraph>
         <app-simple-heading [simpleHeading]="data.data" *ngIf="data.type=='heading'" ></app-simple-heading>
         <app-twitter [data]="data.data" *ngIf="data.type=='twitter'" ></app-twitter>
+        <app-expandable-content [data]="data.data" [title]="data.title" *ngIf="data.type=='expand'" ></app-expandable-content>
+        <app-counter [data]="data.data" [title]="data.title" *ngIf="data.type=='counter'" ></app-counter>
+        <app-shade-knowledge [data]="data.data" [title]="data.title" [image]="data.image" *ngIf="data.type=='shadeKnowledge'" ></app-shade-knowledge>
+   
+        <app-quote [data]="data.data" *ngIf="data.type=='quote'"></app-quote>
     </div>
-    <app-button></app-button><br><br><br><br><br><br><br><br>
+    <app-button></app-button>
 </div>
 <app-menu-bar></app-menu-bar>
 
