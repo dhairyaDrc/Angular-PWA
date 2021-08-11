@@ -1,15 +1,18 @@
 <div  class="report" >
-    <div  *ngFor="let data of data">
+    <div class="content">
+    <div   *ngFor="let data of data">
 
-        <app-image [image]="data.data" *ngIf="data.type=='image'"></app-image>
+        <app-image [image]="data.data" [tag]="data.tag" *ngIf="data.type=='image'"></app-image>
         <app-paragraph [data]="data.data" *ngIf="data.type=='paragraph'"></app-paragraph>
         <app-simple-heading [simpleHeading]="data.data" *ngIf="data.type=='heading'" ></app-simple-heading>
         <app-chapter-title [data]="data.data" [heading]="data.heading" [chapterTitle]="data.data" *ngIf="data.type=='chaptertitle'"></app-chapter-title>
         
         <app-expandable-content [data]="data.data" [title]="data.title" *ngIf="data.type=='expand'" ></app-expandable-content>
+        <app-expandable-content-two [title]="data.title" [data]="data.data" *ngIf="data.type== 'expandTwo'"></app-expandable-content-two>
         <app-twitter [data]="data.data" *ngIf="data.type=='twitter'" ></app-twitter>
         <app-logo-heading [data]="data.data" [image]="data.image" *ngIf="data.type=='logoHeading'" ></app-logo-heading>
         <app-quote [data]="data.data" *ngIf="data.type=='quote'"></app-quote>
+        <app-counter [data]="data.data" [class]="data.class" [sign]="data.sign" [title]="data.title" [digit]="data.digit" [gender]="data.gender" *ngIf="data.type=='counter'" ></app-counter>
     </div>
     <div *ngFor="let data of data" >
     <app-shade-knowledge 
@@ -29,4 +32,22 @@
     [title]="data.title"  
     [image]="data.image" *ngIf="data.type=='shadeKnowledge'" ></app-shade-knowledge>
 </div>
+</div>
+<!-- <div class="report">
+    <div   *ngFor="let data of data" >
+        <app-image [image]="data.data" *ngIf="data.type=='image'"></app-image>
+        <app-caption [data]="data.data" *ngIf="data.type=='caption'"></app-caption>
+        <app-paragraph [data]="data.data" *ngIf="data.type=='paragraph'"></app-paragraph>
+        <app-simple-heading [simpleHeading]="data.data" *ngIf="data.type=='heading'" ></app-simple-heading>
+        <app-chapter-title [data]="data.data" [heading]="data.heading" [chapterTitle]="data.data" *ngIf="data.type=='chaptertitle'"></app-chapter-title>
+    </div> -->
+
+    <div *ngFor="let data of button">
+    <app-button *ngIf="data.type=='button'" [data]="data.data" [title]="data.title"></app-button>
+</div>
+</div>
+
+<br><br><br><br><br><br><br>
+<div>
+    <app-menu-bar></app-menu-bar>
 </div>

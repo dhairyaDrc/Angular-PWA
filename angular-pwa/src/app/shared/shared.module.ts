@@ -11,6 +11,10 @@ import { LogoHeadingComponent } from './components/logo-heading/logo-heading.com
 import { CounterComponent } from './components/counter/counter.component';
 import { QuoteComponent } from './components/quote/quote.component';
 import { ShadeKnowledgeComponent } from './components/shade-knowledge/shade-knowledge.component';
+import { HomeModule } from '../home/home.module';
+import { CaptionComponent } from './components/caption/caption.component';
+import { ButtonComponent } from './components/button/button.component';
+import { ExpandableContentTwoComponent } from './expandable-content-two/expandable-content-two.component';
 
 
 
@@ -28,10 +32,14 @@ import { ShadeKnowledgeComponent } from './components/shade-knowledge/shade-know
     CounterComponent,
     QuoteComponent,
     ShadeKnowledgeComponent,
+    CaptionComponent,
+    ButtonComponent,
+    ExpandableContentTwoComponent,
   
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    HomeModule
   ],
   exports:[
     
@@ -46,8 +54,9 @@ import { ShadeKnowledgeComponent } from './components/shade-knowledge/shade-know
     CounterComponent,
     QuoteComponent,
     ShadeKnowledgeComponent,
-
-
+    CaptionComponent,
+    ButtonComponent,
+    ExpandableContentTwoComponent
   ]
 })
 export class SharedModule { }

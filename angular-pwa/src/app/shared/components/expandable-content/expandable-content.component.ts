@@ -18,7 +18,8 @@ export class ExpandableContentComponent implements OnInit {
     
   }
   readMore(){
-    this.isExpand = true;
+    this.isExpand ? this.isExpand=false:this.isExpand=true
+    
     
   }
 

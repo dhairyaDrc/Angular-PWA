@@ -8,9 +8,12 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ParagraphComponent implements OnInit {
 
   @Input() data;
-  constructor() { }
-
+  constructor() {
+    
+  }
+  
   ngOnInit(): void {
+    // console.log("paragraph : ",this.data);
   }
 
 }

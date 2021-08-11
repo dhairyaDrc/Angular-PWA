@@ -7,8 +7,9 @@ export const chapter1 = [
 
   },
   {
-    data:"chapter1_1.jpg",
-    type:"image"
+    data:"covid_photo1.jpg",
+    type:"image",
+    tag:"A $9 billion facility will provide rapid and equitable support for COVID‑19 vaccine access."
   },
   {
     data:"A $9 billion facility will provide rapid and equitable support for COVID‑19 vaccine access.",
@@ -244,8 +245,13 @@ export const chapter1 = [
     type:'paragraph'
   },
   {
-    data:"",
-    type:''
+    title:'PROGRESS AGAINST STRATEGY 2030 TARGETS',
+    gender:'GENDER',
+    class:'progress1 op2',
+    digit:89,
+    sign:"%",
+    data:"During 2018-2020, 89% of ADB committed operations promoted gender equality, up from 80% in 2017-2019, and still well on track to achieve the target of 75% in 2030.",
+    type:'counter'
   },
   {
     data:"Gender mainstreamed projects directly narrowed gender gaps or benefited women and girls. Under the CPRO, for example, public sector management projects increased women’s access to social protection and funding for small and medium-sized enterprises (SMEs). Road construction projects provided women with access to income-generating opportunities alongside capacity building to help them improve their skills. Many other projects included gender elements, for instance, to increase employment opportunities for women during infrastructure construction, operation, and maintenance.",
@@ -265,8 +271,13 @@ export const chapter1 = [
     type:'paragraph'
   },
   {
-    data:"",
-    type:''
+    title:'PROGRESS AGAINST STRATEGY 2030 TARGETS',
+    gender:'CLIMATE CHANGE',
+    sign:"$B",
+    digit:10.8,
+    class:'progress1 op3',
+    data:"In 2020, ADB provided $4.3 billion for climate change mitigation and adaptation, reaching $10.8 billion cumulative financing for 2019-2020. The bank remains committed to providing a total of $35 billion by 2024 and $80 billion by 2030.",
+    type:'counter'
   },
   {
     data:"ADB provided about $274 million of climate finance through projects supporting the response to COVID‑19. Climate financing made up approximately a quarter of the bank’s commitments outside of the CPRO.",
@@ -290,8 +301,13 @@ export const chapter1 = [
   },
   {
     title:"PIONEERING RESOURCES ON POLICY RESPONSES AND GREEN RECOVERY",
-    type:'expand'
+    data:"The scale of the pandemic’s effects and of the response to them mean that decisions governments make now will influence systems and define development directions well into the future. As the pandemic unfolded, ADB developed a <a href='https://covid19policy.adb.org/' target='_blank' onclick='linkHandler(event);'>COVID‑19 policy database</a> tomonitor key economic measures across ADB's 68 members. The database aims to support impact assessments to help policymakers understand and develop effective responses to the pandemic.",
+    type:'expandTwo'
   },
+  // {
+  //   title:"PIONEERING RESOURCES ON POLICY RESPONSES AND GREEN RECOVERY",
+  //   type:'expand'
+  // },
   {
     data:"The scale of the pandemic’s effects and of the response to them mean that decisions governments make now will influence systems and define development directions well into the future. As the pandemic unfolded, ADB developed a COVID‑19 policy database to monitor key economic measures across ADB’s 68 members. The database aims to support impact assessments to help policymakers understand and develop effective responses to the pandemic.",
     type:'expandContent'

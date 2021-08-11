@@ -8,12 +8,15 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CardComponent implements OnInit {
   @Input() data;
   @Input() image;
+  @Input() content;
   @Input() id;
   
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.data, this.image)
+    console.log("this.data : ",this.data)
+    console.log(" this.image : ", this.image);
+    
   }
 
 }
