@@ -10,13 +10,15 @@ export class CounterComponent implements OnInit {
   
   @Input() title;
   @Input() data;
-  @Input() currency;
-  @Input() money;
-  @Input() letter;
-
+  @Input() digit;
+  @Input() percentage;
+  @Input() sign;
+  counter:any;
   constructor() { }
 
   ngOnInit(): void {
+    console.log("/////// ",this.data);
+    
   }
 
 }

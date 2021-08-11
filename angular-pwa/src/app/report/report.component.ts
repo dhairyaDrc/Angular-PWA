@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { chapter1 } from "src/app/constants/chapter1";
 import { chapter3 } from "src/app/constants/chapter3";
 @Component({
   selector: 'app-report',
@@ -15,6 +14,7 @@ export class ReportComponent implements OnInit {
     // this.data=chapter1
     this.data=chapter3
     console.log("report data: ",this.data)
+    
   }
 
 }

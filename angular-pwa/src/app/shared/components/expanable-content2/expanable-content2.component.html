@@ -1,0 +1,15 @@
+<div class="box story minimized" (click) = "readMore()">
+    <h3>
+   {{title}}
+    </h3>  
+    <div class="boxtop">
+         <img src="assets/images/{{image}}"> 
+    </div>
+    <p *ngIf="!isExpand" class="clickhere" >
+    Read more
+    </p>
+  
+    <p class="caption"[ngClass]="{'displayBlock': isExpand}" [innerHTML]="data">
+   {{data}}
+   </p>
+    </div>

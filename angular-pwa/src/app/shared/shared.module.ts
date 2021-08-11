@@ -14,6 +14,8 @@ import { CounterComponent } from './components/counter/counter.component';
 import { QuoteComponent } from './components/quote/quote.component';
 import { ShadeKnowledgeComponent } from './components/shade-knowledge/shade-knowledge.component';
 
+import { ExpanableContent2Component } from './components/expanable-content2/expanable-content2.component';
+
 
 
 
@@ -25,9 +27,6 @@ import { ShadeKnowledgeComponent } from './components/shade-knowledge/shade-know
     SimpleHeadingComponent,
     ChapterTitleComponent,
     ButtonComponent,
-
-
-
     VideoComponent,
     ExpandableContentComponent,
     TwitterComponent,
@@ -35,6 +34,8 @@ import { ShadeKnowledgeComponent } from './components/shade-knowledge/shade-know
     CounterComponent,
     QuoteComponent,
     ShadeKnowledgeComponent,
+   
+    ExpanableContent2Component,
   
   ],
   imports: [
@@ -49,7 +50,12 @@ import { ShadeKnowledgeComponent } from './components/shade-knowledge/shade-know
     ButtonComponent,
     TwitterComponent,
     ShadeKnowledgeComponent,
-    QuoteComponent
+    LogoHeadingComponent,
+    VideoComponent,
+    QuoteComponent,
+    CounterComponent,
+    ExpandableContentComponent,
+    ExpanableContent2Component,
   ]
  
 })

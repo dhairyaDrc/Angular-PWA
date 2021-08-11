@@ -9,10 +9,20 @@ export class ExpandableContentComponent implements OnInit {
 
   @Input() data
   @Input() title
+  isExpands:boolean = false;
+
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  readMore(){
+    this. isExpands ? this. isExpands=false:this. isExpands=true
+    console.log("work", this.data);
+    
+    
+    
   }
 
 }

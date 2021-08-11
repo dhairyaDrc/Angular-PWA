@@ -869,6 +869,22 @@ p.byline strong {
     margin-bottom: 1rem;
 }
 
+
+.box.story {
+    transition: width 0.2s ease-in;
+    margin: 4rem auto 5rem auto;
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color: #e4e4e4;
+}
+.box {
+    
+        border: 0.1rem solid #ea522c;
+    width: 96%;
+}
+.minimized {
+    width: 20rem;
+}
 .box.appreciation .wrap{
     display: flex;
 }
@@ -1074,7 +1090,7 @@ width:12rem;
     font-weight: 200;
     margin-top: 0;
     text-transform: none;
-    color: #ea522c;
+    color: #ea522c;;
     font-weight: 500;
     border-bottom: 1px solid #ea522c;
     padding-bottom: 25px;
@@ -1261,18 +1277,18 @@ width:12rem;
 
 
 .progress.diversification p.num {
-    margin-top:2rem;
-    color: #d95c3b;
+    margin-top:2rem !important;
+    color: #d95c3b !important;
 }
 
 .progress.diversification h3 {
-    margin-top:-4rem !important;
-    color: #d95c3b;
-    border: none;
-    margin-left: 1rem;
-    margin-bottom: -0.6rem;
-    background-color: #fff;
-    padding: 0.5rem;
+    /* margin-top:-4rem !important; */
+    color: #d95c3b !important;
+    /* border: none !important; */
+    margin-left: 1rem !important;
+    margin-bottom: -0.6rem !important;
+    background-color: #fff !important;
+    /* padding: 0.5rem !important; */
 }
 
 .progress h3 {
@@ -3065,10 +3081,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .s2030img {
     
-}
-.progress {
-    width: 80%;
-    margin: 4rem auto 4rem auto;
 }
 
 .tweet {

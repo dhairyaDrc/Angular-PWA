@@ -8,7 +8,8 @@ const routes: Routes = [
     {
         path: 'report',
         component: ReportComponent
-    }
+    },
+    
    
 ];
 

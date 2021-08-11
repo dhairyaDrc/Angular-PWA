@@ -10,13 +10,14 @@ export const chapter3 = [
  
   {
     data:"private_photo1.jpg",
-    type:"image"
+    tag:"A doctor administers a vaccine to a child during a vaccination drive in Mandaluyong City, Philippines. ADB has created an interactive mapping tool for the supply chains of vital pandemic-fighting products.",
+     type:"tag"
   },
-   {
+  //  {
        
-      data:"A doctor administers a vaccine to a child during a vaccination drive in Mandaluyong City, Philippines. ADB has created an interactive mapping tool for the supply chains of vital pandemic-fighting products.",
-      type:""
-    },
+  //     tag:"A doctor administers a vaccine to a child during a vaccination drive in Mandaluyong City, Philippines. ADB has created an interactive mapping tool for the supply chains of vital pandemic-fighting products.",
+      
+  //   },
     {
       data:"<b>BY THE NUMBERS: PRIVATE SECTOR OPERATIONS<b>",
       type:"paragraph"
@@ -38,32 +39,13 @@ export const chapter3 = [
 
     {
       title:"MAPPING SUPPLY CHAINS OF LIFE-SAVING PRODUCTS",
+      data:" In the early stages of the pandemic, as health systems, governments, and international organizations sought to secure stocks of crucial goods like portable ventilators, a key obstacle was a lack of information on who made what in the supply chains.<br> <br> <br> To help fill this gap, ADB drew on its knowledge and networks in trade and supply chain finance to develop an interactive <a href='https://www.adb.org/multimedia/scf/#/target='_blank' onclick='linkHandler(event);'>mapping tool</a> for thesupply chains of vital pandemic-fighting products.<br><br><br>The tool allows governments, banks, investors, health-care professionals, and companies to trace every  component in such products, down to the metal and rubber in each part. They can then intervene to clear supply blockages, such as by funding a company struggling to meet demand.<br><br><br>Within months, around 10,000 visits had been made to the free mapping tool website. There, users can search—by product or by location—a database of 25,000 companies involved in supply chains around the world.Companies have used the tool to track down machines used in the production of personal protective equipment,for example, and banks have identified clients producing pandemic-related goods to explore opportunities toassist them.<br><br><br>As the demand for more information has expanded, so has the database. From the initial seven products mapped, the tool now covers about 33 different categories, including vaccines and the equipment that keeps them cold in transit.",
       type:"expand"
     },
-    {
-      data:"In the early stages of the pandemic, as health systems, governments, and international organizations sought to secure stocks of crucial goods like portable ventilators, a key obstacle was a lack of information on who made what in the supply chains.",
-      type:'expandContent'
-    },
-    {
-      data:"To help fill this gap, ADB drew on its knowledge and networks in trade and supply chain finance to develop an interactive <a href='https://www.adb.org/multimedia/scf/#/target='_blank' onclick='linkHandler(event);'>mapping tool</a> for thesupply chains of vital pandemic-fighting products.",
-      type:'expandContent'
-    },
+   
      {
       data:"",
       type:"video"
-    },
-    {
-      data:"The tool allows governments, banks, investors, health-care professionals, and companies to trace every component in such products, down to the metal and rubber in each part. They can then intervene to clear supply blockages, such as by funding a company struggling to meet demand.",
-      type:'expandContent'
-    },
-   
-    {
-      data:"Within months, around 10,000 visits had been made to the free mapping tool website. There, users can search—by product or by location—a database of 25,000 companies involved in supply chains around the world.Companies have used the tool to track down machines used in the production of personal protective equipment,for example, and banks have identified clients producing pandemic-related goods to explore opportunities toassist them.",
-      type:'expandContent'
-    },
-    {
-    data:"As the demand for more information has expanded, so has the database. From the initial seven products mapped, the tool now covers about 33 different categories, including vaccines and the equipment that keeps them cold in transit.",
-    type:'expandContent'
     },
     {
     data:"APPROACHES TO DEVELOPING THE PRIVATE SECTOR",
@@ -79,12 +61,12 @@ export const chapter3 = [
     },
 {
     title:'DIVERSIFICATION',
+    digit: 58,
+    percentage: "%",
+    sign: "$",
+    data:"In 2020, ADB committed 58% of its 38 nonsovereign operations in new sectors or frontier markets.",
     type:'counter'
 },
-{
-  data:"In 2020, ADB committed 58% of its 38 nonsovereign operations in new sectors or frontier markets.",
-  type:"counterContent"
-   },
 
 
     {
@@ -117,12 +99,10 @@ export const chapter3 = [
     },
     {
       data:"private_food.jpg",
-      type:"image"
+      tag:" Learn more about how ADB’s work with the private sector is helping its developing member countries strengthen resilience in agribusiness.",
+      type:"tag"
     },
-    {
-      data:" Learn more about how ADB’s work with the private sector is helping its developing member countries strengthen resilience in agribusiness.",
-      type:""
-    },
+    
     {
       data:"ADB is also working to extend private sector investment into more economies of Asia and the Pacific where development needs go unfinanced and unmet because of real or perceived investment risks.",
       type:"paragraph"
@@ -147,7 +127,13 @@ export const chapter3 = [
       data:"In 2020, ADB invested in Clifford Capital Holdings (CCH), a specialist global financing and distribution platform for infrastructure and other real assets, headquartered in Singapore. The transaction comprised $50 million from ADB and $45 million from the Japan International Cooperation Agency-funded Leading Asia’s Private Sector Infrastructure Fund (LEAP). To maintain growth, tackle poverty, and address climate change, developing Asia and the Pacific needs $1.7 trillion annually in infrastructure financing through to 2030, and CCH’s focus on financial innovation through securitization can help meet these financing needs.",
       type:"paragraph"
     },
-    
+    { 
+       title:"BLUE LOAN, CLEAR WATERS",
+       image:"private_box.jpg",
+       data:"It is estimated that Asia is responsible for more than 80% of all plastics released into the ocean, causing significant damage to marine ecosystems. Under its Action Plan for Healthy Oceans and Sustainable Blue Economies, ADB is working to reduce ocean pollution.<br><br><br>In November 2020, the bank committed $50 million and administered another $50 million from the Leading Asia’s Private Sector Infrastructure Fund for Indorama Ventures Public Company Limited to reduce the environmental impact of plastics. Development partners will provide a further $200 million in loans for the project: the International Finance Corporation will provide $150 million and DEG (Deutsche Investitions- undEntwicklungsgesellschaft mbH) $50 million. The investment will help boost the capacity of Indorama’s plastic recycling plants in India, Indonesia, the Philippines, and Thailand, promoting a circular economy whereby products and materials are redesigned, recovered, and recycled to divert plastic waste from landfills and oceans.<br><br><br>The plants to be built under the project will recycle polyethylene terephthalate (PET) plastics widely used in drink bottles. They are expected to divert nearly 5 billion additional bottles from waste each year.ADB’s loan is its first independently verified nonsovereign blue loan. Under its Action Plan for Healthy Oceans and Sustainable Blue Economies, ADB aims to expand its investments and technical assistance for ocean health and marine economy projects to $5 billion during 2019–2024.",
+       type:"expandTwo"
+
+    },
     {
       data:"PIONEERING INNOVATION AND MOBILIZING FINANCE",
       type:"heading"
@@ -167,11 +153,8 @@ export const chapter3 = [
     },
     {
       data:"private_photo2.jpg",
-      type:"image"
-    },
-    {
-      data:"ADB provided financing for the Phu Yen TTP Joint Stock Company to develop this solar power plant in Viet Nam through the first green B loan in Asia and the Pacific to be certified by the Climate Bonds Initiative (Photo by Phu Yen).",
-      type:""
+      tag:"ADB provided financing for the Phu Yen TTP Joint Stock Company to develop this solar power plant in Viet Nam through the first green B loan in Asia and the Pacific to be certified by the Climate Bonds Initiative (Photo by Phu Yen).",
+      type:"tag"
     },
      {
       data:"In Bangladesh, ADB provided $100 million to Reliance Bangladesh LNG and Power Limited to build and operate a 718 MW combined-cycle gas-fired power plant. ADB also administered $100 million from LEAP in cofinancing. ADB has been instrumental in mobilizing crucial commercial financing, incorporating best practices in environmental and social standards, and establishing precedents for future financing of similar large-scale projects in Bangladesh by boosting investor and lender confidence.",

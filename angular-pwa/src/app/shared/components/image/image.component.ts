@@ -8,10 +8,11 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ImageComponent implements OnInit {
 
   @Input() image;
+  @Input() tag;
   constructor() { }
 
   ngOnInit(): void {
-    console.log(">>>>>",this.image)
+    console.log(">>>>sdfsd",this.tag)
   }
 
 }

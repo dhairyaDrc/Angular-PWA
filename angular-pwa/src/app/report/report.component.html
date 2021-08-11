@@ -2,20 +2,20 @@
 <div *ngFor="let data of data" >
     <app-chapter-title [data]="data.data" [heading]="data.heading" [content]="data.content" *ngIf="data.type=='chapter3'"></app-chapter-title>
     </div>
-    <!-- <div *ngFor="let data of data" >
-        <app-chapter-title [data]="data.data" [heading]="data.heading" [content]="data.content" *ngIf="data.type=='chapter4'"></app-chapter-title>
-        </div> -->
+   
 <div  class="report">
     
     <div *ngFor="let data of data" >
-        <app-image [image]="data.data" *ngIf="data.type=='image'"></app-image>
+        <app-image [image]="data.data" [tag]="data.tag" *ngIf="data.type=='tag'"></app-image>
         <app-paragraph  [data]="data.data" *ngIf="data.type=='paragraph'"></app-paragraph>
         <app-simple-heading [simpleHeading]="data.data" *ngIf="data.type=='heading'" ></app-simple-heading>
         <app-twitter [data]="data.data" *ngIf="data.type=='twitter'" ></app-twitter>
-        <app-expandable-content [data]="data.data" [title]="data.title" *ngIf="data.type=='expand'" ></app-expandable-content>
-        <app-counter [data]="data.data" [title]="data.title" *ngIf="data.type=='counter'" ></app-counter>
+        <app-expandable-content [data]="data.data" [title]="data.title"  *ngIf="data.type=='expand'" ></app-expandable-content>
+        <app-counter [percentage]="data.percentage" [sign]="data.sign" [data]="data.data" [title]="data.title" [digit]="data.digit" *ngIf="data.type=='counter'"></app-counter>
+        
+        <app-expanable-content2 [data]="data.data" [title]="data.title" [image]="data.image"  *ngIf="data.type=='expandTwo'" ></app-expanable-content2>
         <app-shade-knowledge [data]="data.data" [title]="data.title" [image]="data.image" *ngIf="data.type=='shadeKnowledge'" ></app-shade-knowledge>
-   
+        
         <app-quote [data]="data.data" *ngIf="data.type=='quote'"></app-quote>
     </div>
     <app-button></app-button>
