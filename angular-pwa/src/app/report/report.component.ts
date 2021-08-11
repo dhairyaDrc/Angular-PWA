@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { chapter1 } from "src/app/constants/chapter1";
 import buttonJsonData from "src/app/constants/button.json";
 import chapter1JsonData from "src/app/constants/chapter1.json";
 
