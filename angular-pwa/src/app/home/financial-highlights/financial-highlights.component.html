@@ -19,9 +19,9 @@
     <br>
     <br>
     <br>
-    <div *ngFor="let item of value" class="fix">
+    <div *ngFor="let item of value" class="fix" style="text-align: center;">
         <br><br><br><br><br><br><br>
-        <img [src]="item">
+        <img [src]="item.image" style="{{item.isSmall ? 'width:50%' : 'width:100%'}}">
 
       <!-- <ng-container *ngIf="item === ; else elseTemplate">
           <h1>If condition</h1>

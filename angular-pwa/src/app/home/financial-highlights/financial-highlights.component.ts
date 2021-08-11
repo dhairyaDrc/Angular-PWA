@@ -16,7 +16,8 @@ export class FinancialHighlightsComponent implements OnInit {
 
   ngOnInit(): void {
     this.homeData = home;
-    this.value = Object.values(financialHighlights);
+    // this.value = Object.values(financialHighlights);
+    this.value = financialHighlights;
 
     console.log("this.homeData >>> ",home,"\nfinancialHighlights >>> ",financialHighlights,"\nvalue >>> ",this.value)
   }
