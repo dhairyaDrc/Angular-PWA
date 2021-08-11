@@ -1,6 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { chapter1 } from "src/app/constants/chapter1";
-import { buttonText } from "src/app/constants/button"
+import buttonJsonData from "src/app/constants/button.json";
+import chapter1JsonData from "src/app/constants/chapter1.json";
+
 @Component({
   selector: 'app-report',
   templateUrl: './report.component.html',
@@ -12,9 +14,9 @@ export class ReportComponent implements OnInit {
   @Input() data:any;
   @Input() button: any;
   ngOnInit(): void {
-    this.data=chapter1;
-    this.button = buttonText;
-    console.log("this.data : ",this.button);
+    this.data=chapter1JsonData;
+    this.button = buttonJsonData;
+    console.log("chapter1JsonData >>>> ",chapter1JsonData,"\nthis.buttonJsonData : ",buttonJsonData);
   }
 
 }

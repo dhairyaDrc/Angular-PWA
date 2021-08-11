@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { home } from 'src/app/constants/home.js';
 import { Router } from '@angular/router';
+import homeJsonData from "src/app/constants/home.json";
 
 @Component({
   selector: 'app-home',
@@ -13,8 +13,8 @@ export class HomeComponent implements OnInit {
   constructor(private router:Router) { }
 
   ngOnInit(): void {
-    this.homeData = home;
-    console.log("this.homeData ",home)
+    this.homeData = homeJsonData;
+    console.log("this.homeJsonData ",homeJsonData)
   }
 
   goToReport(){

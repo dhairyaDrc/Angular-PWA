@@ -14,11 +14,11 @@ var isEdge = !isIE && !!window.StyleMedia;
 
 
 
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/multimedia/ar2020/service-worker.js', {
-      scope: '/multimedia/ar2020/'
-    });
-  }
+// if ('serviceWorker' in navigator) {
+//     navigator.serviceWorker.register('/multimedia/ar2020/service-worker.js', {
+//       scope: '/multimedia/ar2020/'
+//     });
+//   }
 
 
 function hasClass(ele, cls) {
@@ -108,7 +108,8 @@ function loadscreen() {
         document.getElementById("loading").style.display ='none';
         animateAll();
 
-      } else {
+      }
+       else {
         document.getElementById("loading").style.display ='block';     
         
       }
