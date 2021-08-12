@@ -12,18 +12,24 @@ export const chapter3 = [
     tag:"A doctor administers a vaccine to a child during a vaccination drive in Mandaluyong City, Philippines. ADB has created an interactive mapping tool for the supply chains of vital pandemic-fighting products.",
     type:"image"
   },
-    // {
-    //   title:"BY THE NUMBERS: PRIVATE SECTOR OPERATIONS",
-    //    data:"COMMITTED",
-    //    digit:"$4.5",
-    //    data:"COVID‑19<br>RESPONSE",
-    //    digit:"$2.9",
-    //    data:"DISBURSED",
-    //    digit:"$2.3",
-    //    data:"COFINANCED",
-    //    digit:"$5.3",
-    //   type:'counter'
-    // },
+    {
+      title:"BY THE NUMBERS: PRIVATE SECTOR OPERATIONS",
+       symbol:"$",
+       digit1:4.5,
+       tag1:"COMMITTED",
+
+       digit2:2.9,
+       tag2:"COVID‑19<br>RESPONSE",
+
+       digit3:2.3,
+       tag3:"DISBURSED",
+
+       digit4:5.3,
+       tag4:"COFINANCED",
+
+       tag:"B",
+      type:'currencyCounter'
+    },
     
     {
       data:"In 2020, ADB committed private sector investments for 38 projects in critical sectors such as health, agriculture, energy, finance, water, and other urban infrastructure and services. These investments covered 11 developing member countries (DMCs) and included 5 regional projects. The number of private sector projects in 2020 matched that of 2019 despite the pandemic, and the bank remains strongly committed to increasing the share of private sector operations to one third by 2024.",
@@ -146,10 +152,10 @@ export const chapter3 = [
     },
     {
       title:"PROGRESS AGAINST STRATEGY 2030 TARGETS",
-      // COFINANCING:"COFINANCING",
+      gender:"COFINANCING",
       data:"In 2020, every $1 of ADB's own committed nonsovereign financing was matched by $2.12 in long-term cofinancing, up from $1.50 in 2019.",
-      digit: 2.12,
-      sign: "$", 
+      digit: "$2.12",
+      sign: "", 
       percentage: "",
       type:'counter'
     },
