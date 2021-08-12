@@ -1,0 +1,16 @@
+[
+    {
+        "chapterTitle": "REGIONS:CENTRAL AND WEST ASIA",
+        "content": "Afghanistan, Armenia, Azerbaijan, Georgia, Kazakhstan, the Kyrgyz Republic, Pakistan, Tajikistan, Turkmenistan, Uzbekistan",
+        "type": "title"
+    },
+    {
+        "imgae": "./assets/images/cwrd/cwrd_photo1.jpg",
+        "subContent": "A child psychologist visits a family as a part of a mobile team that supports young children with speech development and other difficulties.",
+        "type": "image"
+    },
+    {
+        "heading": "BY THE NUMBERS: CENTRAL AND WEST ASIA",
+        "type": "heading"
+    }
+]

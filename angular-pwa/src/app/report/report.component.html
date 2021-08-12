@@ -1,5 +1,5 @@
 <!-- <div class="report"> -->
-<!-- <div   *ngFor="let data of data" >
+<!-- <div   *ngFor="let data of chapter1Data" >
         <app-image [image]="data.data" *ngIf="data.type=='image'"></app-image>
         <app-caption [data]="data.data" *ngIf="data.type=='caption'"></app-caption>
         <app-paragraph [data]="data.data" *ngIf="data.type=='paragraph'"></app-paragraph>
@@ -10,6 +10,7 @@
     <div *ngFor="let data of button">
     <app-button *ngIf="data.type=='button'" [data]="data.data" [title]="data.title"></app-button>
 </div> -->
+
 <div class="complexheader regions">
   <p class="chapter">chapter 2</p>
   <h2>
@@ -17,7 +18,7 @@
   </h2>
 </div>
 <div class="regionsgroup">
-  <div *ngFor="let data of chapter2Data" class="regionsbox">
+  <div *ngFor="let data of chapter2Data" class="regionsbox" (click)="goToRegions(data.id)">
     <div class="regionsimage">
       <img [src]="data.imageUrl">
     </div>

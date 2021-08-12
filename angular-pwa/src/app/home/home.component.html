@@ -23,7 +23,7 @@
         <div  *ngFor="let data of homeData" style="width: 50% !important;
         display: flex !important;
         flex-wrap: wrap !important;">
-                <app-card (click)="goToReport([data.id])" *ngIf="data.type === 'card'" [data]="data.data" [image]="data.img" [content]="data.content" ></app-card>
+                <app-card (click)="goToReport(data.id)" *ngIf="data.type === 'card'" [data]="data.data" [image]="data.img" [content]="data.content" ></app-card>
             </div>
             <div class="extralinks">
             <app-appendixes></app-appendixes></div>

@@ -17,9 +17,9 @@ export class HomeComponent implements OnInit {
     console.log("this.homeJsonData ",homeJsonData)
   }
 
-  goToReport(){
+  goToReport(id: number){
     // if(this.homeData){}
-    this.router.navigate(['/report'])
+    this.router.navigate(['/report'], { queryParams: { id: id } });
     }
 
   goToFinancialHighlights(){
