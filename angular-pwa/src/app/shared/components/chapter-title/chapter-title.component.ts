@@ -11,6 +11,7 @@ export class ChapterTitleComponent implements OnInit {
 @Input() chapterTitle
 @Input() heading
 @Input() data
+@Input() tag
   ngOnInit(): void {
     console.log(this.chapterTitle)
   }

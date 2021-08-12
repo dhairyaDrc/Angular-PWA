@@ -9,11 +9,14 @@ export class ExpandableContentTwoComponent implements OnInit {
 
   constructor() { }
 @Input() title;
-@Input() data
+@Input() data;
+@Input() image;
 
 isExpand:boolean = false;
 
   ngOnInit(): void {
+  console.log("image>>>>>>>>>>" , this.image);
+  
   }
 
   readMore(){

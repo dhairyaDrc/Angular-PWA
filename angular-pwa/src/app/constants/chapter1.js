@@ -3,7 +3,8 @@ export const chapter1 = [
   { 
     heading:"Chapter 1",
     data:"SUPPORTING COVID‑19 RESPONSE AND RECOVERY",
-    type:'chaptertitle'
+    type:'chaptertitle',
+    tag:""
 
   },
   {

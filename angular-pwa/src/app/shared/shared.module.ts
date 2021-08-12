@@ -15,6 +15,7 @@ import { HomeModule } from '../home/home.module';
 import { CaptionComponent } from './components/caption/caption.component';
 import { ButtonComponent } from './components/button/button.component';
 import { ExpandableContentTwoComponent } from './expandable-content-two/expandable-content-two.component';
+import { ShadeKnowledgeTwoComponent } from './shade-knowledge-two/shade-knowledge-two.component';
 
 
 
@@ -35,6 +36,7 @@ import { ExpandableContentTwoComponent } from './expandable-content-two/expandab
     CaptionComponent,
     ButtonComponent,
     ExpandableContentTwoComponent,
+    ShadeKnowledgeTwoComponent
   
   ],
   imports: [
@@ -56,7 +58,8 @@ import { ExpandableContentTwoComponent } from './expandable-content-two/expandab
     ShadeKnowledgeComponent,
     CaptionComponent,
     ButtonComponent,
-    ExpandableContentTwoComponent
+    ExpandableContentTwoComponent,
+    ShadeKnowledgeTwoComponent
   ]
 })
 export class SharedModule { }

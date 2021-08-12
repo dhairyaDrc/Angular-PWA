@@ -17,10 +17,11 @@ export class HomeComponent implements OnInit {
     console.log("this.homeData ",home)
   }
 
-  goToReport(){
+  goToReport(id:number){
     // if(this.homeData){}
-    this.router.navigate(['/report'])
-    }
+    this.router.navigate(['/report'], { queryParams: { id: id } });
+  }
+  
 
   goToFinancialHighlights(){
     this.router.navigate(['/financial-highlights'])
