@@ -20,7 +20,7 @@ import { FinancialHighlightsComponent } from './financial-highlights/financial-h
     MenuBarComponent,
     AppendixesComponent,
     AppendixesContentComponent,
-    FinancialHighlightsComponent
+    FinancialHighlightsComponent,
   ],
 
   imports: [

@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import buttonJsonData from "src/app/constants/button.json";
 import chapter1JsonData from "src/app/constants/chapter1.json";
+import chapter2CardJsonData from "../constants/chapter2-cards.json"
 
 @Component({
   selector: 'app-report',
@@ -8,14 +9,19 @@ import chapter1JsonData from "src/app/constants/chapter1.json";
   styleUrls: ['./report.component.css']
 })
 export class ReportComponent implements OnInit {
-
+  
+  chapter1Data:any;
+  button: any;
+  chapter2Data = [];
+  
   constructor() { }
-  @Input() data:any;
-  @Input() button: any;
+  
   ngOnInit(): void {
-    this.data=chapter1JsonData;
+    this.chapter1Data=chapter1JsonData;
     this.button = buttonJsonData;
-    console.log("chapter1JsonData >>>> ",chapter1JsonData,"\nthis.buttonJsonData : ",buttonJsonData);
+    this.chapter2Data = chapter2CardJsonData;
+    
+    console.log("chapter1JsonData >>>> ",chapter1JsonData,"\nthis.buttonJsonData : ",buttonJsonData,"\nchapter2 cards >>>>> ",chapter2CardJsonData);
   }
 
 }

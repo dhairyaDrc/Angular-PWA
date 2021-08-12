@@ -1,5 +1,6 @@
 
 import { Component, ElementRef, Input, OnInit, SimpleChanges, ViewChild } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-counter-card',
@@ -16,8 +17,6 @@ export class CounterCardComponent implements OnInit {
   @Input() digit;
   @Input() steps: number;
 
-  moneyCount = 36;
-
   @ViewChild("animatedDigit") animatedDigit: ElementRef;
 
   constructor() { }
@@ -28,22 +27,35 @@ export class CounterCardComponent implements OnInit {
     console.log("money : ", this.money);
     console.log("letter : ", this.letter);
 
-    this.animateValue("count1", 0, this.moneyCount, 2000);
+    // this.animateValue("count1", 0, this.moneyCount, 2000);
+    this.jQueryCounter();
   }
 
-  animateValue(id, start, end, duration) {
-    if (start === end) return;
-    var range = end - start;
-    var current = start;
-    var increment = end > start ? 1 : -1;
-    var stepTime = Math.abs(Math.floor(duration / range));
-    var obj = document.getElementById(id);
-    var timer = setInterval(function () {
-      current += increment;
-      obj.innerHTML = current;
-      if (current == end) {
-        clearInterval(timer);
+  // animateValue(id, start, end, duration) {
+  //   if (start === end) return;
+  //   var range = end - start;
+  //   var current = start;
+  //   var increment = end > start ? 1 : -1;
+  //   var stepTime = Math.abs(Math.floor(duration / range));
+  //   var obj = document.getElementById(id);
+  //   var timer = setInterval(function () {
+  //     current += increment;
+  //     obj.innerHTML = current;
+  //     if (current == end) {
+  //       clearInterval(timer);
+  //     }
+  //   }, stepTime);
+  // }
+
+  jQueryCounter() {
+    var currentNumber = $('#dynamic-number').text();
+
+    $({ numberValue: currentNumber }).animate({ numberValue: this.money }, {
+      duration: 1500,
+      easing: 'linear',
+      step: function (now) {
+        $('#dynamic-number').text(now.toFixed(1));
       }
-    }, stepTime);
+    });
   }
 }

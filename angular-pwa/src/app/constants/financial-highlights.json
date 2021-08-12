@@ -1,5 +1,10 @@
 [
     {
+      "title": "FINANCIAL HIGHLIGHTS",
+      "subTitle": "BY THE NUMBERS",
+      "type": "title"
+    },
+    {
       "image": "./assets/images/fin/financial_1.png",
       "isSmall": false
     },
