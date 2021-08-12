@@ -34,7 +34,8 @@ import { FinancialHighlightsComponent } from './financial-highlights/financial-h
     CounterCardComponent,
     MenuBarComponent,
     AppendixesComponent,
-    AppendixesContentComponent
+    AppendixesContentComponent,
+    FinancialHighlightsComponent
   ]
 })
 export class HomeModule { }

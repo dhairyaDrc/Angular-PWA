@@ -1,93 +1,93 @@
 @font-face {
     font-family: IdealSans;
-    src: url(/assets/fonts/idealsans/idealsans_book.otf);
+    src: url(./assets/fonts/idealsans/idealsans_book.otf);
 }
 @font-face {
     font-family: IdealSans;
-    src: url(/assets/fonts/idealsans/idealsans_medium.otf);
+    src: url(./assets/fonts/idealsans/idealsans_medium.otf);
     font-weight:400;
 }
 @font-face {
     font-family: IdealSans;
-    src: url(/assets/fonts/idealsans/idealsans_bold.otf);
+    src: url(./assets/fonts/idealsans/idealsans_bold.otf);
     font-weight:bold;
 }
 @font-face {
     font-family: IdealSans;
-    src: url(/assets/fonts/idealsans/idealsans_semibold.otf);
+    src: url(./assets/fonts/idealsans/idealsans_semibold.otf);
     font-weight:500;
 }
-@font-face {
+/* @font-face {
     font-family: IdealSans;
-    src: url(/assets/fonts/idealsans/idealsans_thin.otf);
+    src: url(./assets/fonts/idealsans/idealsans_thin.otf);
     font-weight:100;
-}
+} */
 @font-face {
     font-family: IdealSans;
-    src: url(/assets/fonts/idealsans/idealsans_xlight.otf);
+    src: url(./assets/fonts/idealsans/idealsans_xlight.otf);
     font-weight:200;
 }
 @font-face {
     font-family: IdealSans;
-    src: url(/assets/fonts/idealsans/idealsans_light.otf);
+    src: url(./assets/fonts/idealsans/idealsans_light.otf);
     font-weight:300;
 }
-@font-face {
+/* @font-face {
     font-family: IdealSans;
-    src: url(/assets/fonts/idealsans/idealsans_bookitalic.otf);
+    src: url(./assets/fonts/idealsans/idealsans_bookitalic.otf);
     font-style: italic;
-}
-@font-face {
+} */
+/* @font-face {
     font-family: IdealSans;
-    src: url(/assets/fonts/idealsans/idealsans_bolditalic.otf);
+    src: url(./assets/fonts/idealsans/idealsans_bolditalic.otf);
     font-weight:bold;
     font-style:italic;
-}
-@font-face {
+} */
+/* @font-face {
     font-family: IdealSans;
-    src: url(/assets/fonts/idealsans/idealsans_thinitalic.otf);
+    src: url(./assets/fonts/idealsans/idealsans_thinitalic.otf);
     font-weight:100;
     font-style:italic;
-}
-@font-face {
+} */
+/* @font-face {
     font-family: IdealSans;
-    src: url(/assets/fonts/idealsans/idealsans_xlightitalic.otf);
+    src: url(./assets/fonts/idealsans/idealsans_xlightitalic.otf);
     font-weight:200;
     font-style:italic;
 }
 @font-face {
     font-family: IdealSans;
-    src: url(/assets/fonts/idealsans/idealsans_lightitalic.otf);
+    src: url(./assets/fonts/idealsans/idealsans_lightitalic.otf);
     font-weight:300;
     font-style:italic;
 }
 
 @font-face {
     font-family: Mercury;
-    src: url(/assets/fonts/mercurytext/mercurytext_roman.otf);
+    src: url(./assets/fonts/mercurytext/mercurytext_bold.otf);
 }
 @font-face {
     font-family: Mercury;
-    src: url(/assets/fonts/mercurytext/mercurytext_bold.otf);
+    src: url(./assets/fonts/mercurytext/mercurytext_bold.otf);
     font-weight:bold;
 }
 @font-face {
     font-family: Mercury;
-    src: url(/assets/fonts/mercurytext/mercurytext_italic.otf);
+    src: url(./assets/fonts/mercurytext/mercurytext_italic.otf);
     font-style:italic;
 }
 @font-face {
     font-family: Mercury;
-    src: url(/assets/fonts/mercurytext/mercurytext_bolditalic.otf);
+    src: url(./assets/fonts/mercurytext/mercurytext_bolditalic.otf);
     font-weight:bold;
     font-style:italic;
 }
 
 @font-face {
     font-family: Mercury;
-    src: url(/assets/fonts/mercurytext/mercurytext_semibold.otf);
+    src: url(./assets/fonts/mercurytext/mercurytext_semibold.otf);
     font-weight:500;
-}
+} */
 
 * {
     padding: 0;
@@ -293,9 +293,6 @@ a {
     color: #222
 }
 
-/* You can add global styles to this file, and also import other style files */
-
-
 p {
     font-family: Mercury, Georgia, 'Times New Roman', Times, serif;
     font-weight: normal;
@@ -500,7 +497,7 @@ body.menu-open .real-menu{
    
 
     padding:0.5rem;
-    background-image: url("/assets/images/ui/hamburger_large.png");
+    /* background-image: url("../images/ui/hamburger_large.png"); */
     background-repeat: no-repeat;
     background-position: left center;
     cursor: pointer;
@@ -538,7 +535,7 @@ body.menu-open .real-menu{
 
 .share {
     padding:0.5rem;
-    background-image: url("/assets/images/ui/share_large.png");
+    /* background-image: url("../images/ui/share_large.png"); */
     background-repeat: no-repeat;
     background-position: right center;
     cursor: pointer;
@@ -595,25 +592,25 @@ body.menu-open .real-menu{
 }
 
 #social-pop li.facebook-share a {
-    background-image: url(/assets/images/ui/facebook-icon.png);
+    /* background-image: url(../images/ui/facebook-icon.png); */
     background-repeat: no-repeat;
     background-position: 1rem center;
 }
 
 #social-pop li.twitter-share a {
-    background-image: url(/assets/images/ui/twitter-icon.png);
+    /* background-image: url(../images/ui/twitter-icon.png); */
     background-repeat: no-repeat;
     background-position: 1rem center;
 }
 
 #social-pop li.linkedin-share a {
-    background-image: url(/assets/images/ui/linkedin-icon.png);
+    /* background-image: url(../images/ui/linkedin-icon.png); */
     background-repeat: no-repeat;
     background-position: 1rem center;
 }
 
 #social-pop li.email-share a {
-    background-image: url(/assets/images/ui/email-icon.png);
+    /* background-image: url(../images/ui/email-icon.png); */
     background-repeat: no-repeat;
     background-position: 1rem center;
 }
@@ -743,7 +740,7 @@ h3 {
 }
 
 h3 + p {
-    margin-top: 0;
+    margin-top: 25px;
 }
 
 h4{
@@ -790,7 +787,7 @@ p.pullquote {
     margin-left: auto;
     margin-right: auto;
     font-family: IdealSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-image: url("/assets/images/ui/pullquote_icon.png");
+    background-image: url("./assets/images/pullquote_icon.png");
     background-position: 0rem 0.4rem; 
     background-repeat: no-repeat;
     background-size: 60px;
@@ -798,7 +795,7 @@ p.pullquote {
 }
 
 .shade p.pullquote {
-    background-image: url("/assets/images/ui/pullquote_icon_grey.png");
+    /* background-image: url("../images/ui/pullquote_icon_grey.png"); */
 }
 
 p.byline {
@@ -1038,12 +1035,12 @@ width:12rem;
 
 .shade {
     background-color: #e4e4e3;
-  padding: 2%;
-  width:96%;
-  transition: width 0.3s ease-in;
-  margin: 0 auto 0 auto;
-  cursor:pointer;
-  border: 1px solid #ea522c;
+    padding: 2%;
+    width:96%;
+    transition: width 0.3s ease-in;
+    margin: 0 auto 0 auto;
+    /* cursor:pointer; */
+    border: 1px solid #ea522c;
 }
 
 .shade h3 {
@@ -1065,7 +1062,7 @@ width:12rem;
 
 .shade.covid h3 {
 
-    background-image: url("/assets/images/ui/covid_icon.png");
+    /* background-image: url("../images/ui/covid_icon.png"); */
     background-repeat: no-repeat;
     background-position: left top;
     padding-left: 70px;
@@ -1103,7 +1100,6 @@ width:12rem;
     background-color: #ea522c;
     color: #ffffff;
     font-weight: 500;
-    
     text-transform: uppercase;
 }
 
@@ -1160,7 +1156,7 @@ width:12rem;
 
 .box.story.op1 h3 {
     background-color: #e8532a;
-    background-image: url(/assests/images/ui/op1_white.png); 
+    /* background-image: url(../images/op1_white.png);  */
 }
 
 .box.story.op2 {
@@ -1169,7 +1165,7 @@ width:12rem;
 
 .box.story.op2 h3 {
     background-color: #00b5c8;
-    background-image: url(/assests/images/ui/op2_white.png); 
+    /* background-image: url(../images/op2_white.png);  */
 }
 
 .box.story.op3 {
@@ -1178,7 +1174,7 @@ width:12rem;
 
 .box.story.op3 h3 {
     background-color: #8bc540;
-    background-image: url(/assests/images/ui/op3_white.png); 
+    /* background-image: url(../images/op3_white.png);  */
 }
 
 .box.story.op4 {
@@ -1187,7 +1183,7 @@ width:12rem;
 
 .box.story.op4 h3 {
     background-color: #40bde8;
-    background-image: url(/assests/images/ui/op4_white.png); 
+    /* background-image: url(../images/op4_white.png);  */
 }
 
 .box.story.op5 {
@@ -1196,7 +1192,7 @@ width:12rem;
 
 .box.story.op5 h3 {
     background-color: #f47f26;
-    background-image: url(/assests/images/ui/op5_white.png); 
+    /* background-image: url(../images/op5_white.png);  */
 }
 
 .box.story.op6 {
@@ -1205,7 +1201,7 @@ width:12rem;
 
 .box.story.op6 h3 {
     background-color: #0a9ed5;
-    background-image: url(/assests/images/ui/op6_white.png); 
+    /* background-image: url(../images/op6_white.png);  */
 }
 
 .box.story.op7 {
@@ -1214,7 +1210,7 @@ width:12rem;
 
 .box.story.op7 h3 {
     background-color: #fcb415;
-    background-image: url(/assests/images/ui/op7_white.png); 
+    /* background-image: url(../images/op7_white.png);  */
 }
 
 /******** targets ************/
@@ -1224,12 +1220,13 @@ width:12rem;
 /******** targets ************/
 /******** targets ************/
 
-.progress {
+.progress1 {
     width: 80%;
     margin: 4rem auto 4rem auto;
+    
 }
 
-.progress.diversification div{
+.progress1.diversification div{
     border: 1px solid #d95c3b;
     padding: 1rem 1.5rem 1rem 1.5rem;
     margin-top: -0.6rem;
@@ -1237,12 +1234,12 @@ width:12rem;
 
 
 
-.progress.diversification p.num {
+.progress1.diversification p.num {
     margin-top:2rem;
     color: #d95c3b;
 }
 
-.progress.diversification h3 {
+.progress1.diversification h3 {
     margin-top:-4rem !important;
     color: #d95c3b;
     border: none;
@@ -1252,7 +1249,7 @@ width:12rem;
     padding: 0.5rem;
 }
 
-.progress h3 {
+.progress1 h3 {
     font-size: 1.0rem;
     font-weight: normal;
     border-bottom: 0.1rem solid #000000;
@@ -1262,7 +1259,7 @@ width:12rem;
     margin-top:0;
 }
 
-.progress h4{
+.progress1 h4{
     font-size: 1.2rem;
     font-weight: normal;
     margin-top:0.5rem;
@@ -1271,7 +1268,7 @@ width:12rem;
 
 
 
-.progress p {
+.progress1 p {
     font-family: IdealSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-feature-settings: 'lnum';
     -webkit-font-feature-settings: 'lnum';
@@ -1281,7 +1278,7 @@ width:12rem;
     margin-top:0;
 }
 
-.progress p.num {
+.progress1 p.num {
     font-size: 2.5rem;
     font-weight: normal;
     margin-bottom:0.5rem;
@@ -1291,29 +1288,29 @@ width:12rem;
 
 
 
-.progress.op0 h4, .progress.op0 p.num {
+.progress1.op0 h4, .progress1.op0 p.num {
     color: #ea522c;
 }
 
-.progress.op1 h4, .progress.op1 p.num {
+.progress1.op1 h4, .progress1.op1 p.num {
     color: #e8532a;
 }
-.progress.op2 h4, .progress.op2 p.num {
+.progress1.op2 h4, .progress1.op2 p.num {
     color: #00b5c8;
 }
-.progress.op3 h4, .progress.op3 p.num {
+.progress1.op3 h4, .progress1.op3 p.num {
     color: #8bc540;
 }
-.progress.op4 h4, .progress.op4 p.num {
+.progress1.op4 h4, .progress1.op4 p.num {
     color: #40bde8;
 }
-.progress.op5 h4, .progress.op5 p.num {
+.progress1.op5 h4, .progress1.op5 p.num {
     color: #f47f26;
 }
-.progress.op6 h4, .progress.op6 p.num {
+.progress1.op6 h4, .progress1.op6 p.num {
     color: #0a9ed5;
 }
-.progress.op7 h4, .progress.op7 p.num {
+.progress1.op7 h4, .progress1.op7 p.num {
     color: #fcb415;
 }
 
@@ -1403,15 +1400,14 @@ div.numbers {
 div.numbers .numbergroup {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     padding-top: 17px;
-    margin-bottom: -125px;
 }
 
 div.numbers h3{
     font-size:1.2rem;
     font-weight: normal;
-    background-image: url("/assets/images/ui/littleline.png");
+    /* background-image: url("../images/ui/littleline.png"); */
     background-repeat: no-repeat;
     background-position: left bottom;
     padding-bottom: 27px;
@@ -1494,7 +1490,7 @@ div.commitments h3{
    
     margin-left: auto;
     margin-right: auto;
-    background-image: url("/assets/images/ui/littleline.png");
+    /* background-image: url("../images/ui/littleline.png"); */
     background-repeat: no-repeat;
     background-position: left bottom;
     padding-bottom: 27px;
@@ -1634,35 +1630,35 @@ div.fastfacts p.num{
 
 
 
-.icon {
+/* .icon {
     padding-left: 60px;
     background-position: -8px center;
     background-repeat: no-repeat;
     background-size: auto 60px;
-}
+} */
 
 
 
 .icon.op1 {
-    background-image: url(/assets/images/ui/op1_color.png);
+    /* background-image: url(./assets/images/op1_color.png); */
 }
 .icon.op2 {
-    background-image: url(/assets/images/ui/op2_color.png);
+    /* background-image: url(../images/ui/op2_color.png); */
 }
 .icon.op3 {
-    background-image: url(/assets/images/ui/op3_color.png);
+    /* background-image: url(../images/ui/op3_color.png); */
 }
 .icon.op4 {
-    background-image: url(/assets/images/ui/op4_color.png);
+    /* background-image: url(../images/ui/op4_color.png); */
 }
 .icon.op5 {
-    background-image: url(/assets/images/ui/op5_color.png);
+    /* background-image: url(../images/ui/op5_color.png); */
 }
 .icon.op6 {
-    background-image: url(/assets/images/ui/op6_color.png);
+    /* background-image: url(../images/ui/op6_color.png); */
 }
 .icon.op7 {
-    background-image: url(/assets/images/ui/op7_color.png);
+    /* background-image: url(../images/ui/op7_color.png); */
 }
 
 /********* financial page ***********/
@@ -1707,9 +1703,9 @@ img.fix {
     height: 81px;
     max-height: 81px;
     margin: 2rem auto 2rem auto;
-    /*background-image: url("/assets/images/home/home_logo.png");*/
+    /*background-image: url("../images/home/home_logo.png");*/
 
-    background-image: url("/assets/images/home/home_logo_700.png");
+    /* background-image: url("../images/home/home_logo_700.png"); */
     background-size: 700px;
     background-repeat: no-repeat;
     background-position: center;
@@ -1733,17 +1729,25 @@ img.fix {
     justify-content: space-between;
     /*min-width:1000px;*/
     /*max-width: 1400px;*/
+
+    
 }
 
 .maingrid .chapterbox {
+    
+
     display: flex;
     border: 1px solid #ea522c;
     margin: 0% 1% 2% 1%;
+
     width: 47%;
+    
     cursor: pointer;
     flex:1 1 47%;
+
     justify-content: flex-start;
     transition: margin 1.0 ease-in;
+
 }
 
 
@@ -1809,7 +1813,7 @@ flex:0 1 50%;
 
 .chaptertext p.chaptersub {
     text-transform: uppercase;
-    background-image: url("/assets/images/ui/littleline.png");
+    /* background-image: url("../images/ui/littleline.png"); */
     background-repeat: no-repeat;
     background-position: left bottom;
     padding-bottom: 22px;
@@ -1945,8 +1949,10 @@ flex:0 1 50%;
 
 
 .homegroup {
+
     width: 100%;
-    /* height: 100%; */
+    /*height: 100%;*/
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -1958,9 +1964,9 @@ flex:0 1 50%;
 
 .maingrid {
    flex: 1 1 66%;
-   order: 1;
-   -ms-flex-order: 1;
-   /* flex:6  1 0%; */
+    order: 1;
+    -ms-flex-order: 1;
+    /*flex:6  1 0%;*/
 }
 
 /******* smallgrid ********/
@@ -1975,7 +1981,7 @@ flex:0 1 50%;
     order:2;
     -ms-flex-order: 2;
     margin-right: 1rem;
-    min-width: 14rem;
+   min-width: 14rem;
     max-width: 20rem;
     display: flex;
     -ms-flex-direction: column;
@@ -2004,6 +2010,7 @@ padding: 0 1rem 0 1rem;
 }
 
 .smallgrid .greybutton {
+    
     background-color: #989898;
     /*flex: 0 0 0%;*/
     margin-bottom:0.5rem;
@@ -2370,7 +2377,8 @@ padding: 0 1rem 0 1rem;
         flex: 1 0 0%;
         width: 48%;
         margin-left:1%;
-        margin-right:1%;
+        margin-right:1%
+        
     }
 
     .smallgrid .financialtitle {
@@ -2427,9 +2435,9 @@ padding: 0 1rem 0 1rem;
 
     .imagereplace {
        
-        /* background-image: url("/assets/images/home/home_logo_small.png"); */
+        /* background-image: url("../images/home/home_logo_small.png"); */
  
-         /*background-image: url("/assets/images/home/home_logo_300.png");*/
+         /*background-image: url("../images/home/home_logo_300.png");*/
      background-size: 100%;
  
          margin: 0rem auto 0rem auto;
@@ -2722,7 +2730,7 @@ img.cover {
 .regionstext p.regionsfull {
     text-transform: uppercase;
     color: #000;
-    background-image: url("/assets/images/ui/littleline.png");
+    /* background-image: url("../images/ui/littleline.png"); */
     background-repeat: no-repeat;
     background-position: left bottom;
     padding-bottom: 27px;
@@ -2831,58 +2839,6 @@ width: 100%;
     max-width: 800px;
     padding: 2rem 1rem 2rem 1rem;
     background-color: #eee;
-}
-.report{
-     width: 70%;
-     margin: 0px auto;
-}
-
-div.complexheader.regions {
-    max-width: 650px;
-    margin: 2rem auto 2rem auto;
-    padding-left: 0rem;
-}
-
-div.complexheader.regions h2 {
-    font-weight: 200;
-    font-size: 2rem;
-    line-height: 2rem;
-    text-transform: uppercase;
-    border: 1px solid #ea522c;
-    padding: 0.5rem;
-    /* width: 650px; */
-    max-width: 650px;
-    min-width: 15rem;
-    padding-right: 3rem;
-}
-.complexheader p.chapter {
-    background-color: #ea522c;
-    color: #fff;
-    font-size: 1rem;
-    line-height: 1rem;
-    width: 12rem;
-    padding: 0.5rem;
-    font-family: IdealSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-    margin: 0 0 0 0;
-    vertical-align: middle;
-    text-transform: uppercase;
-}
-
-.complexheader {
-    padding: 0.5rem 0 0.5rem 1rem;
-}
-.complexheader h2 {
-    font-size: 1.8rem;
-    line-height: 2rem;
-    display: inline-block;
-    padding-left: 1rem;
-    vertical-align: middle;
-    margin-top: 0.2rem;
-    margin-bottom: 0.5rem;
-    max-width: 600px;
-}
-h1, h2, h3, h4, h5, h6 {
     font-family: IdealSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-feature-settings: 'lnum';
     -webkit-font-feature-settings: 'lnum';
@@ -3069,12 +3025,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .tweet {
     font-family: IdealSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-    background-image: url("/assets/images/ui/twitter.png");
+    background-image: url("./assets/images/twitter.png");
     background-repeat: no-repeat;
     background-position: 20px top;
     padding-left: 50px;
-
     padding-right: 50px;
 }
 
@@ -3088,4 +3042,19 @@ color: #666;
     
     color: #000;
     }
+    .logoImage{
 
+        vertical-align: middle;
+        width: 9%;
+
+    }
+.imageTitile
+    {
+        width: 90%;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 1rem;
+    }
+
+    
+    
