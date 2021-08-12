@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component,OnInit } from '@angular/core';
 import buttonJsonData from "src/app/constants/button.json";
 import chapter1JsonData from "src/app/constants/chapter1.json";
 import chapter2CardJsonData from "../constants/chapter2-cards.json"
