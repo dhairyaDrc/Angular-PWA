@@ -71,6 +71,7 @@ export const chapter3 = [
 {
     title:'DIVERSIFICATION',
     digit: 58,
+    class:'progress1 diversification op5  ',
     sign: "%",
     data:"In 2020, ADB committed 58% of its 38 nonsovereign operations in new sectors or frontier markets.",
     type:'counter'
@@ -153,6 +154,7 @@ export const chapter3 = [
     {
       title:"PROGRESS AGAINST STRATEGY 2030 TARGETS",
       gender:"COFINANCING",
+      class:'progress1 op5 ',
       data:"In 2020, every $1 of ADB's own committed nonsovereign financing was matched by $2.12 in long-term cofinancing, up from $1.50 in 2019.",
       digit: "$2.12",
       sign: "", 
