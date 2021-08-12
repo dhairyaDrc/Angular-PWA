@@ -1407,7 +1407,7 @@ div.numbers .numbergroup {
 div.numbers h3{
     font-size:1.2rem;
     font-weight: normal;
-    /* background-image: url("../images/ui/littleline.png"); */
+    background-image: url("./assets/images/littleline.png");
     background-repeat: no-repeat;
     background-position: left bottom;
     padding-bottom: 27px;
