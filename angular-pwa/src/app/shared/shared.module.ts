@@ -16,6 +16,7 @@ import { CaptionComponent } from './components/caption/caption.component';
 import { ButtonComponent } from './components/button/button.component';
 import { ExpandableContentTwoComponent } from './expandable-content-two/expandable-content-two.component';
 import { ShadeKnowledgeTwoComponent } from './shade-knowledge-two/shade-knowledge-two.component';
+import { CurrencyCounterComponent } from './components/currency-counter/currency-counter.component';
 
 
 
@@ -36,7 +37,8 @@ import { ShadeKnowledgeTwoComponent } from './shade-knowledge-two/shade-knowledg
     CaptionComponent,
     ButtonComponent,
     ExpandableContentTwoComponent,
-    ShadeKnowledgeTwoComponent
+    ShadeKnowledgeTwoComponent,
+    CurrencyCounterComponent
   
   ],
   imports: [
@@ -59,7 +61,9 @@ import { ShadeKnowledgeTwoComponent } from './shade-knowledge-two/shade-knowledg
     CaptionComponent,
     ButtonComponent,
     ExpandableContentTwoComponent,
-    ShadeKnowledgeTwoComponent
+    ShadeKnowledgeTwoComponent,
+    CurrencyCounterComponent
+
   ]
 })
 export class SharedModule { }

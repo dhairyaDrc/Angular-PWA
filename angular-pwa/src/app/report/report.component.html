@@ -15,9 +15,14 @@
         <app-logo-heading [data]="data.data" [image]="data.image" *ngIf="data.type=='logoHeading'" ></app-logo-heading>
         <app-quote [data]="data.data" *ngIf="data.type=='quote'"></app-quote>
         <app-counter [data]="data.data" [class]="data.class" [sign]="data.sign" [title]="data.title" [digit]="data.digit" [gender]="data.gender" *ngIf="data.type=='counter'" ></app-counter>
+        <app-currency-counter [tag]="data.tag" [tag1]="data.tag1" [tag2]="data.tag2" [tag3]="data.tag3"  [tag4]="data.tag4" [symbol]="data.symbol" [digit1]="data.digit1" [digit2]="data.digit2" [digit3]="data.digit3" [digit4]="data.digit4" [title]="data.title" *ngIf="data.type== 'currencyCounter'" > </app-currency-counter>
     </div>
     <div *ngFor="let data of data" >
-    <app-shade-knowledge [para1]="data.para1" [para2]="data.para2" [para3]="data.para3" [para4]="data.para4"
+    <app-shade-knowledge 
+    [para1]="data.para1" 
+    [para2]="data.para2"
+    [para3]="data.para3"
+    [para4]="data.para4"
     [para5]="data.para5"
     [para6]="data.para6"
     [para7]="data.para7"
@@ -40,7 +45,7 @@
         <app-paragraph [data]="data.data" *ngIf="data.type=='paragraph'"></app-paragraph>
         <app-simple-heading [simpleHeading]="data.data" *ngIf="data.type=='heading'" ></app-simple-heading>
         <app-chapter-title [data]="data.data" [heading]="data.heading" [chapterTitle]="data.data" *ngIf="data.type=='chaptertitle'"></app-chapter-title>
-    </div>
+    </div> -->
 
     <div *ngFor="let data of button">
     <app-button *ngIf="data.type=='button'" [data]="data.data" [title]="data.title"></app-button>

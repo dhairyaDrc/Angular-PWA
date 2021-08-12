@@ -497,7 +497,7 @@ body.menu-open .real-menu{
    
 
     padding:0.5rem;
-    background-image: url("assets/images/ui/hamburger_large.png");
+    /* background-image: url("../images/ui/hamburger_large.png"); */
     background-repeat: no-repeat;
     background-position: left center;
     cursor: pointer;
@@ -1305,7 +1305,7 @@ width:12rem;
     color: #40bde8;
 }
 .progress1.op5 h4, .progress1.op5 p.num {
-    color: #f47f26;
+    color: #ea522c;
 }
 .progress1.op6 h4, .progress1.op6 p.num {
     color: #0a9ed5;
@@ -1407,7 +1407,7 @@ div.numbers .numbergroup {
 div.numbers h3{
     font-size:1.2rem;
     font-weight: normal;
-    /* background-image: url("../images/ui/littleline.png"); */
+    background-image: url("./assets/images/littleline.png");
     background-repeat: no-repeat;
     background-position: left bottom;
     padding-bottom: 27px;
