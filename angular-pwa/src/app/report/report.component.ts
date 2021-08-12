@@ -31,65 +31,27 @@ export class ReportComponent implements OnInit {
   ngOnInit(): void {
     this.chapter1Data=chapter1JsonData;
     this.button = buttonJsonData;
-    this.chapter2Data = chapter2CardJsonData;
+    // this.chapter2Data = chapter2CardJsonData;
     
     console.log("chapter1JsonData >>>> ",chapter1JsonData,"\nthis.buttonJsonData : ",buttonJsonData,"\nchapter2 cards >>>>> ",chapter2CardJsonData);
 
-  // constructor(private route: ActivatedRoute) { }
-
     this.route.queryParams
       .subscribe(params => {
-        console.log(params.id); // { order: "popular" }
+        console.log(params.id);
 
         if (params.id == 1) {
-          this.chapter1Data=chapter1JsonData;
-        } else if (params.id == 4) {
-          this.chapter2Data=chapter2CardJsonData;
-        }if (params.id == 4) {
+          this.data=chapter1JsonData;
+        }else if (params.id == 4) {
           this.data=chapter4;
-        } else if (params.id == 1) {
-          this.data=chapter1;
         }else if (params.id == 3) {
           this.data=chapter3;
+        }else if (params.id == 2){
+          this.router.navigate(['/chapter-2']);
         }
-
-        // this.order = params.order;
-        // console.log(this.order); // popular
       }
     );
 
     this.button = buttonText;
     console.log("this.data : ",this.button);
   }
-
-  goToRegions(id: number){
-
-    this.route.queryParams
-      .subscribe(params => {
-        console.log(params.id); // { order: "popular" }
-
-        if (id == 1) {
-          this.router.navigate(['/central-west-asia'], { queryParams: { id: id } });
-          // this.chapter1Data=chapter1JsonData;
-        } else if (id == 2) {
-          this.router.navigate(['/east-asia'], { queryParams: { id: id } });
-        } else if(id == 3){
-          this.router.navigate(['/pacific'], { queryParams: { id: id } });
-        }else if(id == 4){
-          this.router.navigate(['/south-asia'], { queryParams: { id: id } });
-        }else {
-          this.router.navigate(['/south-east-asia'], { queryParams: { id: id } });
-        }
-
-        // this.order = params.order;
-        // console.log(this.order); // popular
-      }
-    );
-    
-    // this.data=chapter1
-    
-    
-  }
-
-
 }

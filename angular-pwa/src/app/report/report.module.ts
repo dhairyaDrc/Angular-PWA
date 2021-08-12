@@ -4,28 +4,20 @@ import { ReportComponent } from './report.component';
 import { ReportRoutingModule } from './report-routing.module';
 import { SharedModule } from '../shared/shared.module';
 import { HomeModule } from '../home/home.module';
-import { CentralWestAsiaComponent } from './central-west-asia/central-west-asia.component';
-import { EastAsiaComponent } from './east-asia/east-asia.component';
-import { PacificComponent } from './pacific/pacific.component';
-import { SouthAsiaComponent } from './south-asia/south-asia.component';
-import { SouthEastAsiaComponent } from './south-east-asia/south-east-asia.component';
+import { Chapter2Module } from '../chapter2/chapter2.module';
 
 
 
 @NgModule({
   declarations: [
-    ReportComponent,
-    CentralWestAsiaComponent,
-    EastAsiaComponent,
-    PacificComponent,
-    SouthAsiaComponent,
-    SouthEastAsiaComponent
+    ReportComponent
   ],
   imports: [
     CommonModule,
     ReportRoutingModule,
     SharedModule,
-    HomeModule
+    HomeModule,
+    Chapter2Module
   ]
 })
 export class ReportModule { }

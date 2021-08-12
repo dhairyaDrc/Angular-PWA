@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import homeJsonData from "src/app/constants/home.json";
 
 @Component({
@@ -10,7 +10,10 @@ import homeJsonData from "src/app/constants/home.json";
 export class HomeComponent implements OnInit {
 
   homeData: any;
-  constructor(private router:Router) { }
+  constructor(
+    private router:Router,
+    private route: ActivatedRoute
+  ) { }
 
   ngOnInit(): void {
     this.homeData = homeJsonData;
@@ -25,6 +28,22 @@ export class HomeComponent implements OnInit {
 
   goToFinancialHighlights(){
     this.router.navigate(['/financial-highlights'])
+  }
+
+  goToSideMenu(id: number){
+    this.route.queryParams
+      .subscribe(params => {
+        console.log(params.id);
+
+        if(id == 1){
+          console.log("id = 1");
+        } else if(id == 2){
+          console.log("id = 2");          
+        } else if (id == 3){
+          this.router.navigate(['/financial-highlights']);
+        }
+      }
+    )
   }
 
 }

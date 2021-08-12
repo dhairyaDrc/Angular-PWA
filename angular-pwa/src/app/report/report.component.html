@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-<!-- <div class="report"> -->
-<!-- <div   *ngFor="let data of chapter1Data" >
-=======
+<!-- <div class="report">
+<div   *ngFor="let data of chapter1Data" > -->
 <div  class="report" >
     <div class="content">
     <div   *ngFor="let data of data">
@@ -19,11 +17,7 @@
         <app-counter [data]="data.data" [class]="data.class" [sign]="data.sign" [title]="data.title" [digit]="data.digit" [gender]="data.gender" *ngIf="data.type=='counter'" ></app-counter>
     </div>
     <div *ngFor="let data of data" >
-    <app-shade-knowledge 
-    [para1]="data.para1" 
-    [para2]="data.para2"
-    [para3]="data.para3"
-    [para4]="data.para4"
+    <app-shade-knowledge [para1]="data.para1" [para2]="data.para2" [para3]="data.para3" [para4]="data.para4"
     [para5]="data.para5"
     [para6]="data.para6"
     [para7]="data.para7"
@@ -41,17 +35,16 @@
 </div>
 <!-- <div class="report">
     <div   *ngFor="let data of data" >
->>>>>>> f4f4548c294431544f8c32a647cbbe7987324fc5
         <app-image [image]="data.data" *ngIf="data.type=='image'"></app-image>
         <app-caption [data]="data.data" *ngIf="data.type=='caption'"></app-caption>
         <app-paragraph [data]="data.data" *ngIf="data.type=='paragraph'"></app-paragraph>
         <app-simple-heading [simpleHeading]="data.data" *ngIf="data.type=='heading'" ></app-simple-heading>
         <app-chapter-title [data]="data.data" [heading]="data.heading" [chapterTitle]="data.data" *ngIf="data.type=='chaptertitle'"></app-chapter-title>
-    </div> -->
+    </div>
 
     <div *ngFor="let data of button">
     <app-button *ngIf="data.type=='button'" [data]="data.data" [title]="data.title"></app-button>
-</div> -->
+</div>
 
 <div class="complexheader regions">
   <p class="chapter">chapter 2</p>
@@ -73,7 +66,7 @@
       </p>
     </div>
   </div>
-</div>
+</div> -->
 
 
 

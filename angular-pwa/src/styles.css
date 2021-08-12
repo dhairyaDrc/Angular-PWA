@@ -497,7 +497,7 @@ body.menu-open .real-menu{
    
 
     padding:0.5rem;
-    /* background-image: url("../images/ui/hamburger_large.png"); */
+    background-image: url("assets/images/ui/hamburger_large.png");
     background-repeat: no-repeat;
     background-position: left center;
     cursor: pointer;
@@ -535,7 +535,7 @@ body.menu-open .real-menu{
 
 .share {
     padding:0.5rem;
-    /* background-image: url("../images/ui/share_large.png"); */
+    background-image: url("assets/images/ui/share_large.png");
     background-repeat: no-repeat;
     background-position: right center;
     cursor: pointer;
@@ -1703,9 +1703,9 @@ img.fix {
     height: 81px;
     max-height: 81px;
     margin: 2rem auto 2rem auto;
-    /*background-image: url("../images/home/home_logo.png");*/
+    /* background-image: url("assets/images/home/home_logo.png"); */
 
-    /* background-image: url("../images/home/home_logo_700.png"); */
+    background-image: url("assets/images/home/home_logo_700.png");
     background-size: 700px;
     background-repeat: no-repeat;
     background-position: center;
