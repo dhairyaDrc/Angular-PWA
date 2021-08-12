@@ -13,14 +13,17 @@ export const chapter3 = [
     tag:"A doctor administers a vaccine to a child during a vaccination drive in Mandaluyong City, Philippines. ADB has created an interactive mapping tool for the supply chains of vital pandemic-fighting products.",
      type:"tag"
   },
-  //  {
-       
-  //     tag:"A doctor administers a vaccine to a child during a vaccination drive in Mandaluyong City, Philippines. ADB has created an interactive mapping tool for the supply chains of vital pandemic-fighting products.",
-      
-  //   },
     {
-      data:"<b>BY THE NUMBERS: PRIVATE SECTOR OPERATIONS<b>",
-      type:"paragraph"
+      title:"BY THE NUMBERS: PRIVATE SECTOR OPERATIONS",
+       data:"COMMITTED",
+       digit:"$4.5",
+       data:"COVID‑19<br>RESPONSE",
+       digit:"$2.9",
+       data:"DISBURSED",
+       digit:"$2.3",
+       data:"COFINANCED",
+       digit:"$5.3",
+      type:'counter'
     },
     
     {
@@ -63,7 +66,7 @@ export const chapter3 = [
     title:'DIVERSIFICATION',
     digit: 58,
     percentage: "%",
-    sign: "$",
+    sign: "",
     data:"In 2020, ADB committed 58% of its 38 nonsovereign operations in new sectors or frontier markets.",
     type:'counter'
 },
@@ -143,10 +146,14 @@ export const chapter3 = [
       type:"paragraph"
     },
     {
-      title:"<b><u>PROGRESS AGAINST STRATEGY 2030 TARGETS<u></b>",
-      type:"paragraph"
+      title:"PROGRESS AGAINST STRATEGY 2030 TARGETS",
+      // COFINANCING:"COFINANCING",
+      data:"In 2020, every $1 of ADB's own committed nonsovereign financing was matched by $2.12 in long-term cofinancing, up from $1.50 in 2019.",
+      digit: 2.12,
+      sign: "$", 
+      percentage: "",
+      type:'counter'
     },
-    
     {
       data:"ADB provided financing, through Viet Nam’s first certified green loan, for Phu Yen TTP Joint Stock Company to develop and operate a 257 MW solar power plant. The financing comprises a $27.9 million loan funded by ADB, a $148.8 million B loan funded by commercial banks, and a $9.3 million loan from LEAP. The syndicated loan is the first green B loan in Asia and the Pacific to be certified by the Climate Bonds Initiative, and one of the largest such loans yet mobilized in the country. The project is the single largest operating solar power plant in Viet Nam and one of the largest in Southeast Asia.",
       type:"paragraph"

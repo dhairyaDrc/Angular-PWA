@@ -1,12 +1,12 @@
 
 
-    <div class="progress diversification">
+    <div class="progress1 diversification">
       <h3>
         {{title}}
       </h3>
       <div>
         <p class="num">{{sign}}
-          <span class="onlynum" data-inc-decimal="0">
+          <span class="onlynum" data-inc-decimal="0" id="count1">
             {{digit}}
           </span>
           {{percentage}}
@@ -16,43 +16,47 @@
                 </p>
       </div>
       </div>
-
-    <!-- <h1>counter</h1> -->
-    
+     
 
 
-    <!-- <div class="numbers">
+      <div class="progress op0">
+        <h3>
+          {{title}}
+        </h3>
+       <div>
+        <p class="num">{{sign}}<span class="onlynum" data-inc-decimal="2" >{{digit}}</span> {{percentage}}
+        </p><p>
+          {{data}}
+        </p>
+        </div>
+    </div>
+
+
+    <div class="numbers">
       <h3>
-      BY THE
-      NUMBERS: Private Sector Operations
+        {{title}}
       </h3>
       <div class="numbergroup">
       <div>
-      <p class="num">$<span class="onlynum" data-inc-decimal="1">4.5</span>&nbsp;B</p>
-      <p>COMMITTED
+      <p class="num">{{sign}}<span class="onlynum" data-inc-decimal="1">{{digit}}</span>&nbsp;B</p>
+      <p>  {{data}}
       </p>
       </div>
       <div class="sub">
-      <p class="num">$<span class="onlynum" data-inc-decimal="1">2.9</span>&nbsp;B</p>
-      <p>COVID‑19 <br>RESPONSE
+      <p class="num">{{sign}}<span class="onlynum" data-inc-decimal="1">{{digit}}</span>&nbsp;B</p>
+      <p>{{data}}
       </p>
       </div>
       <div>
-      <p class="num">$<span class="onlynum" data-inc-decimal="1">2.3</span>&nbsp;B</p>
-      <p>DISBURSED
+      <p class="num">{{sign}}<span class="onlynum" data-inc-decimal="1">{{digit}}</span>&nbsp;B</p>
+      <p>{{data}}
       </p>
       </div>
       <div>
-      <p class="num">$<span class="onlynum" data-inc-decimal="1">5.3</span>&nbsp;B</p>
-      <p>COFINANCED
+      <p class="num">{{sign}}<span class="onlynum" data-inc-decimal="1">{{digit}}</span>&nbsp;B</p>
+      <p>{{data}}
       </p>
       </div>
       </div>
-      </div> -->
-<!-- <div class="row text-center">
-    <div class="col">
-    <div class="counter">
-<i class="fa fa-code fa-2x"></i>
-<h2 class="timer count-title count-number" data-to="86"% data-speed="1500"></h2>
-<p class="count-text ">Our Customer</p>
-</div> -->
+      </div>
+
