@@ -8,157 +8,24 @@
     <h3>
       {{subTitle}}
     </h3>
-    <div class="numbergroup">
-      <div *ngFor="let data of homeData">
-        <app-counter-card *ngIf="data.type == 'counter-card'" style="width: 100px;" [duration]="1500" [digit]="data.money" [data]="data.data"
+    <div class="numbersgroup">
+      <div *ngFor="let data of homeData" class="contentCard">
+        <app-counter-card  *ngIf="data.type == 'counter-card'" style="width: 100px;" [duration]="1500" [digit]="data.money" [data]="data.data"
           [currency]="data.currency" [money]="data.money" [letter]="data.letter"></app-counter-card>
       </div>
     </div>
+  </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <div *ngFor="let item of value" class="fix" style="text-align: center;">
+    <div *ngFor="let item of value" class="fix" style="text-align: center; margin-top: -125px;">
         <br><br><br><br><br><br><br>
         <img [src]="item.image" style="{{item.isSmall ? 'width:50%' : 'width:100%'}}">
-
-      <!-- <ng-container *ngIf="item === ; else elseTemplate">
-          <h1>If condition</h1>
-        <img [src]="item" style="width: 50px;">
-      </ng-container>
-
-      <ng-template #elseTemplate>
-          <h1>else condition  </h1>
-          <img [src]="item">
-      </ng-template> -->
-
     </div>
-
-  <!-- <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/fin/financial_2.png" class="fix">
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/fin/financial_3.png" class="fix">
-    <br><img src="images/fin/financial_2.png" class="fix">
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/fin/financial_3.png" class="fix">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/fin/financial_4.png">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/fin/financial_5.png" class="fix">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/fin/financial_6.png">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/fin/financial_7.png" class="fix">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/fin/financial_8.png">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/fin/financial_9.png" class="fix">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/fin/financial_10.png">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/fin/financial_11.png">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/fin/financial_4.png">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/fin/financial_5.png" class="fix">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/fin/financial_6.png">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/fin/financial_7.png" class="fix">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/fin/financial_8.png">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/fin/financial_9.png" class="fix">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/fin/financial_10.png">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/fin/financial_11.png">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br> -->
+    
   <a href="#chapter1" class="next">
     Next: Chapter 1 <span>&nbsp;›</span>
   </a>
 </div>
-</div>
+<!-- </div> -->
 <div>
   <app-menu-bar></app-menu-bar>
 </div>

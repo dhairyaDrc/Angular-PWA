@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import homeJsonData from "src/app/constants/home.json"
 import financialHighlightsJsonData from "src/app/constants/financial-highlights.json";
+import counterCardsJsonData from "src/app/constants/counterCards.json";
 
 @Component({
   selector: 'app-financial-highlights',
@@ -17,10 +17,10 @@ export class FinancialHighlightsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.homeData = homeJsonData;
+    this.homeData = counterCardsJsonData;
     this.value = financialHighlightsJsonData; 
 
-    console.log("this.homeData >>> ",homeJsonData,"\nfinancialHighlights >>> ",financialHighlightsJsonData,"\nvalue >>> ",this.value)
+    console.log("this.homeData >>> ",counterCardsJsonData,"\nfinancialHighlights >>> ",financialHighlightsJsonData,"\nvalue >>> ",this.value)
 
     this.getTitle();
     this.getSubTitle();

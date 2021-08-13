@@ -52,33 +52,8 @@
     <app-button *ngIf="data.type=='button'" [data]="data.data" [title]="data.title"></app-button>
 </div>
 
-<div class="complexheader regions">
-  <p class="chapter">chapter 2</p>
-  <h2>
-    REGIONS
-  </h2>
 </div>
-<div class="regionsgroup">
-  <div *ngFor="let data of chapter2Data" class="regionsbox" (click)="goToRegions(data.id)">
-    <div class="regionsimage">
-      <img [src]="data.imageUrl">
-    </div>
-    <div class="regionstext">
-      <p class="regionsfull">
-        {{data.title}}
-      </p>
-      <p class="regionsblurb">
-        {{data.content}}
-      </p>
-    </div>
-  </div>
-</div> -->
-
-
-
-<!-- </div> -->
-
-<br><br><br><br><br><br><br>
+<br><br><br><br>
 <div>
   <app-menu-bar></app-menu-bar>
 </div>

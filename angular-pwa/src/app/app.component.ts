@@ -11,12 +11,9 @@ export class AppComponent {
 
   data;
 
-  constructor(private http: HttpClient){
+  constructor(){
   }
   
   ngOnInit(){
-    this.data = this.http.get("https://jsonplaceholder.typicode.com/posts").subscribe(data => {
-      console.log("api data : ",data);
-    });
   }
 }

@@ -1,5 +1,6 @@
 
-import { Component, ElementRef, Input, OnInit, SimpleChanges, ViewChild } from '@angular/core';
+import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
+import counterCardsJsonData from "src/app/constants/counterCards.json";
 import * as $ from 'jquery';
 
 @Component({
@@ -22,35 +23,17 @@ export class CounterCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log("this.data.counter-card : ", this.data);
+    console.log("this.data.counter-card : ", counterCardsJsonData);
     console.log("currency : ", this.currency);
     console.log("money : ", this.money);
     console.log("letter : ", this.letter);
-
-    // this.animateValue("count1", 0, this.moneyCount, 2000);
-    this.jQueryCounter();
+    this.numberCounter();
   }
 
-  // animateValue(id, start, end, duration) {
-  //   if (start === end) return;
-  //   var range = end - start;
-  //   var current = start;
-  //   var increment = end > start ? 1 : -1;
-  //   var stepTime = Math.abs(Math.floor(duration / range));
-  //   var obj = document.getElementById(id);
-  //   var timer = setInterval(function () {
-  //     current += increment;
-  //     obj.innerHTML = current;
-  //     if (current == end) {
-  //       clearInterval(timer);
-  //     }
-  //   }, stepTime);
-  // }
+  numberCounter() {
+    var currentNumber = $('#dynamic-number').text();    
 
-  jQueryCounter() {
-    var currentNumber = $('#dynamic-number').text();
-
-    $({ numberValue: currentNumber }).animate({ numberValue: this.money }, {
+    $({ numberValue: currentNumber }).animate({ numberValue: 36.6 }, {
       duration: 1500,
       easing: 'linear',
       step: function (now) {
