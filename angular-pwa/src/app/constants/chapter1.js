@@ -492,8 +492,17 @@ export const chapter1 = [
   },
   
   {
-    // data:'covid_knowledge.jpg',
-    // type:'image'
+    data:[{
+      "name": "Other Covid-19 Operation",
+     
+      "value": 2961,
+    },
+    {
+      "name": "Covid-19 Pademic Response option",
+      "value": 10191,
+    },
+  ],
+    type:'chart'
   },
 
 ]

@@ -11,6 +11,8 @@ import { HomeModule } from './home/home.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { HttpClientModule } from "@angular/common/http";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 
 @NgModule({
@@ -26,6 +28,7 @@ import { HttpClientModule } from "@angular/common/http";
     CommonModule,
     SharedModule,
     HomeModule,
+    BrowserAnimationsModule,
     HttpClientModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,

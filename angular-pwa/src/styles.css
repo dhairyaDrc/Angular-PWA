@@ -3055,6 +3055,15 @@ color: #666;
         vertical-align: middle;
         margin-top: 1rem;
     }
+.chart{
+    width: 45%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.charts{
+    display:flex;
+    flex-wrap: wrap;
+}
 
     
     
