@@ -30,7 +30,7 @@ export class Chapter2Component implements OnInit {
           this.router.navigate(['/central-west-asia'], { queryParams: { id: id } });
         } else if (id == 2) {
           this.router.navigate(['/east-asia'], { queryParams: { id: id } });
-        } else if(id == 3){chapter2CardJsonData
+        } else if(id == 3){
           this.router.navigate(['/pacific'], { queryParams: { id: id } });
         }else if(id == 4){
           this.router.navigate(['/south-asia'], { queryParams: { id: id } });
@@ -40,4 +40,5 @@ export class Chapter2Component implements OnInit {
       }
     ); 
   }
+
 }

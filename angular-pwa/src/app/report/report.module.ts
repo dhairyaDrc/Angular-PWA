@@ -4,20 +4,20 @@ import { ReportComponent } from './report.component';
 import { ReportRoutingModule } from './report-routing.module';
 import { SharedModule } from '../shared/shared.module';
 import { HomeModule } from '../home/home.module';
-import { Chapter2Module } from '../chapter2/chapter2.module';
+import { Chapter2Component } from './chapter2/chapter2.component';
 
 
 
 @NgModule({
   declarations: [
-    ReportComponent
+    ReportComponent,
+    Chapter2Component
   ],
   imports: [
     CommonModule,
     ReportRoutingModule,
     SharedModule,
-    HomeModule,
-    Chapter2Module
+    HomeModule
   ]
 })
 export class ReportModule { }
