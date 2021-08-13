@@ -3,13 +3,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 import buttonJsonData from "src/app/constants/button.json";
 import chapter1JsonData from "src/app/constants/chapter1.json";
 import chapter2CardJsonData from "../constants/chapter2-cards.json"
-// import { Component, Input, OnInit } from '@angular/core';
-import { chapter1 } from "src/app/constants/chapter1";
-import { buttonText } from "src/app/constants/button"
-import { chapter4 } from "src/app/constants/chapter4";
-import { chapter3 } from "src/app/constants/chapter3";
-// import { ActivatedRoute } from '@angular/router';
-
+import chapter3CardJsonData from "../constants/chapter3.json"
+import chapter4CardJsonData from "../constants/chapter4.json"
 
 @Component({
   selector: 'app-report',
@@ -41,21 +36,35 @@ export class ReportComponent implements OnInit {
 
         if (params.id == 1) {
           this.data=chapter1JsonData;
+          console.log("this.data",this.data);
+          
         }else if (params.id == 4) {
-          this.data=chapter4;
+          this.data=chapter4CardJsonData;
         }else if (params.id == 3) {
-          this.data=chapter3;
+          this.data=chapter3CardJsonData;
         }else if (params.id == 2){
           this.router.navigate(['/chapter2']);
         }
       }
     );
-
-    this.button = buttonText;
-    console.log("this.data : ",this.button);
   }
 
   goToNextChapter(){
+    this.route.queryParams
+      .subscribe(params => {
+        console.log(params.id);
+
+        if (params.id == 1) {
+          this.data=chapter1JsonData;
+        }else if (params.id == 4) {
+          this.router.navigate(['/report']);
+        }else if (params.id == 3) {
+          this.data=chapter3CardJsonData;
+        }else if (params.id == 2){
+          this.router.navigate(['/chapter2']);
+        }
+      }
+    );
     this.router.navigate(['/chapter2'])
   }
 }

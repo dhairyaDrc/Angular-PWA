@@ -169,6 +169,13 @@ div#viewport {
     height: 100%;
 }
 
+.contentCard{
+    border: 1px solid #ea522c;
+    padding: 1rem;
+    flex: 0 1 0%;
+    min-width: 40%;
+}
+
 div.content {
     max-width: 800px;
     margin: 0 auto 0 auto;
@@ -1421,7 +1428,7 @@ div.numbers .numbergroup {
 div.numbers h3{
     font-size:1.2rem;
     font-weight: normal;
-    /* background-image: url("../images/ui/littleline.png"); */
+    background-image: url("assets/images/ui/littleline.png");
     background-repeat: no-repeat;
     background-position: left bottom;
     padding-bottom: 27px;
@@ -1504,7 +1511,7 @@ div.commitments h3{
    
     margin-left: auto;
     margin-right: auto;
-    /* background-image: url("../images/ui/littleline.png"); */
+    background-image: url("assets/images/ui/littleline.png");
     background-repeat: no-repeat;
     background-position: left bottom;
     padding-bottom: 27px;
@@ -2744,7 +2751,7 @@ img.cover {
 .regionstext p.regionsfull {
     text-transform: uppercase;
     color: #000;
-    /* background-image: url("../images/ui/littleline.png"); */
+    background-image: url("assets/images/ui/littleline.png");
     background-repeat: no-repeat;
     background-position: left bottom;
     padding-bottom: 27px;

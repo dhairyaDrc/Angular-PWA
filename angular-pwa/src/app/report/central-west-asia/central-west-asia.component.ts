@@ -8,14 +8,14 @@ import centralWestAsiaJsonData from 'src/app/constants/central-west-asia.json'
 })
 export class CentralWestAsiaComponent implements OnInit {
 
-  data = [];
+  centralWestAsiaData = [];
 
   constructor() { }
 
   ngOnInit(): void {
-    this.data = centralWestAsiaJsonData;
+    this.centralWestAsiaData = centralWestAsiaJsonData;
 
-    console.log("central-west-asia.json : ",this.data);
+    console.log("central-west-asia.json : ",this.centralWestAsiaData);
     
   }
 
