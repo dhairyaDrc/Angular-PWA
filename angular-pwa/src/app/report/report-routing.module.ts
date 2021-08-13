@@ -9,8 +9,8 @@ import { SouthAsiaComponent } from './south-asia/south-asia.component';
 import { SouthEastAsiaComponent } from './south-east-asia/south-east-asia.component';
 
 const routes: Routes = [
-    { path: 'chapter-2', component: Chapter2Component },
     { path: 'report', component: ReportComponent },
+    { path: 'chapter2', component: Chapter2Component },
     { path: 'central-west-asia', component: CentralWestAsiaComponent },
     { path: 'east-asia', component: EastAsiaComponent },
     { path: 'pacific', component: PacificComponent },

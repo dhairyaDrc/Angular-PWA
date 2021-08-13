@@ -46,12 +46,16 @@ export class ReportComponent implements OnInit {
         }else if (params.id == 3) {
           this.data=chapter3;
         }else if (params.id == 2){
-          this.router.navigate(['/chapter-2']);
+          this.router.navigate(['/chapter2']);
         }
       }
     );
 
     this.button = buttonText;
     console.log("this.data : ",this.button);
+  }
+
+  goToNextChapter(){
+    this.router.navigate(['/chapter2'])
   }
 }

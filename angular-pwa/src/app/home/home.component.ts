@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import homeJsonData from "src/app/constants/home.json";
+import smallCards from "src/app/constants/smallCards.json";
+import counterCardsJsonData from "src/app/constants/counterCards.json";
+import chapterCards from "src/app/constants/chapterCards.json"
 
 @Component({
   selector: 'app-home',
@@ -10,6 +13,10 @@ import homeJsonData from "src/app/constants/home.json";
 export class HomeComponent implements OnInit {
 
   homeData: any;
+  chapterCards = [];
+  smallCards = [];
+  counterCardsJsonData = [];
+
   constructor(
     private router:Router,
     private route: ActivatedRoute
@@ -17,6 +24,9 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.homeData = homeJsonData;
+    this.chapterCards = chapterCards;
+    this.smallCards = smallCards;
+    this.counterCardsJsonData = counterCardsJsonData;
     console.log("this.homeJsonData ",homeJsonData)
   }
 
@@ -44,6 +54,10 @@ export class HomeComponent implements OnInit {
         }
       }
     )
+  }
+
+  onClick(){
+    this.router.navigate(['/appendixes-content']);
   }
 
 }

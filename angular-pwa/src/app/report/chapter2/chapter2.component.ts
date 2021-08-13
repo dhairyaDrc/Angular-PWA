@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import chapter2CardJsonData from "../constants/chapter2-cards.json"
+import chapter2CardJsonData from "../../constants/chapter2-cards.json";
 
 @Component({
   selector: 'app-chapter2',
@@ -18,6 +18,8 @@ export class Chapter2Component implements OnInit {
 
   ngOnInit(): void {
     this.chapter2Data = chapter2CardJsonData;
+    console.log("chapter2CardJsonData : ",chapter2CardJsonData);
+    
   }
 
   goToRegions(id: number){

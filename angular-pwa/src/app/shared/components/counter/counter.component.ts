@@ -16,7 +16,7 @@ export class CounterComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.animateValue("count1", 0, this.digit, 4000);
+    this.animateValue("count1", 0, this.digit, 2000);
     
 
   }

@@ -1,5 +1,6 @@
 
-import { Component, ElementRef, Input, OnInit, SimpleChanges, ViewChild } from '@angular/core';
+import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
+import homeData from '../../constants/home.json'
 import * as $ from 'jquery';
 
 @Component({
@@ -29,6 +30,7 @@ export class CounterCardComponent implements OnInit {
 
     // this.animateValue("count1", 0, this.moneyCount, 2000);
     this.jQueryCounter();
+    // this.counter2();
   }
 
   // animateValue(id, start, end, duration) {
@@ -48,9 +50,9 @@ export class CounterCardComponent implements OnInit {
   // }
 
   jQueryCounter() {
-    var currentNumber = $('#dynamic-number').text();
+    var currentNumber = $('#dynamic-number').text();    
 
-    $({ numberValue: currentNumber }).animate({ numberValue: this.money }, {
+    $({ numberValue: currentNumber }).animate({ numberValue: homeData[7].money }, {
       duration: 1500,
       easing: 'linear',
       step: function (now) {
