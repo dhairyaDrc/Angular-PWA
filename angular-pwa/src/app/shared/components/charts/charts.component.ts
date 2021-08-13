@@ -67,7 +67,6 @@ export class ChartsComponent implements OnInit {
     public startAngle: number = 0;
     public endAngle: number = 360;
     public tooltip: Object = { enable: true };
-    public title: string = 'COVID-19 Response,Sovereign Projects';
     
 
 
