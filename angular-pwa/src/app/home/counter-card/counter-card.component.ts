@@ -31,10 +31,10 @@ export class CounterCardComponent implements OnInit {
   }
 
   numberCounter() {
-    var currentNumber = $('#dynamic-number').text();    
+    var currentNumber = $('#dynamic-number').text();
 
-    $({ numberValue: currentNumber }).animate({ numberValue: 36.6 }, {
-      duration: 1500,
+    $({ numberValue: currentNumber }).animate({ numberValue: 31.6 }, {
+      duration: 2000,
       easing: 'linear',
       step: function (now) {
         $('#dynamic-number').text(now.toFixed(1));

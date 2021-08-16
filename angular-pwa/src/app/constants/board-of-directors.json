@@ -1,0 +1,25 @@
+[
+    {
+        "data": "BOARD OF DIRECTORS",
+        "type": "heading"
+    },
+    {   
+        "subTitle": "ADB BOARD OF DIRECTORS AS OF 31 DECEMBER 2020",
+        "type": "subheading"
+    },
+    {
+        "img1": "assets/images/board/dir1_1.jpg",
+        "img2": "assets/images/board/dir2_1.jpg",
+        "img3": "assets/images/board/dir3_1.jpg",
+        "img4": "assets/images/board/dir4_1.jpg",
+        "img5": "assets/images/board/dir5_1.jpg",
+        "img6": "assets/images/board/dir6_1.jpg",
+        "img7": "assets/images/board/dir7_1.jpg",
+        "img8": "assets/images/board/dir8_1.jpg",
+        "img9": "assets/images/board/dir9_1.jpg",
+        "img10": "assets/images/board/dir10_1.jpg",
+        "img11": "assets/images/board/dir11_1.jpg",
+        "img12": "assets/images/board/dir12_1.jpg",
+        "type": "image"
+    }
+]

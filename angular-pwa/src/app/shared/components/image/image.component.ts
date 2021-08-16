@@ -9,9 +9,12 @@ export class ImageComponent implements OnInit {
 
   @Input() image;
   @Input() tag;
+  @Input() data;
   constructor() { }
 
   ngOnInit(): void {
+    console.log(">>>>>????? ",this.data);
+    
   }
 
 }

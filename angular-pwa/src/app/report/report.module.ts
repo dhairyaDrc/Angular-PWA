@@ -10,6 +10,7 @@ import { PacificComponent } from './pacific/pacific.component';
 import { SouthAsiaComponent } from './south-asia/south-asia.component';
 import { SouthEastAsiaComponent } from './south-east-asia/south-east-asia.component';
 import { Chapter2Component } from './chapter2/chapter2.component';
+import { MessageComponent } from '../home/message/message.component';
 
 
 
@@ -21,7 +22,8 @@ import { Chapter2Component } from './chapter2/chapter2.component';
     EastAsiaComponent,
     PacificComponent,
     SouthAsiaComponent,
-    SouthEastAsiaComponent
+    SouthEastAsiaComponent,
+    MessageComponent
   ],
   imports: [
     CommonModule,

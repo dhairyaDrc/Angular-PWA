@@ -46,8 +46,10 @@ export class HomeComponent implements OnInit {
         console.log(params.id);
 
         if(id == 1){
+          this.router.navigate(['/presidents-message']);
           console.log("id = 1");
         } else if(id == 2){
+          this.router.navigate(['/board-of-directors']);
           console.log("id = 2");          
         } else if (id == 3){
           this.router.navigate(['/financial-highlights']);

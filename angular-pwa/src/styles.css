@@ -180,7 +180,7 @@ div.content {
     max-width: 800px;
     margin: 0 auto 0 auto;
     background-color: #fff;
-    padding-bottom: 5rem;
+    /* padding-bottom: 5rem; */
     padding-left: 1rem;
     padding-right: 1rem;
 }

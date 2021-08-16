@@ -18,6 +18,7 @@ import { ExpandableContentTwoComponent } from './expandable-content-two/expandab
 import { ShadeKnowledgeTwoComponent } from './shade-knowledge-two/shade-knowledge-two.component';
 import { RegionTitleComponent } from './components/region-title/region-title.component';
 import { RegionCounterComponent } from './components/region-counter/region-counter.component';
+import { SignatureComponent } from './components/signature/signature.component';
 
 
 
@@ -40,7 +41,8 @@ import { RegionCounterComponent } from './components/region-counter/region-count
     ExpandableContentTwoComponent,
     ShadeKnowledgeTwoComponent,
     RegionTitleComponent,
-    RegionCounterComponent
+    RegionCounterComponent,
+    SignatureComponent
   
   ],
   imports: [
@@ -65,7 +67,8 @@ import { RegionCounterComponent } from './components/region-counter/region-count
     ExpandableContentTwoComponent,
     ShadeKnowledgeTwoComponent,
     RegionTitleComponent,
-    RegionCounterComponent
+    RegionCounterComponent,
+    SignatureComponent
   ]
 })
 export class SharedModule { }
