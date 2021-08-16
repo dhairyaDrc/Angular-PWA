@@ -20,6 +20,7 @@ import { CurrencyCounterComponent } from './components/currency-counter/currency
 import { ChartsComponent } from './components/charts/charts.component';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { ChartAllModule, AccumulationChartAllModule, RangeNavigatorAllModule } from '@syncfusion/ej2-angular-charts';
+import { HorizontalGraphChartComponent } from './components/horizontal-graph-chart/horizontal-graph-chart.component';
 
 
 
@@ -42,7 +43,8 @@ import { ChartAllModule, AccumulationChartAllModule, RangeNavigatorAllModule } f
     ExpandableContentTwoComponent,
     ShadeKnowledgeTwoComponent,
     CurrencyCounterComponent,
-    ChartsComponent
+    ChartsComponent,
+    HorizontalGraphChartComponent
   
   ],
   imports: [
@@ -72,7 +74,8 @@ import { ChartAllModule, AccumulationChartAllModule, RangeNavigatorAllModule } f
     ExpandableContentTwoComponent,
     ShadeKnowledgeTwoComponent,
     CurrencyCounterComponent,
-    ChartsComponent
+    ChartsComponent,
+    HorizontalGraphChartComponent
 
   ]
 })
