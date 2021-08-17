@@ -597,25 +597,25 @@ body.menu-open .real-menu{
 }
 
 #social-pop li.facebook-share a {
-    /* background-image: url(../images/ui/facebook-icon.png); */
+    background-image: url(assets/images/ui/facebook-icon.png);
     background-repeat: no-repeat;
     background-position: 1rem center;
 }
 
 #social-pop li.twitter-share a {
-    /* background-image: url(../images/ui/twitter-icon.png); */
+    background-image: url(assets/images/ui/twitter-icon.png);
     background-repeat: no-repeat;
     background-position: 1rem center;
 }
 
 #social-pop li.linkedin-share a {
-    /* background-image: url(../images/ui/linkedin-icon.png); */
+    background-image: url(assets/images/ui/linkedin-icon.png);
     background-repeat: no-repeat;
     background-position: 1rem center;
 }
 
 #social-pop li.email-share a {
-    /* background-image: url(../images/ui/email-icon.png); */
+    background-image: url(assets/images/ui/email-icon.png);
     background-repeat: no-repeat;
     background-position: 1rem center;
 }

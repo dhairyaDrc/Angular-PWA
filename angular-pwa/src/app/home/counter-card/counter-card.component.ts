@@ -16,6 +16,7 @@ export class CounterCardComponent implements OnInit {
   @Input() letter;
   @Input() duration;
   @Input() digit;
+  @Input() id;
   @Input() steps: number;
 
   @ViewChild("animatedDigit") animatedDigit: ElementRef;
@@ -31,14 +32,19 @@ export class CounterCardComponent implements OnInit {
   }
 
   numberCounter() {
-    var currentNumber = $('#dynamic-number').text();
-
-    $({ numberValue: currentNumber }).animate({ numberValue: 31.6 }, {
-      duration: 2000,
-      easing: 'linear',
-      step: function (now) {
-        $('#dynamic-number').text(now.toFixed(1));
-      }
-    });
-  }
+    setTimeout(() => {
+      let id = '#dynamic-number' + this.id;
+      var currentNumber = $(id).text();
+  
+      let number = Number(currentNumber)
+      $({ numberValue: 0 }).animate({ numberValue: number  }, {
+        duration: 2000,
+        easing: 'linear',
+        step: function (now) {
+          $(id).text(now.toFixed(1));
+        }
+      });
+    }, 100);
+      
+    }
 }

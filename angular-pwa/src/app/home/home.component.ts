@@ -44,7 +44,6 @@ export class HomeComponent implements OnInit {
     this.route.queryParams
       .subscribe(params => {
         console.log(params.id);
-
         if(id == 1){
           this.router.navigate(['/presidents-message']);
           console.log("id = 1");
@@ -58,7 +57,7 @@ export class HomeComponent implements OnInit {
     )
   }
 
-  onClick(){
+  goToAppendixes(){
     this.router.navigate(['/appendixes-content']);
   }
 

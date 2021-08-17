@@ -11,7 +11,7 @@
     <div class="numbersgroup">
       <div *ngFor="let data of homeData" class="contentCard">
         <app-counter-card  *ngIf="data.type == 'counter-card'" style="width: 100px;" [duration]="1500" [digit]="data.money" [data]="data.data"
-          [currency]="data.currency" [money]="data.money" [letter]="data.letter"></app-counter-card>
+          [currency]="data.currency" [money]="data.money" [letter]="data.letter" [id]="data.id"></app-counter-card>
       </div>
     </div>
   </div>

@@ -11,6 +11,8 @@ export class SimpleHeadingComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log("heading",this.simpleHeading);
+    
   }
 
 }

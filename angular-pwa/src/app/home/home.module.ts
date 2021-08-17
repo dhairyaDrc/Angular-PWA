@@ -9,6 +9,7 @@ import { AppendixesContentComponent } from './appendixes-content/appendixes-cont
 import { HomeRoutingModule } from './home-routing.module';
 import { FinancialHighlightsComponent } from './financial-highlights/financial-highlights.component';
 import { BoardOfDirectorsComponent } from './board-of-directors/board-of-directors.component';
+import { SharedModule } from '../shared/shared.module';
 // import { AppendixesContentComponent } from './appendixes-content/appendixes-content.component';
 
 
@@ -27,7 +28,8 @@ import { BoardOfDirectorsComponent } from './board-of-directors/board-of-directo
 
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    SharedModule
   ],
 
   exports: [

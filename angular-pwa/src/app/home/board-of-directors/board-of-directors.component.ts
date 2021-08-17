@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import boardOfDirectorsJsonData from 'src/app/constants/board-of-directors.json'
 
 @Component({
@@ -10,14 +11,19 @@ export class BoardOfDirectorsComponent implements OnInit {
 
   data = [];
 
-  constructor() { }
+  constructor(
+    private router:Router
+  ) { }
 
   ngOnInit(): void {
     this.data = boardOfDirectorsJsonData;
 
-    console.log("boardOfDirectorsJsonData : ",boardOfDirectorsJsonData);
+    console.log("boardOfDirectorsJsonData : ",this.data);
     
   }
 
+  goToNextChapter(){
+    this.router.navigate(['/financial-highlights']);
+  }
 
 }

@@ -9,18 +9,18 @@ export class MenuBarComponent implements OnInit {
 
   constructor() { }
 
+  isShowMenu = false;
+  isSocialMenu = false;
+
   ngOnInit(): void { }
 
-  closePrompt(){}
-
-  openSocialMenu(){
-    var ele = document.getElementById('social-pop');
-    console.log("ele >>>> ",ele);
-    
-    if(ele.style.display === "none"){
-      ele.style.display = "block";
-    console.log("none");
-        }
+  
+  showMenu() {
+    this.isShowMenu ? this.isShowMenu = false : this.isShowMenu = true;
   }
-
+  
+  openSocialMenu(){
+    this.isSocialMenu ? this.isSocialMenu = false : this.isSocialMenu = true;
+  }
+  
 }
