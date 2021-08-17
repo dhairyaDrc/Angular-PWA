@@ -9,13 +9,15 @@
       "isSmall": false
     },
     {
-      "image": "./assets/images/fin/financial_2.png",
-      "isSmall": true
-    },
-    {
-      "image": "./assets/images/fin/financial_3.png",
-      "isSmall": true
-    },
+      "data":[
+        { "x": "COVID-19 Pandemic Response Option", "y": 2961, "text": "2,961" }, 
+      { "x": "Other COVID-19 Operations", "y": 10191, "text":"10,191" }
+      
+    ],
+      "type":"chart"
+  },
+
+    
     {
       "image": "./assets/images/fin/financial_4.png",
       "isSmall": false

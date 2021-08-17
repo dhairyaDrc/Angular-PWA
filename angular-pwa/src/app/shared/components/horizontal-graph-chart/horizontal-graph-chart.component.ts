@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class HorizontalGraphChartComponent implements OnInit {
 @Input() data
   multi: any[];
-  view: any[] = [500, 200];
+  view: any[] = [400, 200];
 
   // options
 

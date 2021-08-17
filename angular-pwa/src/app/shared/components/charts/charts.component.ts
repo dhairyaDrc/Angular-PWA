@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { AccumulationChartComponent, AccumulationChart, AccumulationDataLabel, IAccLoadedEventArgs, AccumulationTheme } from '@syncfusion/ej2-angular-charts';
+import { AccumulationChartComponent, AccumulationChart, AccumulationDataLabel, IAccLoadedEventArgs, AccumulationTheme, LogarithmicService } from '@syncfusion/ej2-angular-charts';
 
 @Component({
   selector: 'app-charts',
@@ -24,11 +24,14 @@ export class ChartsComponent implements OnInit {
   // };
 
   constructor() {
+    
     // Object.assign(this, { single });
     // Object.assign(this, { second });
   }
 
   ngOnInit(): void {
+    console.log("New Data", this.data);
+
     // let that=this.data
     // Object.assign(this, { that });
     // Object.assign(this, { second });

@@ -11,7 +11,6 @@ import { LogoHeadingComponent } from './components/logo-heading/logo-heading.com
 import { CounterComponent } from './components/counter/counter.component';
 import { QuoteComponent } from './components/quote/quote.component';
 import { ShadeKnowledgeComponent } from './components/shade-knowledge/shade-knowledge.component';
-import { HomeModule } from '../home/home.module';
 import { CaptionComponent } from './components/caption/caption.component';
 import { ButtonComponent } from './components/button/button.component';
 import { ExpandableContentTwoComponent } from './expandable-content-two/expandable-content-two.component';
@@ -21,6 +20,7 @@ import { ChartsComponent } from './components/charts/charts.component';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { ChartAllModule, AccumulationChartAllModule, RangeNavigatorAllModule } from '@syncfusion/ej2-angular-charts';
 import { HorizontalGraphChartComponent } from './components/horizontal-graph-chart/horizontal-graph-chart.component';
+import { RegionHeadingComponent } from './components/region-heading/region-heading.component';
 
 
 
@@ -44,13 +44,12 @@ import { HorizontalGraphChartComponent } from './components/horizontal-graph-cha
     ShadeKnowledgeTwoComponent,
     CurrencyCounterComponent,
     ChartsComponent,
-    HorizontalGraphChartComponent
+    HorizontalGraphChartComponent,
+    RegionHeadingComponent
   
   ],
   imports: [
     CommonModule,
-    HomeModule,
-    
     NgxChartsModule,
     ChartAllModule,
     AccumulationChartAllModule,
@@ -75,7 +74,8 @@ import { HorizontalGraphChartComponent } from './components/horizontal-graph-cha
     ShadeKnowledgeTwoComponent,
     CurrencyCounterComponent,
     ChartsComponent,
-    HorizontalGraphChartComponent
+    HorizontalGraphChartComponent,
+    RegionHeadingComponent
 
   ]
 })

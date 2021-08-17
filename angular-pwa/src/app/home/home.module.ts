@@ -8,6 +8,7 @@ import { MenuBarComponent } from './menu-bar/menu-bar.component';
 import { AppendixesContentComponent } from './appendixes-content/appendixes-content.component';
 import { HomeRoutingModule } from './home-routing.module';
 import { FinancialHighlightsComponent } from './financial-highlights/financial-highlights.component';
+import { SharedModule } from '../shared/shared.module';
 // import { AppendixesContentComponent } from './appendixes-content/appendixes-content.component';
 
 
@@ -21,11 +22,16 @@ import { FinancialHighlightsComponent } from './financial-highlights/financial-h
     AppendixesComponent,
     AppendixesContentComponent,
     FinancialHighlightsComponent,
+    
+    
   ],
 
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    
+    SharedModule
+    
   ],
 
   exports: [
