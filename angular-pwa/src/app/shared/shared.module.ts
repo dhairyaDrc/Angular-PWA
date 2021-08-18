@@ -25,6 +25,7 @@ import { ChartAllModule, AccumulationChartAllModule, RangeNavigatorAllModule } f
 import { HorizontalGraphChartComponent } from './components/horizontal-graph-chart/horizontal-graph-chart.component';
 import { RegionHeadingComponent } from './components/region-heading/region-heading.component';
 import { CurrencyCounterComponent } from './components/currency-counter/currency-counter.component';
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 
 
 
@@ -52,7 +53,8 @@ import { CurrencyCounterComponent } from './components/currency-counter/currency
     CurrencyCounterComponent,
     ChartsComponent,
     HorizontalGraphChartComponent,
-    RegionHeadingComponent
+    RegionHeadingComponent,
+    MenuBarComponent
   
   ],
   imports: [
@@ -85,7 +87,8 @@ import { CurrencyCounterComponent } from './components/currency-counter/currency
     CurrencyCounterComponent,
     ChartsComponent,
     HorizontalGraphChartComponent,
-    RegionHeadingComponent
+    RegionHeadingComponent,
+    MenuBarComponent
 
   ]
 })

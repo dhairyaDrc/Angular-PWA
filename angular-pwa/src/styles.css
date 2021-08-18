@@ -502,7 +502,7 @@ body.menu-open .real-menu{
 #open-menu {
     cursor: pointer;
     padding:0.5rem;
-    /* background-image: url("../images/ui/hamburger_large.png"); */
+    background-image: url("assets/images/ui/hamburger_large.png");
     background-repeat: no-repeat;
     background-position: left center;
     cursor: pointer;
