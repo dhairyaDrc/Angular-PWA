@@ -9,7 +9,7 @@
         <app-simple-heading [simpleHeading]="data.data" *ngIf="data.type=='heading'" ></app-simple-heading>
         <app-chapter-title [data]="data.data" [tag]="data.tag" [heading]="data.heading" [chapterTitle]="data.data" *ngIf="data.type=='chaptertitle'"></app-chapter-title>
         
-        <app-expandable-content [data]="data.data" [title]="data.title" *ngIf="data.type=='expand'" ></app-expandable-content>
+        <app-expandable-content [data]="data.data" [title]="data.title" [image]="data.image" *ngIf="data.type=='expand'" ></app-expandable-content>
         <app-expandable-content-two [title]="data.title" [data]="data.data" [image]='data.image' *ngIf="data.type== 'expandTwo'"></app-expandable-content-two>
         <app-twitter [data]="data.data" *ngIf="data.type=='twitter'" ></app-twitter>
         <app-logo-heading [data]="data.data" [image]="data.image" *ngIf="data.type=='logoHeading'" ></app-logo-heading>

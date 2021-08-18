@@ -12,9 +12,10 @@ export class ExpandableContentComponent implements OnInit {
   
   @Input() data
   @Input() title
+  @Input() image
   isExpand:boolean = false;
   ngOnInit(): void {
-    console.log(this.data);
+    console.log(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>",this.image  );
     
   }
   readMore(){
