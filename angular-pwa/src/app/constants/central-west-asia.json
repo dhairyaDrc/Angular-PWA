@@ -1,19 +1,15 @@
 [{
-    "regionTitle": "REGIONS",
-    "region": ":CENTRAL AND WEST ASIA",
-    "content": "Afghanistan, Armenia, Azerbaijan, Georgia, Kazakhstan, the Kyrgyz Republic, Pakistan, Tajikistan, Turkmenistan, Uzbekistan",
-    "type": "title"
+    "data": "CENTRAL AND WEST ASIA",
+    "country": "Afghanistan, Armenia, Azerbaijan, Georgia, Kazakhstan, the Kyrgyz Republic, Pakistan, Tajikistan, Turkmenistan, Uzbekistan",
+    "type": "regionHeading"
   },
   {
-    "image": "cwrd/cwrd_photo1.jpg",
+    "data": "cwrd_photo1.jpg",
     "tag": "A child psychologist visits a family as a part of a mobile team that supports young children with speech development and other difficulties.",
-    "type": "headerImage"
+    "type": "image"
   },
   {
-    "heading": "BY THE NUMBERS: CENTRAL AND WEST ASIA",
-    "type": "currencyCounter"
-  },
-  {
+    "title": "BY THE NUMBERS: CENTRAL AND WEST ASIA",
     "symbol": "$",
     "digit": 6.6,
     "letter": "B",
@@ -63,8 +59,8 @@
     "type": "paragraph"
   },
   {
-    "data": "<a href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital&amp;via=ADB_HQ&amp;text=In%202020%2C%20ADB%20committed%20%246.6%20billion%20in%20Central%20and%20West%20Asia%2C%20of%20which%20%244%20billion%20supported%20COVID-19%20response.&amp;hashtags=COVID19' title='Tweet this' target='_blank'>In 2020, ADB committed $6.6 billion in Central and West Asia, of which $4 billion supported COVID-19 response.</a>.",
-    "type": "paragraph"
+    "data": "<b><a href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital&amp;via=ADB_HQ&amp;text=In%202020%2C%20ADB%20committed%20%246.6%20billion%20in%20Central%20and%20West%20Asia%2C%20of%20which%20%244%20billion%20supported%20COVID-19%20response.&amp;hashtags=COVID19' title='Tweet this' target='_blank'>In 2020, ADB committed $6.6 billion in Central and West Asia, of which $4 billion supported COVID-19 response.</a></b>",
+    "type": "twitter"
   },
   {
     "data": "ADB quickly supported DMCs to implement their pandemic responses. It committed a total of $6.6 billion in Central and West Asia in 2020, up by 8% from 2019. Around 60% of the overall commitment for the region supported pandemic response—primarily through use of the COVID‑19 Pandemic Response Option, amounting to $2.4 billion for seven DMCs. In particular, ADB committed $1 billion to Kazakhstan, $500 million to Pakistan, and $500 million to Uzbekistan for budget support. Complementing this sovereign COVID‑19 assistance, ADB committed nonsovereign financing of $24 million to provide working capital support to a power distribution network company in Armenia and to agriculture borrowers in Georgia.",
@@ -83,7 +79,7 @@
     "type": "paragraph"
   },
   {
-    "data": "In 2020, ADB’s commitments in this region were primarily in the following sectors:",
+    "title": "In 2020, ADB’s commitments in this region were primarily in the following sectors:",
 
     "digit1": 34,
     "tag1": "PUBLIC SECTOR MANAGEMENT",
@@ -104,37 +100,32 @@
     "type": "currencyCounter2"
 
   },
-
-
-
   {
-    "title": "STRATEGIC FOCUS",
+    "data": "STRATEGIC FOCUS",
     "type": "heading"
   },
   {
-    "image": "<img class='s2030img' src='images/cwrd/cwrd_s2030.png'>",
+    "data": "cwrd_s2030.png",
     "type": "image"
   },
 
   {
-    "title": "Addressing Remaining Poverty and<br>Reducing Inequalities",
-    "type": "heading"
+    "data": "Addressing Remaining Poverty and<br>Reducing Inequalities",
+    "type": "logoHeading"
   },
   {
     "data": "As part of its comprehensive support to help Georgia mitigate the impacts of the pandemic, ADB provided a policy-based loan of $201.7 million for a fiscal resilience and social protection support program. The program supports government reforms to the national pension scheme, benefiting senior citizens and improving other  social protection systems to promote Georgia’s return to inclusive economic growth. ADB also committed $50 million in integrated budget support to help the Kyrgyz Republic mitigate the health, social, and economic impacts of COVID‑19.",
-    "type": "paragraph"
+    "type": "paragraph" 
   },
   {
-    "data": "In Afghanistan, ADB committed $40 million for the construction and rehabilitation of 15 hospitals and medical facilities, adding more than 1,100 new hospital beds. In Armenia, additional financing of $550,000 committed from the High-Level Technology Fund will support telemedicine and a human resources information system for the health sector. ADB committed $100 million to support the testing, surveillance, and case management of COVID‑19 in Uzbekistan. The bank also committed a technical assistance package of $4.3 million to support digital health pilots in response to COVID‑19 in <a href='https://www.adb.org/countries/subregional-programs/carec' target='_blank'>Central Asia Regional Economic Cooperation</a> (CAREC) countries  and the Caucasus.",
-    "type": "paragraph"
+    "data":"In Afghanistan, ADB committed $40 million for the construction and rehabilitation of 15 hospitals and medical facilities, adding more than 1,100 new hospital beds. In Armenia, additional financing of $550,000 committed from the High-Level Technology Fund will support telemedicine and a human resources information system for the health sector. ADB committed $100 million to support the testing, surveillance, and case management of COVID‑19 in Uzbekistan. The bank also committed a technical assistance package of $4.3 million to support digital health pilots in response to COVID‑19 in <a href='https://www.adb.org/countries/subregional-programs/carec' target='_blank'>Central Asia Regional Economic Cooperation</a> (CAREC) countries and the Caucasus.",
+    "type":"paragraph"
   },
-  {
-    "image": "images/cwrd/cwrd_photo2.jpg'>",
-    "subContent": "An Afghan health specialist works in the laboratory of the Afghan–Japan special hospital for COVID‑19 patients in Kabul. ADB committed $40 million to help construct and upgrade 15 hospitals and medical facilities in the country.",
-    "type": "image"
-
-  },
-
+{
+  "data":"cwrd_photo2.jpg",
+  "tag":"An Afghan health specialist works in the laboratory of the Afghan–Japan special hospital for COVID‑19 patients in Kabul. ADB committed $40 million to help construct and upgrade 15 hospitals and medical facilities in the country.",
+  "type":"image"
+},
   {
     "data": "ADB committed a $30 million grant to Tajikistan to strengthen the skills of young people, women, and labor migrants to improve their employability and wages, and to enhance the capacity of employment and migration agencies. The project will build and equip three new migration service centers and three new “model job centers” for more-focused skills training. It will also help develop a new national classification of occupations based on international standards for skills.",
     "type": "paragraph"
@@ -145,8 +136,9 @@
     "type": "expand"
   },
   {
-    "title": "Accelerating Progress<br>in Gender Equality",
-    "type": "heading"
+    "data": "Accelerating Progress<br>in Gender Equality",
+    "image": "op2_color.png",
+    "type":"logoHeading"
   },
 
   {
@@ -162,8 +154,9 @@
     "type": "paragraph"
   },
   {
-    "title": "Tackling Climate Change, Building<br>Climate and Disaster Resilience, and<br>Enhancing Environmental Sustainability",
-    "type": "heading"
+    "data": "Tackling Clmate Change, Building<br>Climate and Disaster Resilience, and<br>Enhancing Environmental Sustainability",
+    "image": "op3_color.png",
+    "type": "logoHeading"
   },
   {
     "data": "Despite the shift in focus brought by COVID‑19, ADB has remained committed to addressing climate change and disaster resilience in Central and West Asia. Of the total number of projects committed in this region in 2020, 47% included climate mitigation or adaptation components (compared to 53% in 2019). Total climate financing amounted to $556 million, from ADB’s own resources. Through these projects, ADB will help deliver an estimated reduction of 79,300 metric tons of carbon dioxide emissions every year.",
@@ -178,8 +171,9 @@
     "type": "paragraph"
   },
   {
-    "title": "Making Cities<br>More Livable",
-    "type": "heading"
+    "data": "Making Cities<br>More Livable",
+    "image": "op4_color.png",
+    "type": "logoHeading"
   },
   {
     "data": "Making cities more livable through holistic and integrated approaches is at the core of ADB’s urban operations in Central and West Asia. These prioritize innovative service delivery in critical areas of water  supply, sanitation, and solid waste management, benefiting the poor and women, who have been most impacted by the pandemic.",
@@ -209,24 +203,23 @@
   },
 
   {
-    "title": "Promoting Rural Development<br>and Food Security",
-    "type": "heading"
+    "data": "Promoting Rural Development<br>and Food Security",
+    "image": "op5_color.png",
+    "type": "logoHeading"
   },
   {
     "data": "To strengthen food security in Afghanistan during the pandemic, ADB reallocated $10 million from a horticulture value chain project and an integrated water resources project to help construct vegetable storage, solar dryers for fruit and vegetables, and other on-farm equipment. These investments have helped about 2,000 vulnerable farming households continue to make a living despite disrupted supply chains.",
     "type": "paragraph"
   },
-  {
-    "data": "To strengthen food security in Afghanistan during the pandemic, ADB reallocated $10 million from a horticulture value chain project and an integrated water resources project to help construct vegetable storage, solar dryers for fruit and vegetables, and other on-farm equipment. These investments have helped about 2,000 vulnerable farming households continue to make a living despite disrupted supply chains.",
-    "type": "paragraph"
-  },
+  
   {
     "data": "In Pakistan, ADB knowledge support and technical assistance will help address the locust infestation crisis and mitigate other hazards by using data collection technologies to monitor crop production and market prices. These data can then be disseminated to the government and rural communities to help assess the performance of Pakistan’s food security institutions and help build a long-term and sustainable food security system.",
     "type": "paragraph"
   },
   {
-    "title": "Strengthening Governance and<br>Institutional Capacity",
-    "type": "heading"
+    "data": "Strengthening Governance and<br>Institutional Capacity",
+    "image": "op6_color.png",
+    "type": "logoHeading"
   },
   {
     "data": "ADB prioritizes institutional development and capacity building as a critical part of its support to DMCs in Central and West Asia. Approximately 76% of the number of projects committed for the region in 2020 included support for improved governance and institutional capacity.",
@@ -238,7 +231,7 @@
   },
   {
     "data": "<a href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital&amp;via=ADB_HQ&amp;text=In%20Georgia%2C%20ADB%20committed%20its%20first%20sector%20development%20program%3A%20%24157.2%20million%20in%20loans%20to%20support%20the%20government%27s%20pursuit%20of%20sustainable%20water%20supply%20and%20sanitation%20services.' title='Tweet this' target='_blank'>In Georgia, ADB committed its first sector development program: $157.2 million in loans to support the government’s pursuit of sustainable water supply and sanitation services.</a>",
-    "type": "tweet"
+    "type": "twitter"
   },
   {
     "data": "In Pakistan, ADB provided two policy-based loans to strengthen the country’s finance sector and improve tradecompetitiveness and exports. A $300 million policy-based loan will help develop competitive capital marketsand encourage private sector investment through reforms that enhance the institutional and regulatory capacityof government bodies. A second $300 million subprogram will improve trade and international competitiveness by introducing important tariff and tax-related policy reforms to support Pakistan’s export industry. It will also strengthen key institutions, including accreditation bodies, the Export–Import Bank of Pakistan, and the Pakistan Single Window initiative.",
@@ -249,30 +242,28 @@
     "type": "paragraph"
   },
   {
-    "title": "Fostering Regional Cooperation<br>and Integration",
-    "type": "heading"
+    "data": "Fostering Regional Cooperation<br>and Integration",
+    "image": "op7_color.png",
+    "type": "logoHeading"
   },
   {
     "data": "In Kazakhstan, ADB committed $150 million to foster regional connectivity in an area of the country with low market accessibility. The project will upgrade an existing two-lane 89-kilometer road built in the 1970s to a modern four-lane highway, reducing travel time from Aktobe to Kandyagash by 5 hours. This roadway links to CAREC corridors that connect Kazakhstan to the People’s Republic of China, the Russian Federation, and Europe.",
     "type": "paragraph"
   },
-  {
-    "data": "In Afghanistan, ADB provided a $110 million grant to finance the construction of 201 kilometers (the Afghan segment) of a 500-kilovolt power transmission line that runs from the Surkhan substation in Uzbekistan to the Khwaja-Alwan substation in Afghanistan. This connection will provide Afghanistan with an annual regional power import of 3,000 gigawatt-hours, providing improved services to existing customers and facilitating about 500,000 new connections to households and businesses. The project will reduce greenhouse gas emissions by 320,000 tons each year by decreasing the use of diesel and fuel oil for domestic power generation.",
-    "type": "paragraph"
-  },
+  
   {
     "data": "The CAREC program incorporated COVID‑19 response into existing initiatives on disaster risk management,tourism, and health. The program approved gender and tourism strategies and adopted a new results framework to monitor progress. It also launched regional initiatives for health cooperation, food safety, water resources management, and the promotion of start-up enterprises and technology.",
     "type": "paragraph"
   },
   {
     "title": "EFFICIENCIES BOOST REGIONAL POWER SUPPLY",
-    "image": "<img src='images/cwrd/cwrd_box.jpg'>",
-    "data": "A woman works at a textile factory in Turkmenistan. A revitalized electricity grid will provide Turkmenistan  with more reliable power and will increase power exports to Afghanistan and other neighboring countries.<br><br>Energy-rich Turkmenistan, which possesses the world’s fourth- largest reserves of natural gas, is in a unique position to export electricity to neighboring countries. Boosting exports is crucial to the region’s energy security and to tackling energy poverty in countries like Afghanistan, where millions are still without access to electricity.<br><br>With a $500 million loan from ADB, Turkmenistan is revitalizing its transmission grid to improve the reliability of its power supply and increase electricity exports to its neighbors.<br<br>Despite the challenging circumstances of 2020, Turkmenistan’s Ministry of Energy achieved a number of contract and procurement efficiencies on the project. These resulted in about $100 million in savings on the signed value of the contracts against the engineering estimates. The savings will be used to rehabilitate four additional substations and an extra 380 kilometers of transmission lines from Mary to Ashgabat.<br><br>In 2021, Turkmenistan’s strengthened network is expected to deliver an additional 1 gigawatt-hour of electricity to Afghanistan. Power exports to Afghanistan will increase to 4 gigawatt-hours by 2030— enough electricity to power about 25,000 additional households for a year.<br><br>“The successful completion of the project will create a single energy ring, which in turn will increase the reliability of energy supply to domestic consumers and increase Turkmenistan’s export opportunities,” says Suleyman Bayrammyradov, Deputy Head of the International Department within Turkmenistan’s Ministry ofEnergy.",
-    "type": "expandTwo"
+    "image": "cwrd_box.jpg",
+    "para1": "A woman works at a textile factory in Turkmenistan. A revitalized electricity grid will provide Turkmenistan  with more reliable power and will increase power exports to Afghanistan and other neighboring countries.<br><br>Energy-rich Turkmenistan, which possesses the world’s fourth- largest reserves of natural gas, is in a unique position to export electricity to neighboring countries. Boosting exports is crucial to the region’s energy security and to tackling energy poverty in countries like Afghanistan, where millions are still without access to electricity.<br><br>With a $500 million loan from ADB, Turkmenistan is revitalizing its transmission grid to improve the reliability of its power supply and increase electricity exports to its neighbors.<br<br>Despite the challenging circumstances of 2020, Turkmenistan’s Ministry of Energy achieved a number of contract and procurement efficiencies on the project. These resulted in about $100 million in savings on the signed value of the contracts against the engineering estimates. The savings will be used to rehabilitate four additional substations and an extra 380 kilometers of transmission lines from Mary to Ashgabat.<br><br>In 2021, Turkmenistan’s strengthened network is expected to deliver an additional 1 gigawatt-hour of electricity to Afghanistan. Power exports to Afghanistan will increase to 4 gigawatt-hours by 2030— enough electricity to power about 25,000 additional households for a year.<br><br>“The successful completion of the project will create a single energy ring, which in turn will increase the reliability of energy supply to domestic consumers and increase Turkmenistan’s export opportunities,” says Suleyman Bayrammyradov, Deputy Head of the International Department within Turkmenistan’s Ministry ofEnergy.",
+    "type": "shadeKnowledge"
 
   },
   {
-    "title": "KNOWLEDGE HIGHLIGHTS",
+    "data": "KNOWLEDGE HIGHLIGHTS",
     "type": "heading"
   },
   {
@@ -288,7 +279,7 @@
     "type": "paragraph"
   },
   {
-    "image": "<a href='#'target='_blank'><img src='images/cwrd/cwrd_knowledge.jpg'></a>",
+    "image": "cwrd_knowledge.jpg",
     "title": "Exploring an Alternative Road to Greater Tourism",
     "data": "ADB is exploring the potential tourism benefits of a more direct road between Almaty, the economic center of  Kazakhstan, and the shores of Issyk-Kul in the Kyrgyz Republic, a popular lakeside holiday destination. The final <a href='https://dx.doi.org/10.22617/TCS200423-2' target='_blank'>economic impact assessment</a> was discussed in virtual consultations with the governments of the two countries during September and October 2020.",
     "type": "shadeKnowledgeTwo"
@@ -303,8 +294,9 @@
     "type": "paragraph"
   },
   {
-    "data": "Next: East Asia ",
-    "type": "button"
+    
+      "data": "NEXT:EAST ASIA",
+      "type": "button"
   }
 
 

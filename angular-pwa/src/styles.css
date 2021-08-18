@@ -502,7 +502,7 @@ body.menu-open .real-menu{
 #open-menu {
     cursor: pointer;
     padding:0.5rem;
-    background-image: url("assets/images/ui/hamburger_large.png");
+    /* background-image: url("../images/ui/hamburger_large.png"); */
     background-repeat: no-repeat;
     background-position: left center;
     cursor: pointer;
@@ -1310,7 +1310,7 @@ width:12rem;
     color: #40bde8;
 }
 .progress1.op5 h4, .progress1.op5 p.num {
-    color: #f47f26;
+    color: #ea522c;
 }
 .progress1.op6 h4, .progress1.op6 p.num {
     color: #0a9ed5;
@@ -1660,27 +1660,27 @@ div.fastfacts p.num{
 
 
 
-.icon.op1 {
-    /* background-image: url(./assets/images/op1_color.png); */
+/* .icon.op1 {
+    background-image: url(./assets/images/op1_color.png);
 }
 .icon.op2 {
-    /* background-image: url(../images/ui/op2_color.png); */
+    background-image: url(./assets/images/ui/op2_color.png);
 }
 .icon.op3 {
-    /* background-image: url(../images/ui/op3_color.png); */
+    background-image: url(./assets/images/ui/op3_color.png);
 }
 .icon.op4 {
-    /* background-image: url(../images/ui/op4_color.png); */
+    background-image: url(./assets/images/ui/op4_color.png);
 }
 .icon.op5 {
-    /* background-image: url(../images/ui/op5_color.png); */
+    background-image: url(./assets/images/ui/op5_color.png);
 }
 .icon.op6 {
-    /* background-image: url(../images/ui/op6_color.png); */
+    background-image: url(./assets/images/ui/op6_color.png);
 }
 .icon.op7 {
-    /* background-image: url(../images/ui/op7_color.png); */
-}
+    background-image: url(./assets/images/ui/op7_color.png);
+} */
 
 /********* financial page ***********/
 /********* financial page ***********/
@@ -3076,6 +3076,19 @@ color: #666;
         vertical-align: middle;
         margin-top: 1rem;
     }
-
-    
+.chart{
+    width: 45%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.charts{
+    display:flex;
+    flex-wrap: wrap;
+}
+.ngx-charts{
+float:none !important;
+}
+    .ngx-charts-outer{
+        margin: 0px auto;
+    }
     

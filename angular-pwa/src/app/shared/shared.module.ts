@@ -11,7 +11,6 @@ import { LogoHeadingComponent } from './components/logo-heading/logo-heading.com
 import { CounterComponent } from './components/counter/counter.component';
 import { QuoteComponent } from './components/quote/quote.component';
 import { ShadeKnowledgeComponent } from './components/shade-knowledge/shade-knowledge.component';
-import { HomeModule } from '../home/home.module';
 import { CaptionComponent } from './components/caption/caption.component';
 import { ButtonComponent } from './components/button/button.component';
 import { ExpandableContentTwoComponent } from './expandable-content-two/expandable-content-two.component';
@@ -19,6 +18,13 @@ import { ShadeKnowledgeTwoComponent } from './shade-knowledge-two/shade-knowledg
 import { RegionTitleComponent } from './components/region-title/region-title.component';
 import { RegionCounterComponent } from './components/region-counter/region-counter.component';
 import { SignatureComponent } from './components/signature/signature.component';
+// import { CurrencyCounterComponent } from './components/currency-counter/currency-counter.component';
+import { ChartsComponent } from './components/charts/charts.component';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { ChartAllModule, AccumulationChartAllModule, RangeNavigatorAllModule } from '@syncfusion/ej2-angular-charts';
+import { HorizontalGraphChartComponent } from './components/horizontal-graph-chart/horizontal-graph-chart.component';
+import { RegionHeadingComponent } from './components/region-heading/region-heading.component';
+import { CurrencyCounterComponent } from './components/currency-counter/currency-counter.component';
 
 
 
@@ -42,12 +48,19 @@ import { SignatureComponent } from './components/signature/signature.component';
     ShadeKnowledgeTwoComponent,
     RegionTitleComponent,
     RegionCounterComponent,
-    SignatureComponent
+    SignatureComponent,
+    CurrencyCounterComponent,
+    ChartsComponent,
+    HorizontalGraphChartComponent,
+    RegionHeadingComponent
   
   ],
   imports: [
     CommonModule,
-    // HomeModule
+    NgxChartsModule,
+    ChartAllModule,
+    AccumulationChartAllModule,
+    RangeNavigatorAllModule
   ],
   exports:[
     
@@ -68,7 +81,12 @@ import { SignatureComponent } from './components/signature/signature.component';
     ShadeKnowledgeTwoComponent,
     RegionTitleComponent,
     RegionCounterComponent,
-    SignatureComponent
+    SignatureComponent,
+    CurrencyCounterComponent,
+    ChartsComponent,
+    HorizontalGraphChartComponent,
+    RegionHeadingComponent
+
   ]
 })
 export class SharedModule { }

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SouthEastAsiaComponent } from './south-east-asia.component';
+import { RegionHeadingComponent } from './region-heading.component';
 
-describe('SouthEastAsiaComponent', () => {
-  let component: SouthEastAsiaComponent;
-  let fixture: ComponentFixture<SouthEastAsiaComponent>;
+describe('RegionHeadingComponent', () => {
+  let component: RegionHeadingComponent;
+  let fixture: ComponentFixture<RegionHeadingComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SouthEastAsiaComponent ]
+      declarations: [ RegionHeadingComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SouthEastAsiaComponent);
+    fixture = TestBed.createComponent(RegionHeadingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

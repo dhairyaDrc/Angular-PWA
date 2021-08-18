@@ -4,7 +4,12 @@ import buttonJsonData from "src/app/constants/button.json";
 import chapter1JsonData from "src/app/constants/chapter1.json";
 import chapter2CardJsonData from "../constants/chapter2-cards.json"
 import chapter3CardJsonData from "../constants/chapter3.json"
-import chapter4CardJsonData from "../constants/chapter4.json"
+import chapter4CardJsonData from "../constants/chapter4.json";
+import  centralWestAsia  from "../constants/central-west-asia.json";
+import  eastAsia  from "../constants/east-asia.json";
+// import  centralWestAsia  from "../constants/central-west-asia.json";
+// import  centralWestAsia  from "../constants/central-west-asia.json";
+// import  centralWestAsia  from "../constants/central-west-asia.json";
 
 @Component({
   selector: 'app-report',
@@ -44,7 +49,18 @@ export class ReportComponent implements OnInit {
           this.data=chapter3CardJsonData;
         }else if (params.id == 2){
           this.router.navigate(['/chapter2']);
+        } else if (params.id==10){
+          this.data=centralWestAsia;
+        }else if (params.id==11){
+          this.data=eastAsia;
+        }else if (params.id==12){
+          this.data=centralWestAsia;
+        }else if (params.id==13){
+          this.data=centralWestAsia;
+        }else if (params.id==14){
+          this.data=centralWestAsia;
         }
+
       }
     );
   }

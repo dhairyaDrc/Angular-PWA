@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CentralWestAsiaComponent } from './central-west-asia.component';
+import { CurrencyCounterComponent } from './currency-counter.component';
 
-describe('CentralWestAsiaComponent', () => {
-  let component: CentralWestAsiaComponent;
-  let fixture: ComponentFixture<CentralWestAsiaComponent>;
+describe('CurrencyCounterComponent', () => {
+  let component: CurrencyCounterComponent;
+  let fixture: ComponentFixture<CurrencyCounterComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CentralWestAsiaComponent ]
+      declarations: [ CurrencyCounterComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CentralWestAsiaComponent);
+    fixture = TestBed.createComponent(CurrencyCounterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
