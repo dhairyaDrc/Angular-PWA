@@ -7,9 +7,9 @@ import chapter3CardJsonData from "../constants/chapter3.json"
 import chapter4CardJsonData from "../constants/chapter4.json";
 import  centralWestAsia  from "../constants/central-west-asia.json";
 import  eastAsia  from "../constants/east-asia.json";
+import  pacific  from "../constants/pacific.json";
 // import  centralWestAsia  from "../constants/central-west-asia.json";
-// import  centralWestAsia  from "../constants/central-west-asia.json";
-// import  centralWestAsia  from "../constants/central-west-asia.json";
+import  southeastasia  from "../constants/south-east-asia.json";
 
 @Component({
   selector: 'app-report',
@@ -54,11 +54,11 @@ export class ReportComponent implements OnInit {
         }else if (params.id==11){
           this.data=eastAsia;
         }else if (params.id==12){
-          this.data=centralWestAsia;
+          this.data=pacific;
         }else if (params.id==13){
           this.data=centralWestAsia;
         }else if (params.id==14){
-          this.data=centralWestAsia;
+          this.data=southeastasia;
         }
 
       }

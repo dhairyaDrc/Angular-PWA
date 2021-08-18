@@ -1,9 +1,14 @@
 [
     {
+<<<<<<< HEAD
         "heading": "PRESIDENT'S MESSAGE",
         "data": "",
         "tag": "",
         "type": "singleHeading"
+=======
+        "data": "PRESIDENT'S MESSAGE",
+        "type": "heading"
+>>>>>>> 84ad6bb4763fcf5193442a81ca046845249b38b5
     },
     {
         "image": "pres/pres_asakawa.jpg",
@@ -66,7 +71,11 @@
     {
         "signature": "assets/images/pres/president_sig.png",
         "name": "MASATSUGU ASAKAWA",
+<<<<<<< HEAD
         "para1": "President and Chairperson",
+=======
+        "para1": "President and Chairperson", 
+>>>>>>> 84ad6bb4763fcf5193442a81ca046845249b38b5
         "para2": "of the Board of Directors",
         "type": "signature"
     },
