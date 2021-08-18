@@ -1,7 +1,9 @@
 [
     {
-        "data": "BOARD OF DIRECTORS",
-        "type": "heading"
+        "heading": "BOARD OF DIRECTORS",
+        "data": "",
+        "tag": "",
+        "type": "singleHeading"
     },
     {   
         "subTitle": "ADB BOARD OF DIRECTORS AS OF 31 DECEMBER 2020",

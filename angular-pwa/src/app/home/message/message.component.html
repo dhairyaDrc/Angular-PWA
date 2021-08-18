@@ -1,9 +1,7 @@
 <div class="content">
   <div class="content">
     <div *ngFor="let data of data">
-      <div class="simpleheader">
-        <app-simple-heading [simpleHeading]="data.data" *ngIf="data.type=='heading'"></app-simple-heading>
-      </div>
+      <app-single-heading [title]="data.heading" *ngIf="data.type=='singleHeading'"></app-single-heading>
       <div class="president" style="display: flex;">
         <app-image [image]="data.image" [tag]="data.tag" *ngIf="data.type=='image'"></app-image>
       </div>

@@ -1,7 +1,9 @@
 [
     {
-        "data": "PRESIDENT'S MESSAGE",
-        "type": "heading"
+        "heading": "PRESIDENT'S MESSAGE",
+        "data": "",
+        "tag": "",
+        "type": "singleHeading"
     },
     {
         "image": "pres/pres_asakawa.jpg",

@@ -26,6 +26,8 @@ import { HorizontalGraphChartComponent } from './components/horizontal-graph-cha
 import { RegionHeadingComponent } from './components/region-heading/region-heading.component';
 import { CurrencyCounterComponent } from './components/currency-counter/currency-counter.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import { AppendixesListComponent } from './components/appendixes-list/appendixes-list.component';
+import { SingleHeadingComponent } from './components/single-heading/single-heading.component';
 
 
 
@@ -54,7 +56,9 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
     ChartsComponent,
     HorizontalGraphChartComponent,
     RegionHeadingComponent,
-    MenuBarComponent
+    MenuBarComponent,
+    AppendixesListComponent,
+    SingleHeadingComponent
   
   ],
   imports: [
@@ -88,7 +92,8 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
     ChartsComponent,
     HorizontalGraphChartComponent,
     RegionHeadingComponent,
-    MenuBarComponent
+    MenuBarComponent,
+    SingleHeadingComponent
 
   ]
 })

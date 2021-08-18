@@ -1,9 +1,7 @@
 <div class="content">
-    <div *ngFor="let data of data">
-        <app-simple-heading [simpleHeading]="data.data" *ngIf="data.type=='heading'"></app-simple-heading>
-    </div>
-
-    <div *ngFor="let data of data">
+  
+  <div *ngFor="let data of data">
+      <app-single-heading [title]="data.heading" *ngIf="data.type=='singleHeading'"></app-single-heading>
       <h3 class="directors">{{data.subTitle}}</h3>
 
       <h4>{{data.title}}</h4>
